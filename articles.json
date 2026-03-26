@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "title_en": "Introducing Claude 3.5 Sonnet",
+    "title_cn": "介紹 Claude 3.5 Sonnet",
+    "excerpt": "我們很高興宣布 Claude 3.5 Sonnet 的發布，這是我們最強大的模型，在速度和能力之間提供了完美的平衡...",
+    "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+    "category": "Claude",
+    "difficulty": "進階",
+    "source": "Official Blog",
+    "date": "2024-06-20",
+    "readTime": 8,
+    "views": 0
+  },
+  {
+    "id": 2,
+    "title_en": "Constitutional AI: Harmlessness from AI Feedback",
+    "title_cn": "憲法式 AI：來自 AI 反饋的無害性",
+    "excerpt": "我們介紹了一種新的方法來訓練 AI 系統，使其更安全、更有幫助、更誠實...",
+    "url": "https://www.anthropic.com/news/constitutional-ai",
+    "category": "Claude",
+    "difficulty": "進階",
+    "source": "Official Blog",
+    "date": "2024-06-15",
+    "readTime": 12,
+    "views": 0
+  }
+]
