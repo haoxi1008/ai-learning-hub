@@ -1,168 +1,227 @@
-#!/usr/bin/env python3
-"""
-Anthropic Blog 爬蟲 + 翻譯腳本
-自動抓取最新文章，翻譯成繁體中文，保存為 JSON
-"""
-
 import requests
+from bs4 import BeautifulSoup
 import json
 import os
 import re
+from anthropic import Anthropic
 from datetime import datetime
-from bs4 import BeautifulSoup
-import anthropic
-
-client = anthropic.Anthropic(api_key=os.environ.get("CLAUDE_API_KEY"))
 
 OUTPUT_PATH = "public/articles.json"
+BASE_URL = "https://www.anthropic.com"
+NEWS_URL = "https://www.anthropic.com/news"
+MAX_ARTICLES = 20
+
+client = Anthropic()
 
 
-def fetch_anthropic_blog():
-    """爬取 Anthropic Blog 最新文章"""
+def get_category(title, text=""):
+    combined = (title + " " + text).lower()
+    if any(k in combined for k in ["claude", "sonnet", "opus", "haiku", "model card"]):
+        return "Claude"
+    if any(k in combined for k in ["vision", "image", "visual", "video", "multimodal", "multi-modal"]):
+        return "視覺模型"
+    if any(k in combined for k in ["safety", "safe", "alignment", "responsible", "ethical", "policy", "trust"]):
+        return "AI 安全"
+    if any(k in combined for k in ["language", "nlp", "text", "translation", "speech", "natural language"]):
+        return "自然語言處理"
+    if any(k in combined for k in ["audio", "voice", "sound"]):
+        return "多模態"
+    return "Claude"
+
+
+def translate_text(text, max_chars=10000):
+    """Translate text to Traditional Chinese using Claude API."""
+    if not text or len(text.strip()) < 10:
+        return ""
+    if len(text) > max_chars:
+        text = text[:max_chars] + "..."
     try:
-        url = "https://www.anthropic.com/news"
-        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
-        response = requests.get(url, headers=headers, timeout=15)
-        response.encoding = 'utf-8'
-        soup = BeautifulSoup(response.content, 'html.parser')
-        articles = []
-        seen_hrefs = set()
-
-        # 精準選取 /news/ 路徑的文章連結，排除純導覽連結
-        for a in soup.select('a[href^="/news/"]'):
-            href = a.get('href', '')
-            text = a.get_text(strip=True)
-            if href not in seen_hrefs and len(href) > 7 and '-' in href and len(text) > 15:
-                seen_hrefs.add(href)
-                full_url = 'https://www.anthropic.com' + href
-                # 清理標題：移除開頭的日期或分類前綴
-                clean = re.sub(r'^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d+,\s+\d{4}', '', text).strip()
-                clean = re.sub(r'^(Product|Announcements|Policy|Research|News|Update)\s*', '', clean).strip()
-                if clean:
-                    articles.append({'title': clean, 'url': full_url, 'preview': fetch_preview(full_url)})
-            if len(articles) >= 10:
-                break
-        return articles
-    except Exception as e:
-        print(f"爬蟲錯誤: {e}")
-        return []
-
-
-def fetch_preview(url):
-    """獲取文章預覽文字"""
-    try:
-        r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=10)
-        r.encoding = 'utf-8'
-        soup = BeautifulSoup(r.content, 'html.parser')
-        for tag in soup.find_all(['script', 'style', 'nav', 'header', 'footer']):
-            tag.decompose()
-        body = soup.find('article') or soup.find('main') or soup.find('body')
-        return body.get_text(separator=' ', strip=True)[:800] if body else ''
-    except:
-        return ''
-
-
-def translate_to_chinese(text, title):
-    """使用 Claude API 翻譯成繁體中文"""
-    try:
-        msg = client.messages.create(
-            model="claude-opus-4-6",
-            max_tokens=500,
-            messages=[{"role": "user", "content": f"""將以下文章標題和摘要翻譯成繁體中文。
-保留 AI、LLM、Claude 等專業術語。摘要限 100 字以內。
-嚴格按格式回覆（不加其他文字）：
-標題：[翻譯後標題]
-摘要：[翻譯後摘要]
-
-【標題】{title}
-【內容】{text[:600]}"""}]
+        response = client.messages.create(
+            model="claude-3-5-haiku-20241022",
+            max_tokens=8192,
+            messages=[{
+                "role": "user",
+                "content": (
+                    "請將以下英文文章翻譯成繁體中文。要求：\n"
+                    "1. 使用自然流暢的繁體中文，符合台灣用語習慣\n"
+                    "2. 完整保留原文的段落結構，段落之間空一行\n"
+                    "3. 標題行（以 ## 開頭）保留格式，翻譯標題文字\n"
+                    "4. 技術術語可保留英文（如 AI、Claude、API、tokens 等）\n"
+                    "5. 只回傳翻譯結果，不要任何說明\n\n"
+                    f"原文：\n{text}"
+                )
+            }]
         )
-        return msg.content[0].text
+        return response.content[0].text.strip()
     except Exception as e:
-        print(f"翻譯錯誤: {e}")
-        return f"標題：{title}\n摘要：翻譯失敗"
+        print(f"  Translation error: {e}")
+        return ""
 
 
-def parse_translation(text):
-    title, excerpt = "", ""
-    for line in text.split('\n'):
-        line = line.strip()
-        if line.startswith('標題：'):
-            title = line[3:].strip()
-        elif line.startswith('摘要：'):
-            excerpt = line[3:].strip()
-    return title, excerpt
-
-
-def get_category(title):
-    t = title.lower()
-    if any(k in t for k in ['safety', 'policy', 'ethics', 'trust', 'harm']):
-        return 'AI 安全'
-    if any(k in t for k in ['vision', 'image', 'multimodal', 'video']):
-        return '視覺模型'
-    if any(k in t for k in ['language', 'text', 'nlp']):
-        return '自然語言處理'
-    if any(k in t for k in ['claude', 'sonnet', 'opus', 'haiku']):
-        return 'Claude'
-    return '多模態'
-
-
-def load_existing():
+def fetch_article_content(url):
+    """Fetch the full body text of an article page."""
     try:
-        if os.path.exists(OUTPUT_PATH):
-            with open(OUTPUT_PATH, 'r', encoding='utf-8') as f:
-                return json.load(f)
-    except:
-        pass
-    return []
+        headers = {
+            "User-Agent": (
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/120.0.0.0 Safari/537.36"
+            )
+        }
+        resp = requests.get(url, headers=headers, timeout=20)
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, "html.parser")
+
+        for tag in soup.find_all(["nav", "header", "footer", "script", "style", "aside"]):
+            tag.decompose()
+
+        content_area = None
+        candidates = [
+            soup.find("article"),
+            soup.find("main"),
+            soup.find(class_=re.compile(r"(post|article|blog|content)[_-]?(body|content|text)", re.I)),
+        ]
+        for c in candidates:
+            if c and len(c.get_text(strip=True)) > 300:
+                content_area = c
+                break
+
+        if not content_area:
+            content_area = soup.body
+        if not content_area:
+            return ""
+
+        blocks = []
+        for elem in content_area.find_all(["h2", "h3", "h4", "p", "li"]):
+            text = elem.get_text(strip=True)
+            if len(text) < 20:
+                continue
+            tag = elem.name
+            if tag in ["h2", "h3"]:
+                blocks.append(f"## {text}")
+            elif tag == "h4":
+                blocks.append(f"### {text}")
+            else:
+                blocks.append(text)
+
+        full_text = "\n\n".join(blocks)
+        full_text = re.sub(r"\n{3,}", "\n\n", full_text).strip()
+        return full_text
+
+    except Exception as e:
+        print(f"  Error fetching {url}: {e}")
+        return ""
 
 
-def save(articles):
-    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
-    with open(OUTPUT_PATH, 'w', encoding='utf-8') as f:
-        json.dump(articles, f, ensure_ascii=False, indent=2)
-    print(f"✅ 已儲存 {len(articles)} 篇文章到 {OUTPUT_PATH}")
+def fetch_article_list():
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/120.0.0.0 Safari/537.36"
+        )
+    }
+    resp = requests.get(NEWS_URL, headers=headers, timeout=15)
+    resp.raise_for_status()
+    soup = BeautifulSoup(resp.text, "html.parser")
+
+    seen = set()
+    articles = []
+    for a in soup.select('a[href^="/news/"]'):
+        href = a.get("href", "")
+        text = a.get_text(strip=True)
+        if href not in seen and len(href) > 7 and "-" in href and len(text) > 15:
+            seen.add(href)
+            articles.append({"href": href, "text": text})
+        if len(articles) >= MAX_ARTICLES:
+            break
+    return articles
 
 
 def main():
-    print("🤖 開始抓取和翻譯...")
-    raw = fetch_anthropic_blog()
-    if not raw:
-        print("❌ 找不到文章，保留現有資料")
-        return
-    print(f"✅ 找到 {len(raw)} 篇文章，開始翻譯...")
+    print("Fetching article list from Anthropic Blog...")
+    raw_articles = fetch_article_list()
+    print(f"Found {len(raw_articles)} articles\n")
 
-    processed = []
-    for i, a in enumerate(raw):
-        print(f"  翻譯 {i+1}/{len(raw)}: {a['title'][:40]}")
-        translation = translate_to_chinese(a['preview'], a['title'])
-        title_cn, excerpt = parse_translation(translation)
-        processed.append({
-            'id': i + 1,
-            'title_en': a['title'],
-            'title_cn': title_cn or a['title'],
-            'excerpt': excerpt or '暫無摘要',
-            'url': a['url'],
-            'category': get_category(a['title']),
-            'difficulty': '中級',
-            'source': 'Anthropic Blog',
-            'date': datetime.now().strftime('%Y-%m-%d'),
-            'readTime': max(3, len(a['preview']) // 200),
-            'views': 0
-        })
+    existing = {}
+    if os.path.exists(OUTPUT_PATH):
+        try:
+            with open(OUTPUT_PATH, "r", encoding="utf-8") as f:
+                for a in json.load(f):
+                    existing[a.get("url", "")] = a
+            print(f"Loaded {len(existing)} cached articles\n")
+        except Exception:
+            pass
 
-    existing = load_existing()
-    seen = set()
-    merged = []
-    for art in processed + existing:
-        if art['url'] not in seen:
-            seen.add(art['url'])
-            merged.append(art)
-    for i, a in enumerate(merged):
-        a['id'] = i + 1
+    results = []
+    article_id = 1
 
-    save(merged[:50])
-    print("✅ 完成！")
+    for item in raw_articles:
+        url = BASE_URL + item["href"]
+
+        if url in existing and existing[url].get("content"):
+            old = dict(existing[url])
+            old["id"] = article_id
+            results.append(old)
+            article_id += 1
+            print(f"[CACHED] {old.get('title_cn', url)}")
+            continue
+
+        print(f"[FETCH] {url}")
+
+        full_text = fetch_article_content(url)
+        if not full_text:
+            print("  No content found, skipping\n")
+            continue
+
+        print(f"  Content length: {len(full_text)} chars")
+
+        title_en = item["text"]
+        title_en = re.sub(
+            r"^(Product|Research|News|Company)\s+\w+\s+\d+,\s+\d+\s*", "", title_en
+        ).strip()
+
+        print("  Translating title...")
+        title_cn = translate_text(title_en, max_chars=300)
+        if not title_cn:
+            title_cn = title_en
+
+        plain_lines = [l for l in full_text.split("\n") if l.strip() and not l.startswith("#")]
+        excerpt_en = plain_lines[0] if plain_lines else full_text[:300]
+
+        print("  Translating excerpt...")
+        excerpt_cn = translate_text(excerpt_en[:600], max_chars=600)
+
+        print(f"  Translating full content...")
+        content_cn = translate_text(full_text, max_chars=10000)
+
+        category = get_category(title_en, full_text[:500])
+        word_count = len(full_text.split())
+        read_time = max(3, word_count // 200)
+
+        article = {
+            "id": article_id,
+            "title_en": title_en,
+            "title_cn": title_cn or title_en,
+            "excerpt": excerpt_cn or excerpt_en[:200],
+            "content": content_cn or full_text[:3000],
+            "url": url,
+            "category": category,
+            "difficulty": "中級",
+            "source": "Anthropic Blog",
+            "date": datetime.now().strftime("%Y-%m-%d"),
+            "readTime": f"{read_time} 分鐘閱讀",
+            "views": existing.get(url, {}).get("views", 0),
+        }
+        results.append(article)
+        article_id += 1
+        print(f"  Done: {title_cn}\n")
+
+    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
+    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+        json.dump(results, f, ensure_ascii=False, indent=2)
+
+    print(f"Saved {len(results)} articles to {OUTPUT_PATH}")
 
 
 if __name__ == "__main__":
