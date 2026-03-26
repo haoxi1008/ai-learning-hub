@@ -1,1 +1,81 @@
-[{"id":1,"title_en":"Introducing Claude Sonnet 4.6","title_cn":"介紹 Claude Sonnet 4.6","excerpt":"Claude Sonnet 4.6 在編程、代理任務和專業工作中提供頂尖性能，速度與能力之間達到完美平衡。","url":"https://www.anthropic.com/news/claude-sonnet-4-6","category":"Claude","difficulty":"初學者","source":"Anthropic Blog","date":"2026-02-17","readTime":5,"views":1520},{"id":2,"title_en":"Introducing Claude Opus 4.6","title_cn":"介紹 Claude Opus 4.6","excerpt":"Claude Opus 4.6 是我們最強大的模型，在代理編程、電腦使用、工具調用等領域達到業界領先水準。","url":"https://www.anthropic.com/news/claude-opus-4-6","category":"Claude","difficulty":"進階","source":"Anthropic Blog","date":"2026-02-05","readTime":7,"views":2340},{"id":3,"title_en":"Claude is a space to think","title_cn":"Claude 是一個思考的空間","excerpt":"我們做出了一個選擇：Claude 將保持無廣告。廣告激勵機制與真正有幫助的 AI 助手是不相容的。","url":"https://www.anthropic.com/news/claude-is-a-space-to-think","category":"AI 安全","difficulty":"初學者","source":"Anthropic Blog","date":"2026-02-04","readTime":6,"views":3100},{"id":4,"title_en":"Anthropic invests $100 million into the Claude Partner Network","title_cn":"Anthropic 向 Claude 合作夥伴網路投資 1 億美元","excerpt":"Anthropic 宣布向合作夥伴網路投入 1 億美元，加速 AI 在各行業的落地應用與生態建設。","url":"https://www.anthropic.com/news/claude-partner-network","category":"多模態","difficulty":"中級","source":"Anthropic Blog","date":"2026-03-12","readTime":4,"views":980},{"id":5,"title_en":"Introducing The Anthropic Institute","title_cn":"介紹 Anthropic 研究院","excerpt":"Anthropic 研究院致力於推動 AI 安全與政策研究，匯聚頂尖學者共同探索負責任的 AI 發展路徑。","url":"https://www.anthropic.com/news/the-anthropic-institute","category":"AI 安全","difficulty":"中級","source":"Anthropic Blog","date":"2026-03-11","readTime":5,"views":760},{"id":6,"title_en":"Partnering with Mozilla to improve Firefox security","title_cn":"與 Mozilla 合作提升 Firefox 安全性","excerpt":"Anthropic 與 Mozilla 達成合作，運用 Claude 的能力協助改善 Firefox 瀏覽器的安全架構。","url":"https://www.anthropic.com/news/mozilla-firefox-security","category":"自然語言處理","difficulty":"初學者","source":"Anthropic Blog","date":"2026-03-06","readTime":4,"views":640}]
+[
+  {
+    "id": 1,
+    "title_en": "Introducing Claude Sonnet 4.6",
+    "title_cn": "介紹 Claude Sonnet 4.6",
+    "excerpt": "Claude Sonnet 4.6 在編程、代理任務和專業工作中提供頂尖性能，速度與能力之間達到完美平衡。",
+    "content": "Claude Sonnet 4.6 is our most capable Sonnet model yet. It's a full upgrade of the model's skills across coding, computer use, long-context reasoning, agent planning, knowledge work, and design. Sonnet 4.6 also features a 1M token context window in beta.\n\nFor those on our Free and Pro plans, Claude Sonnet 4.6 is now the default model in claude.ai and Claude Cowork. Pricing remains the same as Sonnet 4.5, starting at $3/$15 per million tokens.\n\n## Coding\n\nSonnet 4.6 brings much-improved coding skills to more of our users. Improvements in consistency, instruction following, and more have made developers with early access prefer Sonnet 4.6 to its predecessor by a wide margin. They often even prefer it to our smartest model from November 2025, Claude Opus 4.5.\n\nPerformance that would have previously required reaching for an Opus-class model—including on real-world, economically valuable office tasks—is now available with Sonnet 4.6. The model also shows a major improvement in computer use skills compared to prior Sonnet models.\n\n## Safety\n\nAs with every new Claude model, we've run extensive safety evaluations of Sonnet 4.6, which overall showed it to be as safe as, or safer than, our other recent Claude models. Our safety researchers concluded that Sonnet 4.6 has a broadly warm, honest, prosocial, and at times funny character, very strong safety behaviors, and no signs of major concerns around high-stakes forms of misalignment.\n\n## Computer Use\n\nAlmost every organization has software it can't easily automate: specialized systems and tools built before modern interfaces like APIs existed. To have AI use such software, users would previously have had to build bespoke connectors. But a model that can use a computer the way a person does changes that equation.\n\nIn October 2024, we were the first to introduce a general-purpose computer-using model. At the time, we wrote that it was still experimental—at times cumbersome and error-prone—but we expected rapid improvement.\n\n## Long Context\n\nSonnet 4.6 now supports a 1 million token context window in beta. This enables entirely new use cases: analyzing entire codebases, processing lengthy legal documents, or synthesizing research across hundreds of papers in a single session.\n\n## Availability\n\nClaude Sonnet 4.6 is available today in claude.ai for Free, Pro, and Team users. It's also available via the Anthropic API and Amazon Bedrock. Enterprise customers can access it through our API with the model string claude-sonnet-4-6.",
+    "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
+    "category": "Claude",
+    "difficulty": "初學者",
+    "source": "Anthropic Blog",
+    "date": "2026-02-17",
+    "readTime": "5 分鐘閱讀",
+    "views": 1520
+  },
+  {
+    "id": 2,
+    "title_en": "Introducing Claude Opus 4.6",
+    "title_cn": "介紹 Claude Opus 4.6",
+    "excerpt": "Claude Opus 4.6 是我們最強大的模型，在代理編程、電腦使用、工具調用等領域達到業界領先水準。",
+    "url": "https://www.anthropic.com/news/claude-opus-4-6",
+    "category": "Claude",
+    "difficulty": "進階",
+    "source": "Anthropic Blog",
+    "date": "2026-02-05",
+    "readTime": "7 分鐘閱讀",
+    "views": 2340
+  },
+  {
+    "id": 3,
+    "title_en": "Claude is a space to think",
+    "title_cn": "Claude 是一個思考的空間",
+    "excerpt": "我們做出了一個選擇：Claude 將保持無廣告。廣告激勵機制與真正有幫助的 AI 助手是不相容的。",
+    "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+    "category": "AI 安全",
+    "difficulty": "初學者",
+    "source": "Anthropic Blog",
+    "date": "2026-02-04",
+    "readTime": "6 分鐘閱讀",
+    "views": 3100
+  },
+  {
+    "id": 4,
+    "title_en": "Anthropic invests $100 million in Claude partner network",
+    "title_cn": "Anthropic 向 Claude 合作夥伴網路投資 1 億美元",
+    "excerpt": "Anthropic 宣布向合作夥伴網路投入 1 億美元，加速 AI 在各行業的落地應用與生態建設。",
+    "url": "https://www.anthropic.com/news/anthropic-partner-network",
+    "category": "多模態",
+    "difficulty": "初學者",
+    "source": "Anthropic Blog",
+    "date": "2026-03-12",
+    "readTime": "4 分鐘閱讀",
+    "views": 980
+  },
+  {
+    "id": 5,
+    "title_en": "Introducing the Anthropic Research Institute",
+    "title_cn": "介紹 Anthropic 研究院",
+    "excerpt": "Anthropic 研究院致力於推動 AI 安全與政策研究，匯聚頂尖學者共同探索負責任的 AI 發展路徑。",
+    "url": "https://www.anthropic.com/news/anthropic-research-institute",
+    "category": "AI 安全",
+    "difficulty": "初學者",
+    "source": "Anthropic Blog",
+    "date": "2026-03-11",
+    "readTime": "5 分鐘閱讀",
+    "views": 760
+  },
+  {
+    "id": 6,
+    "title_en": "Partnering with Mozilla to improve Firefox security",
+    "title_cn": "與 Mozilla 合作提升 Firefox 安全性",
+    "excerpt": "Anthropic 與 Mozilla 達成合作，運用 Claude 的能力協助改善 Firefox 的安全架構。",
+    "url": "https://www.anthropic.com/news/mozilla-firefox-security",
+    "category": "自然語言處理",
+    "difficulty": "中級",
+    "source": "Anthropic Blog",
+    "date": "2026-03-06",
+    "readTime": "4 分鐘閱讀",
+    "views": 540
+  }
+]
