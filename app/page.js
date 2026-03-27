@@ -15,6 +15,7 @@ export default function Home() {
       description: '適合完全沒有 AI 背景的學習者。以生活化的例子帶你了解 AI 的基本概念、常見工具與實際應用場景，建立正確的 AI 使用觀念。',
       tags: ['AI 基礎概念', 'ChatGPT 入門', '日常應用實例'],
       cta: '開始學習',
+      href: '/beginner',
     },
     {
       id: 'practitioner',
@@ -205,9 +206,15 @@ export default function Home() {
                     <span key={tag} style={{ fontSize: '11px', color: '#3a5a74', backgroundColor: '#deeaf4', padding: '4px 12px', borderRadius: '2px', fontWeight: '700', letterSpacing: '0.03em' }}>{tag}</span>
                   ))}
                 </div>
-                <button style={{ color: '#0f2d4a', fontSize: '13px', fontWeight: '800', background: 'none', border: '2px solid #0f2d4a', padding: '10px 26px', borderRadius: '3px', cursor: 'pointer', letterSpacing: '0.08em' }}>
-                  {path.cta}
-                </button>
+                {path.href ? (
+                  <a href={path.href} style={{ display: 'inline-block', color: '#0f2d4a', fontSize: '13px', fontWeight: '800', background: 'none', border: '2px solid #0f2d4a', padding: '10px 26px', borderRadius: '3px', cursor: 'pointer', letterSpacing: '0.08em', textDecoration: 'none' }}>
+                    {path.cta}
+                  </a>
+                ) : (
+                  <button style={{ color: '#0f2d4a', fontSize: '13px', fontWeight: '800', background: 'none', border: '2px solid #0f2d4a', padding: '10px 26px', borderRadius: '3px', cursor: 'pointer', letterSpacing: '0.08em' }}>
+                    {path.cta}
+                  </button>
+                )}
               </div>
             ))}
           </div>
