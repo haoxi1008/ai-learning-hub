@@ -1,8 +1,8 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'AI 智慧學習 - 台灣 AI 資源中文化平台',
-  description: '為台灣初學者和進階學習者提供高品質的中文 AI 學習資源',
+  title: '台灣 AI 學習平台 | Taiwan AI Learning',
+  description: '全齡化台灣 AI 學習入口平台，提供在地化繁體中文學習資源、Prompt 指令庫與工具推薦',
 }
 
 export default function RootLayout({ children }) {
