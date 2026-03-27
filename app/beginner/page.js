@@ -1,3 +1,5 @@
+'use client'
+
 export default function BeginnerPage() {
   return (
     <div style={{ fontFamily: "'Noto Sans TC', 'PingFang TC', sans-serif", backgroundColor: '#faf8f5', minHeight: '100vh' }}>
