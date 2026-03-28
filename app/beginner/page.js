@@ -142,13 +142,13 @@ export default function BeginnerPage() {
 
           {/* Main interface screenshot */}
           <div style={{ borderRadius: '12px', overflow: 'hidden', boxShadow: '0 4px 24px rgba(0,0,0,0.12)', marginBottom: '28px', border: '1px solid #e0ddd8' }}>
-            <img src="/chatgpt-main.jpg" alt="ChatGPT 主畫面" style={{ width: '100%', display: 'block' }} />
+            <img src="/b4dfd7b4-805c-4b85-a5f3-3795a61b5be0.jpg" alt="ChatGPT 主畫面" style={{ width: '100%', display: 'block' }} />
           </div>
 
           {/* Interface breakdown */}
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '36px' }}>
             {[
-              { label: '左側欄', icon: '☰', desc: '「新對話」按鈕和過去的對話紀錄。每次開新對話，ChatGPT 就不記得之前聊過什麼。' },
+              { label: '左側欄', icon: '☰', desc: '「新對話」按鈕和過去的對話ﴀ錄。每次開新對話，ChatGPT 就不記得之前聊過什麼。' },
               { label: '主區域', icon: '💬', desc: '對話發生的地方。你問的問題和 AI 的回答都會顯示在這裡。' },
               { label: '輸入框', icon: '✏️', desc: '畫面下方的輸入框。在這裡打你的問題，按 Enter 或箭頭按鈕送出。' },
               { label: '語音輸入', icon: '🎙', desc: '不想打字？點右側的麥克風圖示，可以用說的。' },
@@ -170,7 +170,7 @@ export default function BeginnerPage() {
 
           {/* Ask screenshot */}
           <div style={{ borderRadius: '12px', overflow: 'hidden', boxShadow: '0 4px 24px rgba(0,0,0,0.12)', border: '1px solid #e0ddd8', marginBottom: '16px' }}>
-            <img src="/chatgpt-ask.jpg" alt="在輸入框輸入問題的示範" style={{ width: '100%', display: 'block' }} />
+            <img src="/86cf20de-0ea6-498e-babc-59cb4d3cdead.jpg" alt="在輸入框輸入問題的示範" style={{ width: '100%', display: 'block' }} />
           </div>
           <p style={{ fontSize: '13px', color: '#8a9aaa', textAlign: 'center', marginBottom: '0' }}>↑ 在輸入框打好問題後，點右側的箭頭按鈕（或按 Enter）送出</p>
         </section>
@@ -181,7 +181,7 @@ export default function BeginnerPage() {
             <div style={{ width: '40px', height: '40px', backgroundColor: '#0f2d4a', borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
               <span style={{ color: '#d4880a', fontWeight: '900', fontSize: '18px' }}>3</span>
             </div>
-            <h2 style={{ fontSize: '26px', fontWeight: '800', color: '#1a2e3d', margin: 0 }}>第一個實際任務</h2>
+            <h2 style={{ fontSize: '26px', fontWeight: '800', color: '#1a2e3d', margin: 0 }}>第$��個實際任務</h2>
           </div>
           <p style={{ fontSize: '16px', color: '#3a4a5a', lineHeight: '1.9', marginBottom: '36px' }}>
             光看說明沒有感覺，實際試一次才真的有感。下面三個任務是最適合新手的起點，每個只需要一句話就能開始。
@@ -206,7 +206,7 @@ export default function BeginnerPage() {
 
               {/* Response screenshot */}
               <div style={{ borderRadius: '10px', overflow: 'hidden', boxShadow: '0 2px 16px rgba(0,0,0,0.1)', border: '1px solid #e0ddd8', marginBottom: '16px' }}>
-                <img src="/chatgpt-response.jpg" alt="ChatGPT 回應自我介紹的示範" style={{ width: '100%', display: 'block' }} />
+                <img src="/c00b3210-40fa-4921-95dc-a62565e4750b.jpg" alt="ChatGPT 回應自我介紹的示範" style={{ width: '100%', display: 'block' }} />
               </div>
               <p style={{ fontSize: '13px', color: '#8a9aaa', textAlign: 'center', marginBottom: '20px' }}>↑ ChatGPT 的回答，幾秒鐘就完成了</p>
 
