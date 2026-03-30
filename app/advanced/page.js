@@ -27,7 +27,7 @@ export default function AdvancedPage() {
       desc: '明確指定輸出的格式、長度和結構，讓 AI 的回答更容易直接使用。',
       bad: '「介紹台灣的觀光景點。」',
       good: '「請用表格列出台灣 5 個著名觀光景點，欄位包含：景點名稱、所在縣市、最佳造訪季節、適合族群（家庭/情侶/背包客）、一句話推薦理由。」',
-      theory: '明確的格式指令會啟動模型的「結構化生成模式」。模型會將目標格式作為硬性約束，在語法樹的特定節黝強制插入分隔符和結構標記，大幅減少格式噪音。',
+      theory: '明確的格式指令會啟動模型的「結構化生成模式」。模型會將目標格式作為硬性約束，在語法樹的特定節點強制插入分隔符和結構標記，大幅減少格式噪音。',
     },
     {
       num: 4,
@@ -35,58 +35,133 @@ export default function AdvancedPage() {
       subtitle: 'Multi-turn Dialogue',
       desc: '不要試圖在一個提問中解決所有問題。學會拆分任務、逐步深入，才能發揮對話 AI 的真正優勢。',
       bad: '「幫我從零開始學 Python，給我一個完整的學習計畫、所有資源、每天的任務、練習題。」',
-      good: '第一輪：「我完全沒有程式基礎，想學 Python 來做數據分析。我每天有 1 小時，請先幫我規劃一個 4 週的學習路線圖。」→ 第二輪：「好的，第一週的內容我�"���.��� �*��a�yl#y�+9.�:`,y�8�#�a�yo#�"!�/�9g"8�#��#9�i��$H�9`"�am�j�9�9��9��hc9���#:f��n���,y��b,9��x� ��#I��[ܞN�	����/*�l#z*lz`�yg*9�m�bcy�8�#9."�."����)�����#y.+y�+��cz*��h��� �i&�/*�l#z*lz+���(yg�� �yi(9� y�9쯹�byd�9��yc%��!�)���#: #9.#y�+�g*9�"zfd9���[�9�$9�+9������#{�#: #:gg��#9��/.9a�m���y.��k��#x� �l#z*lz*&9���+�����`"�f繡�z`�z �yn����g*9bcy. 9`"�f繡�y�9g��#�."�� ���K��[N�
-K�]N�	�`o�acHRH9nn�)�����X�]N�	�[X�[�][ۈ�]�[�[ۉ��\�Έ	�RH9c�� �y� �!�/�yg,9�i�a�c+�*�9�:,��*"�� �kn9� �no�`"���9m���#9i)�nazfcy/c�RH9nn�)���:h�:f��� ����Y�	��#9c�9�h�� :j�9�9lly�+�d�n���'�k���"yi&�j�;�'��#{�"9��9��y��9/�HRH9�9�e9�b;�"I������	��#:*��db�*-9�$yc�9�h�bcy."zj�9�9ll{�#9.)��&y��9/h9l#y���`"��n9���9讹/�yn���":j��.+K�/c��"x� �i����9/h9.#y讹k���#:*���#�论*���#��#9.#z)�y�'9�+8� ��#I��[ܞN�	�i)�g��*��* 9�(yg���:*$���9�빪&y�+��#9� 9i)�c%�."�. 9`"���[�9�:h$9�+9������#{�#: #:gg��#9��/.9a�m���y.��k��#x� �`&yl#�!�9�(yg��g*9��z+f:`���c:fa:/�y� �`,�(c8�#9�`y����9��9�+9hj�aax�#x� �)�y�`��(yg���&y��9/�yo���-9����#9� �/��/o�k��eg�b�z!깢$y�������g�b-��#:fcy/c��`y���n��a*�ab8� y.��k鹠)��(z)�y�9�'��$9`��d$x� ���K��[N�
-��]N�	��Z[�[ًU�Y�9�'y��zc�	���X�]N�	��\X�K\�\�X\�ۚ[����\�Έ	�)�y�`�RH9. 9�iy�iyley�.���9�!�`c��"��#: #9.#y�+���9��y�i�a��e9�b8� �`&z �zhk�$e���9ca�)!�f�9ec�hc9�9���讹��� ����Y�	��#9i����9. 9`"�."z)�oh�ajz`��em�b!�b)y�+��9d�
-;�#9�+9."z`��� :em�c��.�y�+�i&�l${�'��#I������	��#9i����9. 9`"�."z)�oh�ajz`��em�b!�b)y�+��9d�
-;�#9�+9."z`��� :em�c��.�y�+�i&�l${�'�*��. 9�iy. 9�iy��9l#��#9ab9f繡��."z)�oh��9g+9k���!��#9a�yb%�a�*"9��`c��"��#9� 9o�9�i�a��e9�b8� ��#I��[ܞN�	��Z[�[ًU�Y�;�"��;�"y��9�.��+�����H��Z[�9g*���9nm9��9a��:a�z)�y��:(d�� �o-�/���(yg���'��$8�#9.+ze����9�!��izjg��#{�#9��9�m���9g*:)���n�e��.+ybmyn�.��. 9���b%��#:!l��b�����#x� ����`"�.+ze���izjg�`�yஹ."�. 9`"���[�9�9�'��$9��9/��.����9o-��9��y.���!9�g��#:+���(yg���9��9�#�b���g�b-� f��)�g*:`��/+�c�9."� #:gg���9��z-��b,9�d:*��#9�nyb)z`jyd"9�n9kn8� z`��/+�d�9i&��izjg�ec�hc8� ���K��[N�
-��]N�	љ]�\��9��9/��kn9�����X�]N�	�[�X�۝^X\��[����\�Έ	�g*9��9�.�*g�.+y��9/���L�9`"��#:/.9aix���/.9a��#y�9��9/���#:+��RH9kn9��/h9�'��&��9�(yo#��#9a�z&ey�!�/h9�9�'�k�ec�hc8� ����Y�	��#9nj��$y���.�y."�c�ykd9�.y�$9��9�h�o#��9��:gh�*���&��#�`&y`"���y��y�'��9o�:+���#9i)�k��`�yc��.�y�*8� ��#��#I������	��#9�$zg :)�y/h9���c��*��c�ykd9�.y�$9�h�o#���:gh�*��� �.�y."��+�no�`"�/��kd;�&��c��*���&��#�`&y`"��lz)o�o�:,�;�#:,��.#z-m�� ��#����9��:gh��&��#��i9�jy`�y�/9.#z#��#:-�ya�h$9����9g#x� ��#��c��*���&��#�.�.�i*y���/��."���x� ��#����9��:gh��&��#�.�.⹥�y�*�a�n+ym�y/g9m%�/cx� ��#����g*:*���.yk���&��#�`&y`"���y��y�'��9o�:+���#9i)�k��`�yc��.�y�*8� ��#��#I��[ܞN�	љ]�\��X\��[��9b*y�*9.��*��* 9�(yg��o-�i)��8�#9�(yo#�c.zacz"!�hg���9��9�!��#z �yb��� ���9/���9��9/����9�m���9g*9��9�.�*g�.+yn����.��. 9`"��#9o��g��o��*���#{�&��(yg��`&�`c���9�#�b���g�b-�+f9b)z/.9aix���/.9a��9�(9l!9�(yo#��#9.)�l!�`&y`"��(yo#���y�*9b,9��9�:/.9aiy."�� ��%9�m�(j9�#��#9cl�/o�c깧"H�L�9`"�j�:,�a����9/���#9.g� �z+��)!�f�9.��b�y�9���讹����9ca��M	x� ���K�B���]\��
-�]��[O^���۝�[Z[N��ӛ���[����	�[�ј[�����[��\�\�Y���X��ܛ�[���܎�	�٘Y��I�Z[�ZY��	�L�	�_O����ʈ�]�Y�][ۈ
-��B��]��[O^���X��ܛ�[���܎�	����
-I���][ێ�	��X��I����[�^�L���Y�Έ	��L��ؘJ��JI�_O��]��[O^��X^�Y�	�L�	�X\��[��	�]]��Y[�Έ	�̜	�\�^N�	ٛ^	�[Yے][\Έ	��[�\���\�Y�P�۝[��	��X�KX�]�Y[��ZY��	͎	�_O��H�Y�H�Ȉ�[O^��\�^N�	ٛ^	�[Yے][\Έ	��[�\���\�	�L�	�^X�ܘ][ێ�	ۛۙI�_O��]��[O^���Y�	��	�ZY��	��	��X��ܛ�[���܎�	��
-I��ܙ\��Y]\Έ	͜	�\�^N�	ٛ^	�[Yے][\Έ	��[�\���\�Y�P�۝[��	��[�\���^��[�Έ_O���[��[O^����܎�	�ٙ����۝�ZY��	�L	��۝�^�N�	�M�	�_O�c���[����]���]����[��[O^����܎�	�ٙ�������۝�ZY��	�	��۝�^�N�	�M�	�]\��X�[�Έ	��
-[I�_O�c�9�h�RH9kn9��nl�c���[����[��[O^����܎�	���NXX�	��۝�^�N�	�L\	�X\��[�Y��	�L	�]\��X�[�Έ	��
-Y[I�_O�RU�S�RHPT��S����[����]����O��]��[O^��\�^N�	ٛ^	��\�	�͜	�[Yے][\Έ	��[�\��_O����X�[�	�kn9��-��o�I��Y��	���]��K��X�[�	���\9�!�.�9n����Y��	����\��K��X�[�	�,����9�/z)�I��Y��	�ܙ\��\��\��K��X�[�	��#�)��f�ib���Y��	��ٙYY�X���K�K�X\
-][HO�
-�H�^O^�][K�X�[H�Y�^�][K��Y�H�[O^����܎�	���N	��۝�^�N�	�M	�^X�ܘ][ێ�	ۛۙI��۝�ZY��	�L	�]\��X�[�Έ	���[I�_B�ۓ[�\�Q[�\�^�HO�K�\��]��[K���܈H	�ٙ������B�ۓ[�\�SX]�O^�HO�K�\��]��[K���܈H	���N	�B���][K�X�[O�O��
-J_B��]����]���ۘ]�����ʈY�HXY\�
-��B��X�[ۈ�[O^���X��ܛ�[���܎�	����
-I�Y[�Έ	�̜̜
-�	�_O��]��[O^��X^�Y�	�L�	�X\��[��	�]]��_O��H�Y�H�Ȉ�[O^����܎�	���NXX�	��۝�^�N�	�L�	�^X�ܘ][ێ�	ۛۙI�]\��X�[�Έ	��
-Y[I��۝�ZY��	͌	�_O���:/�9f�i��h O�O��]��[O^��X\��[���	̍	�_O���[O^���۝�^�N�	�L\	��۝�ZY��	�	�]\��X�[�Έ	���Y[I���܎�	��
-I�X\��[����N�	�M	�_O�Q�S��Q�P�P�O���H�[O^���۝�^�N�	�
-	��۝�ZY��	�L	���܎�	�ٙ������X\��[����N�	�M�	�[�RZY��	�K���_O�`,�f��k�.$�O���[O^���۝�^�N�	�N	���܎�	��N�
-	�[�RZY��	�K�
-I�X^�Y�	͎	�_O���9��H
-�9`"��.9o����9m���#:+��/h9�RH9��y�*: �yb������lyc%���9ca�����]����ʈ]ZX���]�[�
-��B�]��[O^��\�^N�	ٛ^	��\�	�L�	�X\��[���	�͜	��^ܘ\�	�ܘ\	�_O�����*+yk��)�"l��	� �9�k�,��*"��	��nyk���/9o#��	�i&�/*�l#z*lI�	�`o�acynn�)���	��Z[�[ًU�Y�	�	љ]�\��9kn9���K�X\
+      good: '第一輪：「我完全沒有程式基礎，想學 Python 來做數據分析。我每天有 1 小時，請先幫我規劃一個 4 週的學習路線圖。」→ 第二輪：「好的，第一週的內容我看懂了。請針對第二週的『函式與迴圈』，給我 3 個具體的練習題目，難度由淺到深。」',
+      theory: '每輪對話都在當前的「上下文視窗」中累積語境。多輪對話讓模型能夠持續精煉和深化理解，而不是在有限的 token 預算內試圖面面俱到。對話記憶讓每個回應都能建立在前一個回應的基礎上。',
+    },
+    {
+      num: 5,
+      title: '避免 AI 幻覺',
+      subtitle: 'Hallucination Prevention',
+      desc: 'AI 可能會自信地給出錯誤的資訊。學會幾個技巧，大幅降低 AI 幻覺的風險。',
+      bad: '「台灣最高的山是哪座？它有多高？」（直接相信 AI 的答案）',
+      good: '「請告訴我台灣前三高的山，並標注你對每個數據的確信度（高/中/低）。如果你不確定，請明確說明，不要猜測。」',
+      theory: '大型語言模型的訓練目標是「最大化下一個 token 的預測概率」，而非「只輸出已知事實」。這導致模型在知識邊界附近會進行「流暢的推測填充」。要求模型標注信心水準，會迫使它啟動自我監控機制，降低流暢度優先、事實性次要的生成傾向。',
+    },
+    {
+      num: 6,
+      title: 'Chain-of-Thought 思維鏈',
+      subtitle: 'Step-by-step Reasoning',
+      desc: '要求 AI 一步步展示推理過程，而不是直接給出答案。這能顯著提升複雜問題的準確率。',
+      bad: '「如果一個三角形兩邊長分別是 3 和 4，第三邊最長可以是多少？」',
+      good: '「如果一個三角形兩邊長分別是 3 和 4，第三邊最長可以是多少？請一步一步推導，先回憶三角形的基本定理，再列出計算過程，最後給出答案。」',
+      theory: 'Chain-of-Thought（CoT）提示是 Google Brain 在 2022 年提出的重要技術。強迫模型生成「中間推理步驟」眆為下一個 token 的生成提供了更強的條件約束，讓模型的注意力機制聚焦在邏輯鏈上而非直接跳到結論，特別適合數學、邏輯和多步驟問題。',
+    },
+    {
+      num: 7,
+      title: 'Few-shot 範例學習',
+      subtitle: 'In-context Learning',
+      desc: '在提示詞中提供 2-3 個「輸入→輸出」的範例，讓 AI 學習你期望的模式，再處理你的真實問題。',
+      bad: '「幫我把以下句子改成更正式的書面語：『這個方法真的很讚，大家都可以用。』」',
+      good: '「我需要你把口語句子改成正式書面語。以下是幾個例子：\\n口語：『這個東西很貴，買不起。』→ 書面：『此物價格不菲，超出預算範圍。』\\n口語：『他今天沒來上班。』→ 書面：『他今日未出席工作崗位。』\\n現在請改寫：『這個方法真的很讚，大家都可以用。』」',
+      theory: 'Few-shot learning 利用了語言模型強大的「模式匹配與類比推理」能力。提供的範例相當於在提示詞中建立了一個「微型微調」：模型通過注意力機制識別輸入→輸出的映射模式，並將這個模式應用到新的輸入上。研究表明，即使只有 2-3 個高質量範例，也能讓複雜任務的準確率提升 30-40%。',
+    },
+  ]
 
-X�[JHO�
-�H�^O^�_H�Y�^��X��\]YKI�H
-�_XH�[O^���X��ܛ�[���܎�	ܙؘJ�MK�MK�MK�
-I���܎�	���N	��۝�^�N�	�L�	��۝�ZY��	͌	�Y[�Έ	�N	��ܙ\��Y]\Έ	̌	�^X�ܘ][ێ�	ۛۙI��ܙ\��	�\��Y�ؘJ�MK�MK�MK�L�I�]\��X�[�Έ	���[I�_O���H
-�_K��X�[B��O��
-J_B��]����]�����X�[ۏ����ʈ��XYܝ[X�
-��B�]��[O^���X��ܛ�[���܎�	��ML��	��ܙ\����N�	�\��Y�YL�
-M��Y[�Έ	�M̜	�_O��]��[O^��X^�Y�	�L�	�X\��[��	�]]��_O���[O^����܎�	���NXX�	��۝�^�N�	�L�	�X\��[��_O��H�Y�H�Ȉ�[O^����܎�	���NXX�	�^X�ܘ][ێ�	ۛۙI�_O�i��h O�O���[��[O^��X\��[��	�	�_O��.���[����[��[O^����܎�	���N	�_O�`,�f��k�.$��[�������]����]�����ʈXZ[��۝[�
-��B�XZ[��[O^��X^�Y�	�
-�	�X\��[��	�]]��Y[�Έ	�̜̜L	�_O����ʈ
-�X��\]YH�X�[ۜ�
-��B��X��\]Y\˛X\
+  return (
+    <div style={{ fontFamily: "'Noto Sans TC', 'PingFang TC', sans-serif", backgroundColor: '#faf8f5', minHeight: '100vh' }}>
 
-X�Y
-HO�
-��X�[ۈ�^O^�YHY^�X��\]YKI�X���[_XH�[O^��X\��[����N�	�	�_O���ʈXY\��]�[X�\��\��H[�X�[
-��B�]��[O^��\�^N�	ٛ^	�[Yے][\Έ	��[�\���\�	�M�	�X\��[����N�	̎	�_O��]��[O^���Y�	�L�	�ZY��	�L�	��X��ܛ�[���܎�	����
-I��ܙ\��Y]\Έ	�L�	�\�^N�	ٛ^	�[Yے][\Έ	��[�\���\�Y�P�۝[��	��[�\���^��[�Έ_O���[��[O^����܎�	��
-I��۝�ZY��	�L	��۝�^�N�	̍	�_O����[��X���[JK�Y�\�
-�	�	�_O��[����]���]����[O^���۝�^�N�	�L\	��۝�ZY��	�	�]\��X�[�Έ	��MY[I���܎�	��
-I�X\��[����N�	�	�_O�P��TUQH���[��X���[JK�Y�\�
-�	�	�_O�����[O^���۝�^�N�	̎	��۝�ZY��	�	���܎�	��XL�L�	�X\��[��_O��X��]_O�����]����]�����ʈ\�ܚ\[ۈ
-��B��[O^���۝�^�N�	�M�	���܎�	���MMXI�[�RZY��	�K�I�X\��[����N�	̎	�_O���X��\��B������ʈ�Y^[\H
-��B�]��[O^���X��ܛ�[���܎�	�ٙNN	��ܙ\��	̜��Y�M������ܙ\��Y]\Έ	�L�	�Y[�Έ	̍�	�X\��[����N�	̌	�_O��]��[O^��\�^N�	ٛ^	�[Yے][\Έ	��[�\���\�	�L	�X\��[����N�	�M	�_O���[��[O^���۝�^�N�	�N	�_O��c��[����[��[O^���۝�^�N�	�M	��۝�ZY��	��	���܎�	��L�L�I�]\��X�[�Έ	��
-Y[I�_O�.#yioy�9��9ec���[����]�����H�[O^��\�^N�	؛�����X��ܛ�[���܎�	ܙؘJ�
-JI�Y[�Έ	�MM�	��ܙ\��Y]\Έ	�	��۝�2a2a', fontFamily: "'Courier New', monospace", lineHeight: '1.6', wordBreak: 'break-word' }}>
+      {/* Navigation */}
+      <nav style={{ backgroundColor: '#0f2d4a', position: 'sticky', top: 0, zIndex: 100, boxShadow: '0 2px 12px rgba(0,0,0,0.25)' }}>
+        <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 32px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: '68px' }}>
+          <a href="/" style={{ display: 'flex', alignItems: 'center', gap: '12px', textDecoration: 'none' }}>
+            <div style={{ width: '38px', height: '38px', backgroundColor: '#d4880a', borderRadius: '6px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+              <span style={{ color: '#fff', fontWeight: '900', fontSize: '17px' }}>台</span>
+            </div>
+            <div>
+              <span style={{ color: '#ffffff', fontWeight: '800', fontSize: '17px', letterSpacing: '0.04em' }}>台灣 AI 學習平台</span>
+              <span style={{ color: '#7a9ab4', fontSize: '11px', marginLeft: '10px', letterSpacing: '0.05em' }}>TAIWAN AI LEARNING</span>
+            </div>
+          </a>
+          <div style={{ display: 'flex', gap: '36px', alignItems: 'center' }}>
+            {[
+              { label: '學習路徑', href: '/#paths' },
+              { label: 'Prompt 指令庫', href: '/prompts' },
+              { label: '資源總覽', href: '/resources' },
+              { label: '意見回饋', href: '/#feedback' },
+            ].map(item => (
+              <a key={item.label} href={item.href} style={{ color: '#c8d8e8', fontSize: '14px', textDecoration: 'none', fontWeight: '500', letterSpacing: '0.03em' }}
+                onMouseEnter={e => e.target.style.color = '#ffffff'}
+                onMouseLeave={e => e.target.style.color = '#c8d8e8'}
+              >{item.label}</a>
+            ))}
+          </div>
+        </div>
+      </na     >{item.label}</a>
+            ))}
+          </div>
+        </div>
+      </nav>
+
+      {/* Page Header */}
+      <section style={{ backgroundColor: '#0f2d4a', padding: '72px 32px 60px' }}>
+        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
+          <a href="/" style={{ color: '#7a9ab4', fontSize: '13px', textDecoration: 'none', letterSpacing: '0.05em', fontWeight: '600' }}>← 返回首頁</a>
+          <div style={{ marginTop: '24px' }}>
+            <p style={{ fontSize: '11px', fontWeight: '800', letterSpacing: '0.25em', color: '#d4880a', marginBottom: '14px' }}>ADVANCED PRACTICE</p>
+            <h1 style={{ fontSize: '44px', fontWeight: '900', color: '#ffffff', marginBottom: '16px', lineHeight: '1.2' }}>進階實踐</h1>
+            <p style={{ fontSize: '18px', color: '#a8c0d4', lineHeight: '1.85', maxWidth: '680px' }}>掌握 7 個核心技巧，讓你的 AI 應用能力系統化提升</p>
+          </div>
+          {/* Quick nav pills */}
+          <div style={{ display: 'flex', gap: '12px', marginTop: '36px', flexWrap: 'wrap' }}>
+            {['設定角色', '背景資訊', '特定格式', '多輪對話', '避免幻覺', 'Chain-of-Thought', 'Few-shot 學習'].map((label, i) => (
+              <a key={i} href={`#technique-${i + 1}`} style={{ backgroundColor: 'rgba(255,255,255,0.08)', color: '#c8d8e8', fontSize: '13px', fontWeight: '600', padding: '8px 18px', borderRadius: '20px', textDecoration: 'none', border: '1px solid rgba(255,255,255,0.12)', letterSpacing: '0.03em' }}>
+                {i + 1}. {label}
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Breadcrumb */}
+      <div style={{ backgroundColor: '#152b40', borderBottom: '1px solid #1e3d57', padding: '14px 32px' }}>
+        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
+          <p style={{ color: '#7a9ab4', fontSize: '13px', margin: 0 }}>
+            <a href="/" style={{ color: '#7a9ab4', textDecoration: 'none' }}>首頁</a>
+            <span style={{ margin: '0 8px' }}>›</span>
+            <span style={{ color: '#c8d8e8' }}>進階實踐</span>
+          </p>
+        </div>
+      </div>
+
+      {/* Main Content */}
+      <main style={{ maxWidth: '860px', margin: '0 auto', padding: '72px 32px 100px' }}>
+
+        {/* 7 Technique Sections */}
+        {techniques.map((tech, idx) => (
+          <section key={idx} id={`technique-${tech.num}`} style={{ marginBottom: '80px' }}>
+            {/* Header with number circle and label */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '28px' }}>
+              <div style={{ width: '52px', height: '52px', backgroundColor: '#0f2d4a', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                <span style={{ color: '#d4880a', fontWeight: '900', fontSize: '24px' }}>{String(tech.num).padStart(2, '0')}</span>
+              </div>
+              <div>
+                <p style={{ fontSize: '11px', fontWeight: '800', letterSpacing: '0.15em', color: '#d4880a', marginBottom: '4px' }}>TECHNIQUE {String(tech.num).padStart(2, '0')}</p>
+                <h2 style={{ fontSize: '28px', fontWeight: '800', color: '#1a2e3d', margin: 0 }}>{tech.title}</h2>
+              </div>
+            </div>
+
+            {/* Description */}
+            <p style={{ fontSize: '16px', color: '#3a4a5a', lineHeight: '1.9', marginBottom: '28px' }}>
+              {tech.desc}
+            </p>
+
+            {/* Bad Example */}
+            <div style={{ backgroundColor: '#fde8e8', border: '2px solid #d97777', borderRadius: '12px', padding: '24px 28px', marginBottom: '20px' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '14px' }}>
+                <span style={{ fontSize: '18px' }}>❌</span>
+                <span style={{ fontSize: '14px', fontWeight: '700', color: '#8a2a2a', letterSpacing: '0.05em' }}>不好的提問</span>
+              </div>
+              <code style={{ display: 'block', backgroundColor: 'rgba(0,0,0,0.05)', padding: '14px 16px', borderRadius: '8px', fontSize: '14px', color: '#5a2a2a', fontFamily: "'Courier New', monospace", lineHeight: '1.6', wordBreak: 'break-word' }}>
                 {tech.bad}
               </code>
             </div>
@@ -120,7 +195,7 @@ JI�Y[�Έ	�MM�	��ܙ\��Y]\Έ	�	��۝�2a2
             現在你已經學會了 7 個核心技巧，下一步可以瀏覽我們的 Prompt 指令庫來看真實案例，或回到學習路徑選擇適合的進階主題。
           </p>
           <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
-            <a href="/prompts" style={{ display: 'inline-block', backgroundColor: '#d4880a', color: '#fff', fontWeight: '800', fontSize: '15px', padding: '14px 28px', borderRadius: '8px', textDecoration: 'none', letterSpacing: '0.05em' }}>
+            <a href="/prompts" style={{ display: 'inline-block', backgroundColor: '#d4880a', color: '#fff', fontWeight: '800', fontSize: '15px', padding: '14px 28px', borderRadius: '8px', textDecoration: 'none', letterSpacing: '0.05em' }u>
               Prompt 指令庫 →
             </a>
             <a href="/beginner" style={{ display: 'inline-block', backgroundColor: 'rgba(255,255,255,0.1)', color: '#c8d8e8', fontWeight: '700', fontSize: '15px', padding: '14px 28px', borderRadius: '8px', textDecoration: 'none', border: '1px solid rgba(255,255,255,0.15)' }}>
