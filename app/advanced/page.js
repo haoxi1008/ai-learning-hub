@@ -195,7 +195,7 @@ export default function AdvancedPage() {
             現在你已經學會了 7 個核心技巧，下一步可以瀏覽我們的 Prompt 指令庫來看真實案例，或回到學習路徑選擇適合的進階主題。
           </p>
           <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
-            <a href="/prompts" style={{ display: 'inline-block', backgroundColor: '#d4880a', color: '#fff', fontWeight: '800', fontSize: '15px', padding: '14px 28px', borderRadius: '8px', textDecoration: 'none', letterSpacing: '0.05em' }u>
+            <a href="/prompts" style={{ display: 'inline-block', backgroundColor: '#d4880a', color: '#fff', fontWeight: '800', fontSize: '15px', padding: '14px 28px', borderRadius: '8px', textDecoration: 'none', letterSpacing: '0.05em' }}>
               Prompt 指令庫 →
             </a>
             <a href="/beginner" style={{ display: 'inline-block', backgroundColor: 'rgba(255,255,255,0.1)', color: '#c8d8e8', fontWeight: '700', fontSize: '15px', padding: '14px 28px', borderRadius: '8px', textDecoration: 'none', border: '1px solid rgba(255,255,255,0.15)' }}>
