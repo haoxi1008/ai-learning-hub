@@ -22,7 +22,7 @@ export default function Home() {
       description: '適合已有基礎、想深入應用 AI 工具的學習者。學習 Prompt 工程、自動化流程設計，以及如何將 AI 有效融入日常工作與學習。',
       tags: ['Prompt 工程', '工作流程自動化', 'AI 輔助寫作'],
       cta: '深入學習',
-      href: '/practitioner',
+      href: '/advanced',
     },
     {
       id: 'resources',
