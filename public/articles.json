@@ -43,6 +43,20 @@
   },
   {
     "id": 4,
+    "title_en": "Mar 31, 2026AnnouncementsAustralian government and Anthropic sign MOU for AI safety and research",
+    "title_cn": "Mar 31, 2026AnnouncementsAustralian government and Anthropic sign MOU for AI safety and research",
+    "excerpt": "Today, Anthropic signed a Memorandum of Understanding with the Australian government to cooperate on AI safety research and support the goals of Australia’s National AI Plan. Our CEO, Dario Amodei, me",
+    "content": "Today, Anthropic signed a Memorandum of Understanding with the Australian government to cooperate on AI safety research and support the goals of Australia’s National AI Plan. Our CEO, Dario Amodei, met with Prime Minister Anthony Albanese to formalize the agreement during a visit to Canberra, Australia. We also announced AUD$3 million in partnerships with leading Australian research institutions to use Claude to improve disease diagnosis and treatment and support computer science education and research.\n\nCentral to the MOU is a commitment to work with Australia’s AI Safety Institute. We will share our findings on emerging model capabilities and risks, participate in joint safety and security evaluations, and collaborate on research with Australian academic institutions. This mirrors the arrangements we have with safety institutes in the US, UK, and Japan, where early access and technical information sharing has helped governments build an independent view of where frontier AI is heading, and AI developers increase the safety of their models. Under the MOU, we will shareAnthropic Economic Index datawith the Australian government to help track how AI is being adopted across the economy, its economic impacts, and the implications for workers. We’ll initially focus on sectors critical to Australia’s economy, including natural resources, agriculture, healthcare, and financial services. As part of this, we plan to develop ways to advance AI education and training within the workforce. Our recentEconomic Indexdata shows thatAustralians already use Claudefor a broader range of tasks than most countries—the most diverse among English-speaking nations—and work collaboratively with AI using sophisticated prompts to accomplish high-skill tasks ranging from management and sales and business operations, to use in the life sciences and in everyday life. Finally, in line with Australia’s National AI plan, we are exploring investments in data center infrastructure and energy throughout the country, aligned with the government’s recently announceddata center expectations.\n\n“Australia’s investment in AI safety makes it a natural partner for responsible AI development. This MOU gives our collaboration a formal foundation,” said Anthropic CEO Dario Amodei. “ I'm particularly excited by the work Australian research institutions will be doing with Claude to advance disease diagnosis and treatment.\"\n\n## Extending AI for Science to Australia’s research and innovation sector\n\nAt Anthropic, we believe that AI has the potential to significantly accelerate scientific progress. To this end, we are extending ourAI for Scienceprogram to Australia, starting with an investment of AUD$3 million in Claude API credits to four institutions applying AI to some of humanity’s most pressing challenges. New partnerships with the Australian National University, Murdoch Children’s Research Institute, the Garvan Institute of Medical Research, and Curtin University will support areas like cli",
+    "url": "https://www.anthropic.com/news/australia-MOU",
+    "category": "Claude",
+    "difficulty": "中級",
+    "source": "Anthropic Blog",
+    "date": "2026-04-01",
+    "readTime": "4 分鐘閱讀",
+    "views": 0
+  },
+  {
+    "id": 5,
     "title_en": "Mar 12, 2026AnnouncementsAnthropic invests $100 million into the Claude Partner Network",
     "title_cn": "Mar 12, 2026AnnouncementsAnthropic invests $100 million into the Claude Partner Network",
     "excerpt": "We’re launching the Claude Partner Network, a program for partner organizations helping enterprises adopt Claude. We’re committing an initial $100 million to support our partners with training courses",
@@ -56,7 +70,7 @@
     "views": 0
   },
   {
-    "id": 5,
+    "id": 6,
     "title_en": "Mar 11, 2026AnnouncementsIntroducing The Anthropic Institute",
     "title_cn": "Mar 11, 2026AnnouncementsIntroducing The Anthropic Institute",
     "excerpt": "We’re launchingThe Anthropic Institute, a new effort to confront the most significant challenges that powerful AI will pose to our societies. The Anthropic Institute will draw on research from across ",
@@ -70,7 +84,7 @@
     "views": 0
   },
   {
-    "id": 6,
+    "id": 7,
     "title_en": "Mar 10, 2026AnnouncementsSydney will become Anthropic’s fourth office in Asia-Pacific",
     "title_cn": "Mar 10, 2026AnnouncementsSydney will become Anthropic’s fourth office in Asia-Pacific",
     "excerpt": "Anthropic is expanding to Australia and New Zealand. In the coming weeks, we will open an office in Sydney—our fourth office in Asia-Pacific, alongside Tokyo, Bengaluru, and Seoul. The expansion refle",
@@ -84,7 +98,7 @@
     "views": 0
   },
   {
-    "id": 7,
+    "id": 8,
     "title_en": "Mar 6, 2026PolicyPartnering with Mozilla to improve Firefox’s security",
     "title_cn": "Mar 6, 2026PolicyPartnering with Mozilla to improve Firefox’s security",
     "excerpt": "AI models can now independently identify high-severity vulnerabilities in complex software. As we recently documented, Claude found more than 500zero-day vulnerabilities(security flaws that are unknow",
@@ -98,7 +112,7 @@
     "views": 540
   },
   {
-    "id": 8,
+    "id": 9,
     "title_en": "Mar 5, 2026AnnouncementsWhere things stand with the Department of War",
     "title_cn": "Mar 5, 2026AnnouncementsWhere things stand with the Department of War",
     "excerpt": "A statement from Dario Amodei",
@@ -112,7 +126,7 @@
     "views": 0
   },
   {
-    "id": 9,
+    "id": 10,
     "title_en": "Feb 27, 2026AnnouncementsStatement on the comments from Secretary of War Pete Hegseth",
     "title_cn": "Feb 27, 2026AnnouncementsStatement on the comments from Secretary of War Pete Hegseth",
     "excerpt": "Earlier today, Secretary of War Pete Hegsethshared on Xthat he is directing the Department of War to designate Anthropic a supply chain risk. This action follows months of negotiations that reached an",
@@ -126,7 +140,7 @@
     "views": 0
   },
   {
-    "id": 10,
+    "id": 11,
     "title_en": "Feb 26, 2026AnnouncementsStatement from Dario Amodei on our discussions with the Department of War",
     "title_cn": "Feb 26, 2026AnnouncementsStatement from Dario Amodei on our discussions with the Department of War",
     "excerpt": "I believe deeply in the existential importance of using AI to defend the United States and other democracies, and to defeat our autocratic adversaries.",
@@ -140,7 +154,7 @@
     "views": 0
   },
   {
-    "id": 11,
+    "id": 12,
     "title_en": "Feb 25, 2026AnnouncementsAnthropic acquires Vercept to advance Claude's computer use capabilities",
     "title_cn": "Feb 25, 2026AnnouncementsAnthropic acquires Vercept to advance Claude's computer use capabilities",
     "excerpt": "People are using Claude for increasingly complex work—writing and running code across entire repositories, synthesizing research from dozens of sources, and managing workflows that span multiple tools",
@@ -154,7 +168,7 @@
     "views": 0
   },
   {
-    "id": 12,
+    "id": 13,
     "title_en": "Feb 24, 2026PolicyAnthropic’s Responsible Scaling Policy: Version 3.0",
     "title_cn": "Feb 24, 2026PolicyAnthropic’s Responsible Scaling Policy: Version 3.0",
     "excerpt": "We’re releasing the third version of our Responsible Scaling Policy (RSP), the voluntary framework we use to mitigate catastrophic risks from AI systems.",
@@ -165,20 +179,6 @@
     "source": "Anthropic Blog",
     "date": "2026-03-26",
     "readTime": "11 分鐘閱讀",
-    "views": 0
-  },
-  {
-    "id": 13,
-    "title_en": "Feb 23, 2026AnnouncementsDetecting and preventing distillation attacks",
-    "title_cn": "Feb 23, 2026AnnouncementsDetecting and preventing distillation attacks",
-    "excerpt": "We have identified industrial-scale campaigns by three AI laboratories—DeepSeek, Moonshot, and MiniMax—to illicitly extract Claude’s capabilities to improve their own models. These labs generated over",
-    "content": "We have identified industrial-scale campaigns by three AI laboratories—DeepSeek, Moonshot, and MiniMax—to illicitly extract Claude’s capabilities to improve their own models. These labs generated over 16 million exchanges with Claude through approximately 24,000 fraudulent accounts, in violation of our terms of service and regional access restrictions.\n\nThese labs used a technique called “distillation,” which involves training a less capable model on the outputs of a stronger one. Distillation is a widely used and legitimate training method. For example, frontier AI labs routinely distill their own models to create smaller, cheaper versions for their customers. But distillation can also be used for illicit purposes: competitors can use it to acquire powerful capabilities from other labs in a fraction of the time, and at a fraction of the cost, that it would take to develop them independently.\n\nThese campaigns are growing in intensity and sophistication. The window to act is narrow, and the threat extends beyond any single company or region. Addressing it will require rapid, coordinated action among industry players, policymakers, and the global AI community.\n\n## Why distillation matters\n\nIllicitly distilled models lack necessary safeguards, creating significant national security risks. Anthropic and other US companies build systems that prevent state and non-state actors from using AI to, for example, develop bioweapons or carry out malicious cyber activities. Models built through illicit distillation are unlikely to retain those safeguards, meaning that dangerous capabilities can proliferate with many protections stripped out entirely.\n\nForeign labs that distill American models can then feed these unprotected capabilities into military, intelligence, and surveillance systems—enabling authoritarian governments to deploy frontier AI for offensive cyber operations, disinformation campaigns, and mass surveillance. If distilled models are open-sourced, this risk multiplies as these capabilities spread freely beyond any single government's control.\n\n## Distillation attacks and export controls\n\nAnthropic hasconsistently supportedexport controls to help maintain America’s lead in AI. Distillation attacks undermine those controls by allowing foreign labs, including those subject to the control of the Chinese Communist Party, to close the competitive advantage that export controls are designed to preserve through other means.\n\nWithout visibility into these attacks, the apparently rapid advancements made by these labs are incorrectly taken as evidence that export controls are ineffective and able to be circumvented by innovation. In reality, these advancements depend in significant part on capabilities extracted from American models, and executing this extraction at scale requires access to advanced chips. Distillation attacks therefore reinforce the rationale for export controls: restricted chip access limits both direct model training and the scale of il",
-    "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
-    "category": "Claude",
-    "difficulty": "中級",
-    "source": "Anthropic Blog",
-    "date": "2026-03-26",
-    "readTime": "6 分鐘閱讀",
     "views": 0
   }
 ]
