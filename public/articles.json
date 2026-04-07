@@ -43,6 +43,20 @@
   },
   {
     "id": 4,
+    "title_en": "Apr 6, 2026AnnouncementsAnthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute",
+    "title_cn": "Apr 6, 2026AnnouncementsAnthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute",
+    "excerpt": "We have signed a new agreement with Google and Broadcom for multiple gigawatts of next-generation TPU capacity that we expect to come online starting in 2027. This significant expansion of our compute",
+    "content": "We have signed a new agreement with Google and Broadcom for multiple gigawatts of next-generation TPU capacity that we expect to come online starting in 2027. This significant expansion of our compute infrastructure will power our frontier Claude models and help us serve extraordinary demand from customers worldwide.\n\n“This groundbreaking partnership with Google and Broadcom is a continuation of our disciplined approach to scaling infrastructure: we are building the capacity necessary to serve the exponential growth we have seen in our customer base while also enabling Claude to define the frontier of AI development,” said Krishna Rao, CFO of Anthropic. “We are making our most significant compute commitment to date to keep pace with our unprecedented growth.”\n\nDemand from Claude customers has accelerated in 2026. Our run-rate revenue has now surpassed $30 billion—up from approximately $9 billion at the end of 2025. When we announced ourSeries G fundraisingin February, we shared that over 500 business customers were each spending over $1 million on an annualized basis. Today that number exceeds 1,000, doubling in less than two months.\n\nThe vast majority of the new compute will be sited in the United States, making this partnership a major expansion of our November 2025 commitment toinvest $50 billionin strengthening American computing infrastructure.\n\nThe partnership deepens our existing work with Google Cloud—building on the increasedTPU capacitywe announced last October—as well as our relationship with Broadcom.\n\nWe train and run Claude on a range of AI hardware—AWS Trainium, Google TPUs, and NVIDIA GPUs—which means we can match workloads to the chips best suited for them. This diversity of platforms translates to better performance and greater resilience for customers who depend on Claude for critical work. Amazon remains our primary cloud provider and training partner, and we continue to work closely with AWS on Project Rainier. Claude remains the only frontier AI model available to customers on all three of the world's largest cloud platforms: Amazon Web Services (Bedrock), Google Cloud (Vertex AI), and Microsoft Azure (Foundry).\n\n## Australian government and Anthropic sign MOU for AI safety and research\n\n## Anthropic invests $100 million into the Claude Partner Network\n\nWe’re launching the Claude Partner Network, a program for partner organizations helping enterprises adopt Claude.\n\n## Introducing The Anthropic Institute\n\nWe’re launching The Anthropic Institute, a new effort to confront the most significant challenges that powerful AI will pose to our societies.",
+    "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+    "category": "Claude",
+    "difficulty": "中級",
+    "source": "Anthropic Blog",
+    "date": "2026-04-07",
+    "readTime": "3 分鐘閱讀",
+    "views": 0
+  },
+  {
+    "id": 5,
     "title_en": "Mar 31, 2026AnnouncementsAustralian government and Anthropic sign MOU for AI safety and research",
     "title_cn": "Mar 31, 2026AnnouncementsAustralian government and Anthropic sign MOU for AI safety and research",
     "excerpt": "Today, Anthropic signed a Memorandum of Understanding with the Australian government to cooperate on AI safety research and support the goals of Australia’s National AI Plan. Our CEO, Dario Amodei, me",
@@ -56,7 +70,7 @@
     "views": 0
   },
   {
-    "id": 5,
+    "id": 6,
     "title_en": "Mar 12, 2026AnnouncementsAnthropic invests $100 million into the Claude Partner Network",
     "title_cn": "Mar 12, 2026AnnouncementsAnthropic invests $100 million into the Claude Partner Network",
     "excerpt": "We’re launching the Claude Partner Network, a program for partner organizations helping enterprises adopt Claude. We’re committing an initial $100 million to support our partners with training courses",
@@ -70,7 +84,7 @@
     "views": 0
   },
   {
-    "id": 6,
+    "id": 7,
     "title_en": "Mar 11, 2026AnnouncementsIntroducing The Anthropic Institute",
     "title_cn": "Mar 11, 2026AnnouncementsIntroducing The Anthropic Institute",
     "excerpt": "We’re launchingThe Anthropic Institute, a new effort to confront the most significant challenges that powerful AI will pose to our societies. The Anthropic Institute will draw on research from across ",
@@ -84,7 +98,7 @@
     "views": 0
   },
   {
-    "id": 7,
+    "id": 8,
     "title_en": "Mar 10, 2026AnnouncementsSydney will become Anthropic’s fourth office in Asia-Pacific",
     "title_cn": "Mar 10, 2026AnnouncementsSydney will become Anthropic’s fourth office in Asia-Pacific",
     "excerpt": "Anthropic is expanding to Australia and New Zealand. In the coming weeks, we will open an office in Sydney—our fourth office in Asia-Pacific, alongside Tokyo, Bengaluru, and Seoul. The expansion refle",
@@ -98,7 +112,7 @@
     "views": 0
   },
   {
-    "id": 8,
+    "id": 9,
     "title_en": "Mar 6, 2026PolicyPartnering with Mozilla to improve Firefox’s security",
     "title_cn": "Mar 6, 2026PolicyPartnering with Mozilla to improve Firefox’s security",
     "excerpt": "AI models can now independently identify high-severity vulnerabilities in complex software. As we recently documented, Claude found more than 500zero-day vulnerabilities(security flaws that are unknow",
@@ -112,7 +126,7 @@
     "views": 540
   },
   {
-    "id": 9,
+    "id": 10,
     "title_en": "Mar 5, 2026AnnouncementsWhere things stand with the Department of War",
     "title_cn": "Mar 5, 2026AnnouncementsWhere things stand with the Department of War",
     "excerpt": "A statement from Dario Amodei",
@@ -126,7 +140,7 @@
     "views": 0
   },
   {
-    "id": 10,
+    "id": 11,
     "title_en": "Feb 27, 2026AnnouncementsStatement on the comments from Secretary of War Pete Hegseth",
     "title_cn": "Feb 27, 2026AnnouncementsStatement on the comments from Secretary of War Pete Hegseth",
     "excerpt": "Earlier today, Secretary of War Pete Hegsethshared on Xthat he is directing the Department of War to designate Anthropic a supply chain risk. This action follows months of negotiations that reached an",
@@ -140,7 +154,7 @@
     "views": 0
   },
   {
-    "id": 11,
+    "id": 12,
     "title_en": "Feb 26, 2026AnnouncementsStatement from Dario Amodei on our discussions with the Department of War",
     "title_cn": "Feb 26, 2026AnnouncementsStatement from Dario Amodei on our discussions with the Department of War",
     "excerpt": "I believe deeply in the existential importance of using AI to defend the United States and other democracies, and to defeat our autocratic adversaries.",
@@ -154,7 +168,7 @@
     "views": 0
   },
   {
-    "id": 12,
+    "id": 13,
     "title_en": "Feb 25, 2026AnnouncementsAnthropic acquires Vercept to advance Claude's computer use capabilities",
     "title_cn": "Feb 25, 2026AnnouncementsAnthropic acquires Vercept to advance Claude's computer use capabilities",
     "excerpt": "People are using Claude for increasingly complex work—writing and running code across entire repositories, synthesizing research from dozens of sources, and managing workflows that span multiple tools",
@@ -165,20 +179,6 @@
     "source": "Anthropic Blog",
     "date": "2026-03-26",
     "readTime": "3 分鐘閱讀",
-    "views": 0
-  },
-  {
-    "id": 13,
-    "title_en": "Feb 24, 2026PolicyAnthropic’s Responsible Scaling Policy: Version 3.0",
-    "title_cn": "Feb 24, 2026PolicyAnthropic’s Responsible Scaling Policy: Version 3.0",
-    "excerpt": "We’re releasing the third version of our Responsible Scaling Policy (RSP), the voluntary framework we use to mitigate catastrophic risks from AI systems.",
-    "content": "We’re releasing the third version of our Responsible Scaling Policy (RSP), the voluntary framework we use to mitigate catastrophic risks from AI systems.\n\nAnthropic has now had an RSP for more than two years, and we’ve learned a great deal about its benefits and its shortcomings. We’re therefore updating the policy to reinforce what has worked well to date, improve the policy where necessary, and implement new measures to increase the transparency and accountability of our decision-making.\n\nYou can read the new RSP in fullhere. In this post, we’ll discuss some of the thinking behind the changes.\n\n## The original RSP and our theory of change\n\nThe RSP is our attempt to solve the problem of how to address AI risks that are not present at the time the policy is written, but which could emerge rapidly as a result of an exponentially advancing technology. When we wrote theoriginal RSPin September 2023, large language models were essentially chat interfaces. Today they can browse the web, write and run code, use computers, and take autonomous, multi-step actions. As each of these new capabilities have emerged, so have new risks. We expect this pattern to continue.\n\nWe focused the RSP on the principle ofconditional, orif-then,commitments.Ifa model exceeded certain capability levels (for example, biological science capabilities that could assist in the creation of dangerous weapons),thenthe policy stated that we should introduce a new and stricter set of safeguards (for example, against model misuse and the theft of model weights).\n\nEach set of safeguards corresponded to an “AI Safety Level” (ASL): for example, ASL-2 referred to one set of required safeguards, whereas ASL-3 referred to a more stringent set of safeguards needed for more capable AI models.\n\nEarly ASLs (ASL-2 and ASL-3) were defined in significant detail, but it was more difficult to specify the correct safeguards for models that were still several generations away. We therefore intentionally left the later ASLs (ASL-4 and beyond) largely undefined, and hoped to develop them in more detail once we had a better picture of what higher AI capability levels would entail.\n\nThe following is a rough description of our “theory of change”—that is, the mechanisms whereby we hoped to affect the ecosystem with the RSP:\n\nAn internal forcing function.Within Anthropic, we hoped the RSP would compel us to treat important safeguards as requirements for launching (and training) new models. This made the importance of these safeguards clear to the large and growing organization, spurring us on to make faster progress.\n\nA race to the top.We hoped that announcing our RSP would encourage other AI companies to introduce similar policies. This is the idea of a “race to the top” (the converse of a “race to the bottom”), in which different industry players are incentivized to improve, rather than weaken, their models’ safeguards and their overall safety posture. Over time, we hoped RSPs, or similar policies, would be",
-    "url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
-    "category": "AI 安全",
-    "difficulty": "中級",
-    "source": "Anthropic Blog",
-    "date": "2026-03-26",
-    "readTime": "11 分鐘閱讀",
     "views": 0
   }
 ]
