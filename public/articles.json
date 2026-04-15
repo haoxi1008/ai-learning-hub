@@ -43,6 +43,20 @@
   },
   {
     "id": 4,
+    "title_en": "Apr 14, 2026AnnouncementsAnthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
+    "title_cn": "Apr 14, 2026AnnouncementsAnthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
+    "excerpt": "Vas Narasimhan has been appointed to Anthropic's Board of Directors by the Anthropic Long-Term Benefit Trust. He is a physician-scientist and the Chief Executive Officer of Novartis—one of the world's",
+    "content": "Vas Narasimhan has been appointed to Anthropic's Board of Directors by the Anthropic Long-Term Benefit Trust. He is a physician-scientist and the Chief Executive Officer of Novartis—one of the world's leading innovative medicines companies—and shares Anthropic’s conviction thathealthcareandlife sciencesare among the areas where AI has the greatest potential to improve the quality of human life.\n\n“Vas brings something rare to our board. He's overseen the development and approval of more than 35 novel medicines for the benefit of patients around the world in one of the most regulated industries,” said Daniela Amodei, Co-founder and President of Anthropic. “Getting powerful new technology to people safely and at scale is what we think about every day at Anthropic. Vas has been doing exactly that for years, and I'm grateful he's joining us.”\n\nAnthropic is a Public Benefit Corporation and its Board is elected by stockholders and the Long-Term Benefit Trust, as detailedhere. The Trust is an independent body whose members have no financial stake in Anthropic, and it exists to keep the company's governance aligned in a responsible balance between financial success and the company’s public benefit mission of developing AI for the long-term benefit of humanity. With Narasimhan's appointment, Trust-appointed directors now make up a majority of the Board. Narasimhan joins Dario Amodei, Daniela Amodei,Yasmin Razavi,Jay Kreps,Reed Hastings, andChris Liddellon the Board of Directors.\n\n\"The Long-Term Benefit Trust's role is to appoint directors who will ensure Anthropic responsibly balances its commitment to stockholders and its public benefit mission as the company grows. Vas has spent his career stewarding breakthrough science responsibly —exactly the perspective we are excited to have on the board as we develop consequential technology. We’re excited for what he’ll bring to the table,” said Neil “Buddy” Shah, Chair of Anthropic's Long-Term Benefit Trust.\n\n“Working across medicine, innovation, and global health has shown me the transformative potential of technology when deployed responsibly. In healthcare, AI is accelerating solutions to some of the hardest scientific challenges, from deepening our understanding of disease biology to designing better medicines,” said Narasimhan. “Anthropic is setting the standard for how AI should be developed to benefit humanity, and I’m honored to join the Board and contribute to its mission.”\n\nEarly in his career, Narasimhan worked on HIV/AIDS, malaria, and tuberculosis programs in India, Africa, and South America, and he continues to champion access and global health priorities today. He is an elected member of the US National Academy of Medicine and a member of the Council on Foreign Relations. He serves on the University of Chicago board of trustees and the board of fellows at Harvard Medical School. He previously chaired the Pharmaceutical Research and Manufacturers of America, where he remains on the board of director",
+    "url": "https://www.anthropic.com/news/narasimhan-board",
+    "category": "AI 安全",
+    "difficulty": "中級",
+    "source": "Anthropic Blog",
+    "date": "2026-04-15",
+    "readTime": "3 分鐘閱讀",
+    "views": 0
+  },
+  {
+    "id": 5,
     "title_en": "Apr 6, 2026AnnouncementsAnthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute",
     "title_cn": "Apr 6, 2026AnnouncementsAnthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute",
     "excerpt": "We have signed a new agreement with Google and Broadcom for multiple gigawatts of next-generation TPU capacity that we expect to come online starting in 2027. This significant expansion of our compute",
@@ -56,7 +70,7 @@
     "views": 0
   },
   {
-    "id": 5,
+    "id": 6,
     "title_en": "Mar 31, 2026AnnouncementsAustralian government and Anthropic sign MOU for AI safety and research",
     "title_cn": "Mar 31, 2026AnnouncementsAustralian government and Anthropic sign MOU for AI safety and research",
     "excerpt": "Today, Anthropic signed a Memorandum of Understanding with the Australian government to cooperate on AI safety research and support the goals of Australia’s National AI Plan. Our CEO, Dario Amodei, me",
@@ -70,7 +84,7 @@
     "views": 0
   },
   {
-    "id": 6,
+    "id": 7,
     "title_en": "Mar 12, 2026AnnouncementsAnthropic invests $100 million into the Claude Partner Network",
     "title_cn": "Mar 12, 2026AnnouncementsAnthropic invests $100 million into the Claude Partner Network",
     "excerpt": "We’re launching the Claude Partner Network, a program for partner organizations helping enterprises adopt Claude. We’re committing an initial $100 million to support our partners with training courses",
@@ -84,7 +98,7 @@
     "views": 0
   },
   {
-    "id": 7,
+    "id": 8,
     "title_en": "Mar 11, 2026AnnouncementsIntroducing The Anthropic Institute",
     "title_cn": "Mar 11, 2026AnnouncementsIntroducing The Anthropic Institute",
     "excerpt": "We’re launchingThe Anthropic Institute, a new effort to confront the most significant challenges that powerful AI will pose to our societies. The Anthropic Institute will draw on research from across ",
@@ -98,7 +112,7 @@
     "views": 0
   },
   {
-    "id": 8,
+    "id": 9,
     "title_en": "Mar 10, 2026AnnouncementsSydney will become Anthropic’s fourth office in Asia-Pacific",
     "title_cn": "Mar 10, 2026AnnouncementsSydney will become Anthropic’s fourth office in Asia-Pacific",
     "excerpt": "Anthropic is expanding to Australia and New Zealand. In the coming weeks, we will open an office in Sydney—our fourth office in Asia-Pacific, alongside Tokyo, Bengaluru, and Seoul. The expansion refle",
@@ -112,7 +126,7 @@
     "views": 0
   },
   {
-    "id": 9,
+    "id": 10,
     "title_en": "Mar 6, 2026PolicyPartnering with Mozilla to improve Firefox’s security",
     "title_cn": "Mar 6, 2026PolicyPartnering with Mozilla to improve Firefox’s security",
     "excerpt": "AI models can now independently identify high-severity vulnerabilities in complex software. As we recently documented, Claude found more than 500zero-day vulnerabilities(security flaws that are unknow",
@@ -126,7 +140,7 @@
     "views": 540
   },
   {
-    "id": 10,
+    "id": 11,
     "title_en": "Mar 5, 2026AnnouncementsWhere things stand with the Department of War",
     "title_cn": "Mar 5, 2026AnnouncementsWhere things stand with the Department of War",
     "excerpt": "A statement from Dario Amodei",
@@ -140,7 +154,7 @@
     "views": 0
   },
   {
-    "id": 11,
+    "id": 12,
     "title_en": "Feb 27, 2026AnnouncementsStatement on the comments from Secretary of War Pete Hegseth",
     "title_cn": "Feb 27, 2026AnnouncementsStatement on the comments from Secretary of War Pete Hegseth",
     "excerpt": "Earlier today, Secretary of War Pete Hegsethshared on Xthat he is directing the Department of War to designate Anthropic a supply chain risk. This action follows months of negotiations that reached an",
@@ -154,7 +168,7 @@
     "views": 0
   },
   {
-    "id": 12,
+    "id": 13,
     "title_en": "Feb 26, 2026AnnouncementsStatement from Dario Amodei on our discussions with the Department of War",
     "title_cn": "Feb 26, 2026AnnouncementsStatement from Dario Amodei on our discussions with the Department of War",
     "excerpt": "I believe deeply in the existential importance of using AI to defend the United States and other democracies, and to defeat our autocratic adversaries.",
@@ -165,20 +179,6 @@
     "source": "Anthropic Blog",
     "date": "2026-03-26",
     "readTime": "4 分鐘閱讀",
-    "views": 0
-  },
-  {
-    "id": 13,
-    "title_en": "Feb 25, 2026AnnouncementsAnthropic acquires Vercept to advance Claude's computer use capabilities",
-    "title_cn": "Feb 25, 2026AnnouncementsAnthropic acquires Vercept to advance Claude's computer use capabilities",
-    "excerpt": "People are using Claude for increasingly complex work—writing and running code across entire repositories, synthesizing research from dozens of sources, and managing workflows that span multiple tools",
-    "content": "People are using Claude for increasingly complex work—writing and running code across entire repositories, synthesizing research from dozens of sources, and managing workflows that span multiple tools and teams. Computer use enables Claude to do all of that inside live applications, the way a person at a keyboard would. That means Claude can take on multi-step tasks in live applications, and solve problems impossible with code alone. Today, we're announcing that Anthropic has acquired Vercept to help us push those capabilities further.\n\nVercept was built around a clear thesis: making AI genuinely useful for completing complex tasks requires solving hard perception and interaction problems. The Vercept team—including co-founders Kiana Ehsani, Luca Weihs, and Ross Girshick—have spent years thinking carefully about how AI systems can see and act within the same software humans use every day. That expertise maps directly onto some of the hardest problems we're working on at Anthropic. Vercept will wind down its external product in the coming weeks and join Anthropic in pushing the frontiers of computer use.\n\nThis acquisition follows the recent launch of ClaudeSonnet 4.6, which shows a major improvement in computer use skills: on OSWorld, a widely-used evaluation for AI computer use, our Sonnet models went from under 15% in late 2024, when we first released computer use, to 72.5% today. Sonnet 4.6 is now approaching human-level performance on tasks like navigating complex spreadsheets and completing web forms across browser tabs.\n\nVercept is the latest team we’ve brought into Anthropic, following the acquisition ofBun. We look for teams whose technical ambitions match ours, whose work advances our capabilities, and whose approach to building AI is grounded in the same principles of safety and rigor that guide everything we do.\n\nWe’re also looking for individuals. If you're interested in joining Anthropic’s engineering team, visit ourcareers page.\n\n## Anthropic invests $100 million into the Claude Partner Network\n\nWe’re launching the Claude Partner Network, a program for partner organizations helping enterprises adopt Claude.\n\n## Introducing The Anthropic Institute\n\nWe’re launching The Anthropic Institute, a new effort to confront the most significant challenges that powerful AI will pose to our societies.\n\n## Sydney will become Anthropic’s fourth office in Asia-Pacific",
-    "url": "https://www.anthropic.com/news/acquires-vercept",
-    "category": "Claude",
-    "difficulty": "中級",
-    "source": "Anthropic Blog",
-    "date": "2026-03-26",
-    "readTime": "3 分鐘閱讀",
     "views": 0
   }
 ]
