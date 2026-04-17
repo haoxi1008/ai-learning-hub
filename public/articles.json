@@ -1,6 +1,20 @@
 [
   {
     "id": 1,
+    "title_en": "Introducing Claude Opus 4.7ProductApr 16, 2026Our latest Opus model brings stronger performance across coding, agents, vision, and multi-step tasks, with greater thoroughness and consistency on the work that matters most.",
+    "title_cn": "Introducing Claude Opus 4.7ProductApr 16, 2026Our latest Opus model brings stronger performance across coding, agents, vision, and multi-step tasks, with greater thoroughness and consistency on the work that matters most.",
+    "excerpt": "Our latest model, Claude Opus 4.7, is now generally available.",
+    "content": "Our latest model, Claude Opus 4.7, is now generally available.\n\nOpus 4.7 is a notable improvement on Opus 4.6 in advanced software engineering, with particular gains on the most difficult tasks. Users report being able to hand off their hardest coding work—the kind that previously needed close supervision—to Opus 4.7 with confidence. Opus 4.7 handles complex, long-running tasks with rigor and consistency, pays precise attention to instructions, and devises ways to verify its own outputs before reporting back.\n\nThe model also has substantially better vision: it can see images in greater resolution. It’s more tasteful and creative when completing professional tasks, producing higher-quality interfaces, slides, and docs. And—although it is less broadly capable than our most powerful model, Claude Mythos Preview—it shows better results than Opus 4.6 across a range of benchmarks:\n\nLast week we announcedProject Glasswing, highlighting the risks—and benefits—of AI models for cybersecurity. We stated that we would keep Claude Mythos Preview’s release limited and test new cyber safeguards on less capable models first. Opus 4.7 is the first such model: its cyber capabilities are not as advanced as those of Mythos Preview (indeed, during its training we experimented with efforts to differentially reduce these capabilities). We are releasing Opus 4.7 with safeguards that automatically detect and block requests that indicate prohibited or high-risk cybersecurity uses. What we learn from the real-world deployment of these safeguards will help us work towards our eventual goal of a broad release of Mythos-class models.\n\nSecurity professionals who wish to use Opus 4.7 for legitimate cybersecurity purposes (such as vulnerability research, penetration testing, and red-teaming) are invited to join our newCyber Verification Program.\n\nOpus 4.7 is available today across all Claude products and our API, Amazon Bedrock, Google Cloud’s Vertex AI, and Microsoft Foundry. Pricing remains the same as Opus 4.6: $5 per million input tokens and $25 per million output tokens. Developers can useclaude-opus-4-7via theClaude API.\n\n## Testing Claude Opus 4.7\n\nClaude Opus 4.7 has garnered strong feedback from our early-access testers:\n\nBelow are some highlights and notes from our early testing of Opus 4.7:\n\nInstruction following. Opus 4.7 is substantially better at following instructions. Interestingly, this means that prompts written for earlier models can sometimes now produce unexpected results: where previous models interpreted instructions loosely or skipped parts entirely, Opus 4.7 takes the instructions literally. Users should re-tune their prompts and harnesses accordingly.\n\nImproved multimodal support. Opus 4.7 has better vision for high-resolution images: it can accept images up to 2,576 pixels on the long edge (~3.75 megapixels), more than three times as many as prior Claude models. This opens up a wealth of multimodal uses that depend on fine visual detail: computer-use a",
+    "url": "https://www.anthropic.com/news/claude-opus-4-7",
+    "category": "Claude",
+    "difficulty": "中級",
+    "source": "Anthropic Blog",
+    "date": "2026-04-17",
+    "readTime": "6 分鐘閱讀",
+    "views": 0
+  },
+  {
+    "id": 2,
     "title_en": "Introducing Claude Sonnet 4.6",
     "title_cn": "介紹 Claude Sonnet 4.6",
     "excerpt": "Claude Sonnet 4.6 在編程、代理任務和專業工作中提供頂尖性能，速度與能力之間達到完美平衡。",
@@ -12,20 +26,6 @@
     "date": "2026-02-17",
     "readTime": "5 分鐘閱讀",
     "views": 1520
-  },
-  {
-    "id": 2,
-    "title_en": "AnnouncementsFeb 5, 2026Introducing Claude Opus 4.6We’re upgrading our smartest model. Across agentic coding, computer use, tool use, search, and finance, Opus 4.6 is an industry-leading model, often by wide margin.",
-    "title_cn": "AnnouncementsFeb 5, 2026Introducing Claude Opus 4.6We’re upgrading our smartest model. Across agentic coding, computer use, tool use, search, and finance, Opus 4.6 is an industry-leading model, often by wide margin.",
-    "excerpt": "We’re upgrading our smartest model.",
-    "content": "We’re upgrading our smartest model.\n\nThe new Claude Opus 4.6 improves on its predecessor’s coding skills. It plans more carefully, sustains agentic tasks for longer, can operate more reliably in larger codebases, and has better code review and debugging skills to catch its own mistakes. And, in a first for our Opus-class models, Opus 4.6 features a 1M token context window in beta1.\n\nOpus 4.6 can also apply its improved abilities to a range of everyday work tasks: running financial analyses, doing research, and using and creating documents, spreadsheets, and presentations. WithinCowork, where Claude can multitask autonomously, Opus 4.6 can put all these skills to work on your behalf.\n\nThe model’s performance is state-of-the-art on several evaluations. For example, it achieves the highest score on the agentic coding evaluationTerminal-Bench 2.0and leads all other frontier models onHumanity’s Last Exam, a complex multidisciplinary reasoning test. OnGDPval-AA—an evaluation of performance on economically valuable knowledge work tasks in finance, legal, and other domains2—Opus 4.6 outperforms the industry’s next-best model (OpenAI’s GPT-5.2) by around 144 Elo points,3and its own predecessor (Claude Opus 4.5) by 190 points. Opus 4.6 also performs better than any other model onBrowseComp, which measures a model’s ability to locate hard-to-find information online.\n\nAs we show in our extensivesystem card, Opus 4.6 also shows an overall safety profile as good as, or better than, any other frontier model in the industry, with low rates of misaligned behavior across safety evaluations.\n\nInClaude Code, you can now assembleagent teamsto work on tasks together. On the API, Claude can usecompactionto summarize its own context and perform longer-running tasks without bumping up against limits. We’re also introducingadaptive thinking, where the model can pick up on contextual clues about how much to use its extended thinking, and neweffortcontrols to give developers more control over intelligence, speed, and cost.\n\nWe’ve made substantial upgrades toClaude in Excel, and we’re releasingClaude in PowerPointin a research preview. This makes Claude much more capable for everyday work.\n\nClaude Opus 4.6 is available today onclaude.ai, our API, and all major cloud platforms. If you’re a developer, useclaude-opus-4-6via theClaude API. Pricing remains the same at $5/$25 per million tokens; for full details, see ourpricing page.\n\nWe cover the model, our new product updates, our evaluations, and our extensive safety testing in depth below.\n\nWe build Claude with Claude. Our engineers write code with Claude Code every day, and every new model first gets tested on our own work. With Opus 4.6, we’ve found that the model brings more focus to the most challenging parts of a task without being told to, moves quickly through the more straightforward parts, handles ambiguous problems with better judgment, and stays productive over longer sessions.\n\nOpus 4.6 often thinks more deeply and",
-    "url": "https://www.anthropic.com/news/claude-opus-4-6",
-    "category": "Claude",
-    "difficulty": "中級",
-    "source": "Anthropic Blog",
-    "date": "2026-03-26",
-    "readTime": "9 分鐘閱讀",
-    "views": 2340
   },
   {
     "id": 3,
@@ -165,20 +165,6 @@
     "source": "Anthropic Blog",
     "date": "2026-03-26",
     "readTime": "3 分鐘閱讀",
-    "views": 0
-  },
-  {
-    "id": 13,
-    "title_en": "Feb 26, 2026AnnouncementsStatement from Dario Amodei on our discussions with the Department of War",
-    "title_cn": "Feb 26, 2026AnnouncementsStatement from Dario Amodei on our discussions with the Department of War",
-    "excerpt": "I believe deeply in the existential importance of using AI to defend the United States and other democracies, and to defeat our autocratic adversaries.",
-    "content": "I believe deeply in the existential importance of using AI to defend the United States and other democracies, and to defeat our autocratic adversaries.\n\nAnthropic has therefore worked proactively to deploy our models to the Department of War and the intelligence community. We werethe first frontier AI companyto deploy our models in the US government’s classified networks, the first to deploy them at theNational Laboratories, and the first to providecustom modelsfor national security customers. Claude isextensively deployedacross the Department of War and other national security agencies for mission-critical applications, such as intelligence analysis, modeling and simulation, operational planning, cyber operations, and more.\n\nAnthropic has also acted to defend America’s lead in AI, even when it is against the company’s short-term interest. We chose to forgo several hundred million dollars in revenue to cut off theuse of Claude by firms linked to the Chinese Communist Party(some of whom have beendesignated by the Department of Waras Chinese Military Companies), shut downCCP-sponsored cyberattacksthat attempted to abuse Claude, and have advocated forstrong export controls on chipsto ensure a democratic advantage.\n\nAnthropic understands that the Department of War, not private companies, makes military decisions. We have never raised objections to particular military operations nor attempted to limit use of our technology in anad hocmanner.\n\nHowever, in a narrow set of cases, we believe AI can undermine, rather than defend, democratic values. Some uses are also simply outside the bounds of what today’s technology can safely and reliably do. Two such use cases have never been included in our contracts with the Department of War, and we believe they should not be included now:\n\nMass domestic surveillance.We support the use of AI for lawful foreign intelligence and counterintelligence missions. But using these systems for massdomesticsurveillance is incompatible with democratic values. AI-driven mass surveillancepresents serious, novel risks to our fundamental liberties. To the extent that such surveillance is currently legal, this is only because the law has not yet caught up with the rapidly growing capabilities of AI. For example, under current law, the government can purchase detailed records of Americans’ movements, web browsing, and associations from public sources without obtaining a warrant, a practice theIntelligence Community has acknowledgedraises privacy concerns and that has generated bipartisan opposition in Congress. Powerful AI makes it possible to assemble this scattered, individually innocuous data into a comprehensive picture of any person’s life—automatically and at massive scale.\n\nFully autonomous weapons.Partially autonomous weapons, like those used today in Ukraine, are vital to the defense of democracy. Evenfullyautonomous weapons (those that take humans out of the loop entirely and automate selecting and engaging targets) may pr",
-    "url": "https://www.anthropic.com/news/statement-department-of-war",
-    "category": "Claude",
-    "difficulty": "中級",
-    "source": "Anthropic Blog",
-    "date": "2026-03-26",
-    "readTime": "4 分鐘閱讀",
     "views": 0
   }
 ]
