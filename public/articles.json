@@ -43,6 +43,20 @@
   },
   {
     "id": 4,
+    "title_en": "Apr 27, 2026AnnouncementsAnthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office",
+    "title_cn": "Apr 27, 2026AnnouncementsAnthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office",
+    "excerpt": "Theo Hourmouzis is joining Anthropic as General Manager of Australia and New Zealand, marking the next step in our investment in the region. Hourmouzis will meet with customers and partners this week ",
+    "content": "Theo Hourmouzis is joining Anthropic as General Manager of Australia and New Zealand, marking the next step in our investment in the region. Hourmouzis will meet with customers and partners this week alongside executives from our global team, as we officially open our Sydney office.\n\nHourmouzis brings more than 20 years of leadership experience in the technology industry across Asia Pacific to the role. He joins us from Snowflake, where he most recently served as Senior Vice President for Australia, New Zealand and ASEAN, helping enterprise and public sector organisations across financial services, retail, aviation and government move AI from experimentation to business impact. At Anthropic, he'll lead our growing local team and shape a strategy built around Australian and New Zealand customers, bringing Claude into their most important work.\n\n\"Organizations across Australia and New Zealand are thinking carefully about how to adopt AI, and they want partners who take safety and rigor as seriously as they take the opportunity,” said Theo Hourmouzis, Anthropic General Manager of Australia and New Zealand.“That's what drew me to Anthropic. I've spent my career working with businesses and governments across this region, and the organizations that do best with AI will be the ones that pair ambition with discipline.”\n\nOur growing team in the region will deepen relationships with enterprises like Commonwealth Bank and Quantium and with AI for Science research partners including Australian National University, Murdoch Children’s Research Institute, Garvan Institute of Medical Research, and Curtin University—while delivering on our commitments in theMOUwe recently signed with the Australian government.\n\n“Theo's appointment reflects the conviction we share with the Australian government that AI can drive economic growth when it’s developed and deployed responsibly,” said Chris Ciauri, Anthropic Managing Director of International. “He’s spent decades helping organisations adopt new technology, and he’ll build the team and partnerships we need to support our customers across Australia and New Zealand for the long term.”\n\nNew local partnerships\n\nWe recently announced deep platform collaborations with Canva and Xero.Canvawill bring the power of Canva Design Engine and Visual Suite into the newly launched Claude Design by Anthropic Labs, and a multi-year partnership will bring Claude's AI directly intoXero—and Xero's financial data and tools into Claude.ai.\n\nWe're also working with YMCA South Australia as aClaude for NonprofitsPartner. YMCA operates across 65+ community locations with around 1,250 staff. Using Claude, YMCA SA has built custom AI skills that turn complex operational data into actionable insights, cut branded content production from hours to minutes, and brought technical work in-house that previously required external contractors.\n\n“The future for us is about Claude becoming embedded infrastructure, a core part of how we run the organisation,” s",
+    "url": "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand",
+    "category": "Claude",
+    "difficulty": "中級",
+    "source": "Anthropic Blog",
+    "date": "2026-04-28",
+    "readTime": "3 分鐘閱讀",
+    "views": 0
+  },
+  {
+    "id": 5,
     "title_en": "Apr 24, 2026AnnouncementsAn update on our election safeguards",
     "title_cn": "Apr 24, 2026AnnouncementsAn update on our election safeguards",
     "excerpt": "People around the world turn to Claude for information about political parties, candidates, and the issues at stake during election time—as well as to answer simpler questions like when, where, and ho",
@@ -56,7 +70,7 @@
     "views": 0
   },
   {
-    "id": 5,
+    "id": 6,
     "title_en": "Apr 24, 2026AnnouncementsAnthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
     "title_cn": "Apr 24, 2026AnnouncementsAnthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
     "excerpt": "NEC Corporationwill use Claude as it builds one of Japan’s largest AI-native engineering organizations, making it available to approximately 30,000 NEC Group employees worldwide.",
@@ -70,7 +84,7 @@
     "views": 0
   },
   {
-    "id": 6,
+    "id": 7,
     "title_en": "Apr 20, 2026AnnouncementsAnthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
     "title_cn": "Apr 20, 2026AnnouncementsAnthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
     "excerpt": "We have signed a new agreement with Amazon that will deepen our existing partnership and secure up to 5 gigawatts (GW) of capacity for training and deploying Claude, including new Trainium2 capacity c",
@@ -84,7 +98,7 @@
     "views": 0
   },
   {
-    "id": 7,
+    "id": 8,
     "title_en": "Apr 14, 2026AnnouncementsAnthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
     "title_cn": "Apr 14, 2026AnnouncementsAnthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
     "excerpt": "Vas Narasimhan has been appointed to Anthropic's Board of Directors by the Anthropic Long-Term Benefit Trust. He is a physician-scientist and the Chief Executive Officer of Novartis—one of the world's",
@@ -98,7 +112,7 @@
     "views": 0
   },
   {
-    "id": 8,
+    "id": 9,
     "title_en": "Apr 6, 2026AnnouncementsAnthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute",
     "title_cn": "Apr 6, 2026AnnouncementsAnthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute",
     "excerpt": "We have signed a new agreement with Google and Broadcom for multiple gigawatts of next-generation TPU capacity that we expect to come online starting in 2027. This significant expansion of our compute",
@@ -112,7 +126,7 @@
     "views": 0
   },
   {
-    "id": 9,
+    "id": 10,
     "title_en": "Mar 31, 2026AnnouncementsAustralian government and Anthropic sign MOU for AI safety and research",
     "title_cn": "Mar 31, 2026AnnouncementsAustralian government and Anthropic sign MOU for AI safety and research",
     "excerpt": "Today, Anthropic signed a Memorandum of Understanding with the Australian government to cooperate on AI safety research and support the goals of Australia’s National AI Plan. Our CEO, Dario Amodei, me",
@@ -126,7 +140,7 @@
     "views": 0
   },
   {
-    "id": 10,
+    "id": 11,
     "title_en": "Mar 12, 2026AnnouncementsAnthropic invests $100 million into the Claude Partner Network",
     "title_cn": "Mar 12, 2026AnnouncementsAnthropic invests $100 million into the Claude Partner Network",
     "excerpt": "We’re launching the Claude Partner Network, a program for partner organizations helping enterprises adopt Claude. We’re committing an initial $100 million to support our partners with training courses",
@@ -137,20 +151,6 @@
     "source": "Anthropic Blog",
     "date": "2026-03-26",
     "readTime": "3 分鐘閱讀",
-    "views": 0
-  },
-  {
-    "id": 11,
-    "title_en": "Mar 11, 2026AnnouncementsIntroducing The Anthropic Institute",
-    "title_cn": "Mar 11, 2026AnnouncementsIntroducing The Anthropic Institute",
-    "excerpt": "We’re launchingThe Anthropic Institute, a new effort to confront the most significant challenges that powerful AI will pose to our societies. The Anthropic Institute will draw on research from across ",
-    "content": "We’re launchingThe Anthropic Institute, a new effort to confront the most significant challenges that powerful AI will pose to our societies. The Anthropic Institute will draw on research from across Anthropic to provide information that other researchers and the public can use during our transition to a world containing much more powerful AI systems.\n\nIn the five years since Anthropic began, AI progress has moved incredibly quickly. It took us two years to release our first commercial model, and just three more to develop models that can discoverseverecybersecurityvulnerabilities,take onawide rangeofreal work, and even begin to accelerate the pace ofAI development itself.\n\nWe predict that far more dramatic progress will follow in the next two years. One of our company’s core convictions is that AI development is accelerating: that the improvements we make are compounding over time. Because of this, extremely powerful AI, like the kind our CEO Dario Amodei describes inMachines of Loving Grace, is coming far sooner than many think.\n\nIf this is right, society is shortly going to need to confrontmany massive challenges. How will powerful AI systems reshape our jobs and economies? What kinds of opportunities for greater societal resilience will they give us? What kinds of threats will they magnify or introduce? What are the expressed “values” of AI systems and how will society help companies determine what the appropriate values are? And, if the recursive self-improvement of AI systems does begin to occur, who in the world should be made aware, and how should these systems be governed?\n\nThe Anthropic Institute’s goal is to tell the world what we’re learning about these challenges as we build frontier AI systems, and to partner with external audiences to help address the risks we must confront. Whether our societies are able to do so will determine whether or not transformative AI delivers theradical upsidesthat we believe are possible in science, economic development, and human agency.\n\nThe Institute is led by our co-founder Jack Clark, who will assume a new role as Anthropic’s Head of Public Benefit. It has an interdisciplinary staff of machine learning engineers, economists, and social scientists, bringing together and expanding three of Anthropic’s research teams: theFrontier Red Team, which stress-tests AI systems to understand the outermost limits of their current capabilities;Societal Impacts, which studies how AI is being used in the real world; andEconomic Research, which tracks its impact on jobs and the larger economy. The Institute will also incubate new teams, and is currently working on efforts around forecasting AI progress and better understanding how powerful AI will interact with the legal system.\n\nThe Institute has a unique vantage point: it has access to information that only the builders of frontier AI systems possess. It will use this to its full advantage, reporting candidly about what we’re learning about the shape of the techn",
-    "url": "https://www.anthropic.com/news/the-anthropic-institute",
-    "category": "Claude",
-    "difficulty": "中級",
-    "source": "Anthropic Blog",
-    "date": "2026-03-26",
-    "readTime": "4 分鐘閱讀",
     "views": 0
   }
 ]
