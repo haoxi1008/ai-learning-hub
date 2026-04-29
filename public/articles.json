@@ -43,6 +43,20 @@
   },
   {
     "id": 4,
+    "title_en": "Apr 28, 2026AnnouncementsClaude for Creative Work",
+    "title_cn": "Apr 28, 2026AnnouncementsClaude for Creative Work",
+    "excerpt": "Creative professionals look to technology to expand what's possible in their work. Claude can't replace taste or imagination, but it can open up new ways of working—faster and more ambitious ideation,",
+    "content": "Creative professionals look to technology to expand what's possible in their work. Claude can't replace taste or imagination, but it can open up new ways of working—faster and more ambitious ideation, a more expansive skill set, and the ability for creatives to take on larger-scale projects. AI can also help shoulder the parts of the creative process that eat up time by handling repetitive tasks and eliminating manual toil. Key to both these goals is integrating Claude into the tools the creative industry already knows and trusts.\n\nToday, with a coalition of partners including Blender, Autodesk, Adobe, Ableton, and Splice, we’re releasing a set of connectors—tools that let Claude work alongside the software creative professionals rely on, so creatives can extend their reach.\n\n## Connecting Claude to creative tools\n\nConnectors allow Claude to access other platforms and tools directly. We are adding several new connectors that are designed to make it easier to use Claude for creative work:\n\nAbletongrounds Claude’s answers in official product documentation for Live and Push.\n\nAdobe for creativityenables users to bring images, videos, and designs to life, drawing from 50+ tools across Creative Cloud apps including Photoshop, Premiere, Express, and more.\n\nAffinity by Canvaautomates repetitive production tasks across pro creative workflows - such as batch image adjustments, layer renaming, and file export - and generates custom features directly in the app.\n\nAutodesk Fusionallows designers and engineers with a Fusion subscription to create and modify 3D models through conversations with Claude.\n\nBlenderoffers a natural-language interface to its Python API, allowing users to explore and understand complex setups and making it easier to access Blender’s documentation.\n\nResolume ArenaandResolume Wirelet VJs and live visual artists control Arena, Avenue, and Wire in real time through natural language for live performance and AV production.\n\nSketchUpturns a conversation with Claude into a starting point for 3D modeling—describe a room, a piece of furniture, or a site concept, then open it in SketchUp to refine.\n\nSplicegives music producers the ability to search its catalog of royalty-free samples from within Claude.\n\n## Using Claude for creative work\n\nHere are a few of the ways Claude can be used for creative tasks:\n\nLearning and mastering creative tools: Claude can act as an on-demand tutor for complex software. You can ask it to explain a modifier stack, walk you through a synthesis technique, or demonstrate an unfamiliar feature, and it will show you how to use it.\n\nExtending tools with code: Claude Code can write scripts, plugins, and generative systems for the software you already use. You can ask it to build a custom shader, script a procedural animation, or generate parametric models, and it will produce documented code you can reuse and modify.\n\nBridging tools in a pipeline: Claude can translate formats, restructure data, and keep assets in sync acr",
+    "url": "https://www.anthropic.com/news/claude-for-creative-work",
+    "category": "Claude",
+    "difficulty": "中級",
+    "source": "Anthropic Blog",
+    "date": "2026-04-29",
+    "readTime": "4 分鐘閱讀",
+    "views": 0
+  },
+  {
+    "id": 5,
     "title_en": "Apr 27, 2026AnnouncementsAnthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office",
     "title_cn": "Apr 27, 2026AnnouncementsAnthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office",
     "excerpt": "Theo Hourmouzis is joining Anthropic as General Manager of Australia and New Zealand, marking the next step in our investment in the region. Hourmouzis will meet with customers and partners this week ",
@@ -56,7 +70,7 @@
     "views": 0
   },
   {
-    "id": 5,
+    "id": 6,
     "title_en": "Apr 24, 2026AnnouncementsAn update on our election safeguards",
     "title_cn": "Apr 24, 2026AnnouncementsAn update on our election safeguards",
     "excerpt": "People around the world turn to Claude for information about political parties, candidates, and the issues at stake during election time—as well as to answer simpler questions like when, where, and ho",
@@ -70,7 +84,7 @@
     "views": 0
   },
   {
-    "id": 6,
+    "id": 7,
     "title_en": "Apr 24, 2026AnnouncementsAnthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
     "title_cn": "Apr 24, 2026AnnouncementsAnthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
     "excerpt": "NEC Corporationwill use Claude as it builds one of Japan’s largest AI-native engineering organizations, making it available to approximately 30,000 NEC Group employees worldwide.",
@@ -84,7 +98,7 @@
     "views": 0
   },
   {
-    "id": 7,
+    "id": 8,
     "title_en": "Apr 20, 2026AnnouncementsAnthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
     "title_cn": "Apr 20, 2026AnnouncementsAnthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
     "excerpt": "We have signed a new agreement with Amazon that will deepen our existing partnership and secure up to 5 gigawatts (GW) of capacity for training and deploying Claude, including new Trainium2 capacity c",
@@ -98,7 +112,7 @@
     "views": 0
   },
   {
-    "id": 8,
+    "id": 9,
     "title_en": "Apr 14, 2026AnnouncementsAnthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
     "title_cn": "Apr 14, 2026AnnouncementsAnthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
     "excerpt": "Vas Narasimhan has been appointed to Anthropic's Board of Directors by the Anthropic Long-Term Benefit Trust. He is a physician-scientist and the Chief Executive Officer of Novartis—one of the world's",
@@ -112,7 +126,7 @@
     "views": 0
   },
   {
-    "id": 9,
+    "id": 10,
     "title_en": "Apr 6, 2026AnnouncementsAnthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute",
     "title_cn": "Apr 6, 2026AnnouncementsAnthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute",
     "excerpt": "We have signed a new agreement with Google and Broadcom for multiple gigawatts of next-generation TPU capacity that we expect to come online starting in 2027. This significant expansion of our compute",
@@ -126,7 +140,7 @@
     "views": 0
   },
   {
-    "id": 10,
+    "id": 11,
     "title_en": "Mar 31, 2026AnnouncementsAustralian government and Anthropic sign MOU for AI safety and research",
     "title_cn": "Mar 31, 2026AnnouncementsAustralian government and Anthropic sign MOU for AI safety and research",
     "excerpt": "Today, Anthropic signed a Memorandum of Understanding with the Australian government to cooperate on AI safety research and support the goals of Australia’s National AI Plan. Our CEO, Dario Amodei, me",
@@ -137,20 +151,6 @@
     "source": "Anthropic Blog",
     "date": "2026-04-01",
     "readTime": "4 分鐘閱讀",
-    "views": 0
-  },
-  {
-    "id": 11,
-    "title_en": "Mar 12, 2026AnnouncementsAnthropic invests $100 million into the Claude Partner Network",
-    "title_cn": "Mar 12, 2026AnnouncementsAnthropic invests $100 million into the Claude Partner Network",
-    "excerpt": "We’re launching the Claude Partner Network, a program for partner organizations helping enterprises adopt Claude. We’re committing an initial $100 million to support our partners with training courses",
-    "content": "We’re launching the Claude Partner Network, a program for partner organizations helping enterprises adopt Claude. We’re committing an initial $100 million to support our partners with training courses, dedicated technical support, and joint market development. Partners who joinfrom todaywill get immediate access to a new technical certification and be eligible for investment.\n\nAnthropic is focused on ensuring that our AI model, Claude, serves the needs of businesses. To do this, we’ve partnered with a number of other companies. Notably, Claude is the only frontier AI model available on all three leading cloud providers: AWS, Google Cloud, and Microsoft.\n\nWe also work with large management consultancies, professional services firms, specialist AI firms, and similar agencies. These organizations help our enterprise customers identify where Claude can provide the most value to their work, and then help them get started with our AI tools. Our partners act as trusted guides in what can feel like uncharted territory: navigating the deployment requirements, compliance, and change management necessary inside large organizations.\n\nNow, we’re doubling down our commitment to our partners, aiming to make it even easier for these organizations to support enterprises in adopting Claude.\n\n\"Anthropic is the most committed AI company in the world to the partner ecosystem—and we're putting $100 million behind that this year to prove it. The certification, the co-investment, the dedicated team—this infrastructure is built so that any firm, at any scale, can build a Claude practice. Our partners are instrumental in getting enterprises from proof of concept to production with Claude, and we're making sure they have everything they need to do it.\"—Steve Corfield, Head of Global Business Development and Partnerships, Anthropic.\n\n## Introducing the Claude Partner Network\n\nThe Claude Partner Network provides training, technical support, and joint market development for our partners helping enterprises adopt Claude. We’re committing an initial $100 million to this network for 2026, and expect to invest even more over time.\n\nA significant proportion of our $100 million investment will go directly to our partners as direct support for training and sales enablement, and for market development (including work to make customer deployments successful) and co-marketing for joint campaigns and events. We’re also scaling our partner-facing team fivefold, so that we can provide dedicated Applied AI engineers to partners working on live customer deals, technical architects to scope more complex implementations, and localized go-to-market support in international markets.\n\nThose who join the network will have access to our Partner Portal, where we’ll share our Anthropic Academy training materials, the sales playbooks used by our own go-to-market team, and other co-marketing documentation. Qualified partners will also be added to our Services Partner Directory, where enterprise buyers",
-    "url": "https://www.anthropic.com/news/claude-partner-network",
-    "category": "Claude",
-    "difficulty": "中級",
-    "source": "Anthropic Blog",
-    "date": "2026-03-26",
-    "readTime": "3 分鐘閱讀",
     "views": 0
   }
 ]
