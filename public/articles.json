@@ -43,6 +43,20 @@
   },
   {
     "id": 4,
+    "title_en": "May 4, 2026AnnouncementsBuilding a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
+    "title_cn": "May 4, 2026AnnouncementsBuilding a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
+    "excerpt": "Anthropic, Blackstone, Hellman & Friedman, and Goldman Sachs announced the formation of a new AI services company. The organization will work with mid-sized companies across sectors to bring Claude in",
+    "content": "Anthropic, Blackstone, Hellman & Friedman, and Goldman Sachs announced the formation of a new AI services company. The organization will work with mid-sized companies across sectors to bring Claude into their most important operations. Applied AI engineers from Anthropic will work alongside the firm’s engineering team to identify where Claude can have the most impact, build custom solutions, and support customers over the long term.\n\nAlongside the founding partners, the new company is backed by a consortium of leading alternative asset managers including General Atlantic, Leonard Green, Apollo Global Management, GIC, and Sequoia Capital.\n\nWhy we’re building this\n\nPutting Claude to work in an organization’s core operations takes hands-on engineering and deep familiarity with how each business runs. Systems integrators in theClaude Partner Networklead that work for the world’s largest enterprises today, and we are continuing to invest deeply in those partnerships as Claude reaches more customers. This new firm extends that delivery capacity further. Companies from community banks to mid-sized manufacturers and regional health systems stand to gain from AI, but lack the in-house resources to build and run frontier deployments.\n\n“Enterprise demand for Claude is significantly outpacing any single delivery model. Our partnerships with the world's leading systems integrators are central to how Claude reaches large enterprises,” said Krishna Rao, Chief Financial Officer of Anthropic. “This new firm brings additional operating capability to the ecosystem and capital from leading alternative asset managers. We are proud to build it alongside Blackstone, Hellman & Friedman, Goldman Sachs, and our other partners.”\n\nWhat the work will look like\n\nA typical engagement starts with a small team working closely with the customer to understand where Claude can have the biggest impact. From there, the company's engineers—alongside Anthropic Applied AI staff—will develop Claude-powered systems tailored to each organization’s operations.\n\nConsider a multi-site healthcare services group, like a network of physician practices. Clinicians spend hours each day on documentation, medical coding, prior authorizations, and compliance reviews. An engagement might begin with the company’s engineering team sitting down with clinicians and IT staff to build tools that fit into the workflows that staff already use. The clinicians know where time disappears in a shift and what good patient care actually requires. The company's engineers build around that knowledge, allowing clinicians to devote more time to patient care.\n\nEngagements like this will run across mid-sized companies across industries, each shaped by the people closest to the work.\n\nBuilding the Claude Partner Network\n\nThis company will also become a member of Anthropic’s growing Claude Partner Network.\n\nOur partnerships with Accenture, Deloitte, PwC, and the other consulting and systems integration firms in the Claude ",
+    "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
+    "category": "Claude",
+    "difficulty": "中級",
+    "source": "Anthropic Blog",
+    "date": "2026-05-05",
+    "readTime": "3 分鐘閱讀",
+    "views": 0
+  },
+  {
+    "id": 5,
     "title_en": "Apr 28, 2026AnnouncementsClaude for Creative Work",
     "title_cn": "Apr 28, 2026AnnouncementsClaude for Creative Work",
     "excerpt": "Creative professionals look to technology to expand what's possible in their work. Claude can't replace taste or imagination, but it can open up new ways of working—faster and more ambitious ideation,",
@@ -56,7 +70,7 @@
     "views": 0
   },
   {
-    "id": 5,
+    "id": 6,
     "title_en": "Apr 27, 2026AnnouncementsAnthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office",
     "title_cn": "Apr 27, 2026AnnouncementsAnthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office",
     "excerpt": "Theo Hourmouzis is joining Anthropic as General Manager of Australia and New Zealand, marking the next step in our investment in the region. Hourmouzis will meet with customers and partners this week ",
@@ -70,7 +84,7 @@
     "views": 0
   },
   {
-    "id": 6,
+    "id": 7,
     "title_en": "Apr 24, 2026AnnouncementsAn update on our election safeguards",
     "title_cn": "Apr 24, 2026AnnouncementsAn update on our election safeguards",
     "excerpt": "People around the world turn to Claude for information about political parties, candidates, and the issues at stake during election time—as well as to answer simpler questions like when, where, and ho",
@@ -84,7 +98,7 @@
     "views": 0
   },
   {
-    "id": 7,
+    "id": 8,
     "title_en": "Apr 24, 2026AnnouncementsAnthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
     "title_cn": "Apr 24, 2026AnnouncementsAnthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
     "excerpt": "NEC Corporationwill use Claude as it builds one of Japan’s largest AI-native engineering organizations, making it available to approximately 30,000 NEC Group employees worldwide.",
@@ -98,7 +112,7 @@
     "views": 0
   },
   {
-    "id": 8,
+    "id": 9,
     "title_en": "Apr 20, 2026AnnouncementsAnthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
     "title_cn": "Apr 20, 2026AnnouncementsAnthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
     "excerpt": "We have signed a new agreement with Amazon that will deepen our existing partnership and secure up to 5 gigawatts (GW) of capacity for training and deploying Claude, including new Trainium2 capacity c",
@@ -112,7 +126,7 @@
     "views": 0
   },
   {
-    "id": 9,
+    "id": 10,
     "title_en": "Apr 14, 2026AnnouncementsAnthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
     "title_cn": "Apr 14, 2026AnnouncementsAnthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
     "excerpt": "Vas Narasimhan has been appointed to Anthropic's Board of Directors by the Anthropic Long-Term Benefit Trust. He is a physician-scientist and the Chief Executive Officer of Novartis—one of the world's",
@@ -126,7 +140,7 @@
     "views": 0
   },
   {
-    "id": 10,
+    "id": 11,
     "title_en": "Apr 6, 2026AnnouncementsAnthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute",
     "title_cn": "Apr 6, 2026AnnouncementsAnthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute",
     "excerpt": "We have signed a new agreement with Google and Broadcom for multiple gigawatts of next-generation TPU capacity that we expect to come online starting in 2027. This significant expansion of our compute",
@@ -137,20 +151,6 @@
     "source": "Anthropic Blog",
     "date": "2026-04-07",
     "readTime": "3 分鐘閱讀",
-    "views": 0
-  },
-  {
-    "id": 11,
-    "title_en": "Mar 31, 2026AnnouncementsAustralian government and Anthropic sign MOU for AI safety and research",
-    "title_cn": "Mar 31, 2026AnnouncementsAustralian government and Anthropic sign MOU for AI safety and research",
-    "excerpt": "Today, Anthropic signed a Memorandum of Understanding with the Australian government to cooperate on AI safety research and support the goals of Australia’s National AI Plan. Our CEO, Dario Amodei, me",
-    "content": "Today, Anthropic signed a Memorandum of Understanding with the Australian government to cooperate on AI safety research and support the goals of Australia’s National AI Plan. Our CEO, Dario Amodei, met with Prime Minister Anthony Albanese to formalize the agreement during a visit to Canberra, Australia. We also announced AUD$3 million in partnerships with leading Australian research institutions to use Claude to improve disease diagnosis and treatment and support computer science education and research.\n\nCentral to the MOU is a commitment to work with Australia’s AI Safety Institute. We will share our findings on emerging model capabilities and risks, participate in joint safety and security evaluations, and collaborate on research with Australian academic institutions. This mirrors the arrangements we have with safety institutes in the US, UK, and Japan, where early access and technical information sharing has helped governments build an independent view of where frontier AI is heading, and AI developers increase the safety of their models. Under the MOU, we will shareAnthropic Economic Index datawith the Australian government to help track how AI is being adopted across the economy, its economic impacts, and the implications for workers. We’ll initially focus on sectors critical to Australia’s economy, including natural resources, agriculture, healthcare, and financial services. As part of this, we plan to develop ways to advance AI education and training within the workforce. Our recentEconomic Indexdata shows thatAustralians already use Claudefor a broader range of tasks than most countries—the most diverse among English-speaking nations—and work collaboratively with AI using sophisticated prompts to accomplish high-skill tasks ranging from management and sales and business operations, to use in the life sciences and in everyday life. Finally, in line with Australia’s National AI plan, we are exploring investments in data center infrastructure and energy throughout the country, aligned with the government’s recently announceddata center expectations.\n\n“Australia’s investment in AI safety makes it a natural partner for responsible AI development. This MOU gives our collaboration a formal foundation,” said Anthropic CEO Dario Amodei. “ I'm particularly excited by the work Australian research institutions will be doing with Claude to advance disease diagnosis and treatment.\"\n\n## Extending AI for Science to Australia’s research and innovation sector\n\nAt Anthropic, we believe that AI has the potential to significantly accelerate scientific progress. To this end, we are extending ourAI for Scienceprogram to Australia, starting with an investment of AUD$3 million in Claude API credits to four institutions applying AI to some of humanity’s most pressing challenges. New partnerships with the Australian National University, Murdoch Children’s Research Institute, the Garvan Institute of Medical Research, and Curtin University will support areas like cli",
-    "url": "https://www.anthropic.com/news/australia-MOU",
-    "category": "Claude",
-    "difficulty": "中級",
-    "source": "Anthropic Blog",
-    "date": "2026-04-01",
-    "readTime": "4 分鐘閱讀",
     "views": 0
   }
 ]
