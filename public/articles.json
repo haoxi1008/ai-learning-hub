@@ -43,6 +43,20 @@
   },
   {
     "id": 4,
+    "title_en": "May 5, 2026AnnouncementsAgents for financial services",
+    "title_cn": "May 5, 2026AnnouncementsAgents for financial services",
+    "excerpt": "We’re releasing ten ready-to-run agent templates for the most time-consuming work in financial services: building pitchbooks, screening KYC files, and closing the books at month-end. Each one ships as",
+    "content": "We’re releasing ten ready-to-run agent templates for the most time-consuming work in financial services: building pitchbooks, screening KYC files, and closing the books at month-end. Each one ships as apluginin Claude Cowork and Claude Code, and as a cookbook forClaude Managed Agents, so a team can put Claude on real financial work in days rather than months.\n\nClaude also now works across Microsoft Excel, PowerPoint, Word, and Outlook (coming soon) through the Claude add-ins for Microsoft 365. Once the add-ins are installed, context carries automatically between applications, so work that starts in a model can end in a deck without re-explaining anything in between.\n\nFinally, we’re continuing to expand our partner ecosystem with new connectors and an MCP app, so the agents draw on the data financial professionals already use. Connectors give Claude governed, real-time access to a provider’s data, and MCP apps go a step further by embedding the provider’s own tools directly inside Claude.\n\nThese updates pair best with Claude Opus 4.7, which is state-of-the-art on financial tasks and leads the industry onVals AI's Finance Agent benchmark, at 64.37%.\n\n## New agent templates for finance work\n\nEach agent template is a reference architecture that packages three things: skills (instructions and domain knowledge for the task), connectors (governed access to the data the task runs on), and subagents (additional Claude models that are called upon by the main agent, for specific sub-tasks such as comparables selection or methodology checks). Firms can adapt any of them to their own modeling conventions, risk policies, and approval flows.\n\nEnable these new agent templates either as plugins within Claude Cowork or Claude Code, or as cookbooks for Claude Managed Agents. Find all the plugins and cookbooks at thefinancial services marketplace.\n\nThe full list of new agents is as follows:\n\nResearch and client coverage\n\nPitch buildercreates target lists, runs comparables, and drafts pitchbooks for client meetings;\n\nMeeting preparerassembles client and counterparty briefs ahead of calls;\n\nEarnings reviewerreads transcripts and filings, updates models, and flags thesis-relevant changes;\n\nModel buildercreates and maintains financial models from filings, data feeds, and analyst inputs;\n\nMarket researchertracks sector and issuer developments, synthesizes news, filings, and broker research, and flags items for credit and risk review.\n\nFinance and operations\n\nValuation reviewerchecks valuations against comparables, methodology, and the firm's review standards;\n\nGeneral ledger reconcilerreconciles general ledger accounts and runs net asset value calculations against the books of record;\n\nMonth-end closerruns the close checklist, prepares journal entries, and produces close reports;\n\nStatement auditorreviews financial statements for consistency, completeness, and audit-readiness;\n\nKYC screenerassembles entity files, reviews source documents, and packages escalations for com",
+    "url": "https://www.anthropic.com/news/finance-agents",
+    "category": "Claude",
+    "difficulty": "中級",
+    "source": "Anthropic Blog",
+    "date": "2026-05-06",
+    "readTime": "6 分鐘閱讀",
+    "views": 0
+  },
+  {
+    "id": 5,
     "title_en": "May 4, 2026AnnouncementsBuilding a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
     "title_cn": "May 4, 2026AnnouncementsBuilding a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
     "excerpt": "Anthropic, Blackstone, Hellman & Friedman, and Goldman Sachs announced the formation of a new AI services company. The organization will work with mid-sized companies across sectors to bring Claude in",
@@ -56,7 +70,7 @@
     "views": 0
   },
   {
-    "id": 5,
+    "id": 6,
     "title_en": "Apr 28, 2026AnnouncementsClaude for Creative Work",
     "title_cn": "Apr 28, 2026AnnouncementsClaude for Creative Work",
     "excerpt": "Creative professionals look to technology to expand what's possible in their work. Claude can't replace taste or imagination, but it can open up new ways of working—faster and more ambitious ideation,",
@@ -70,7 +84,7 @@
     "views": 0
   },
   {
-    "id": 6,
+    "id": 7,
     "title_en": "Apr 27, 2026AnnouncementsAnthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office",
     "title_cn": "Apr 27, 2026AnnouncementsAnthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office",
     "excerpt": "Theo Hourmouzis is joining Anthropic as General Manager of Australia and New Zealand, marking the next step in our investment in the region. Hourmouzis will meet with customers and partners this week ",
@@ -84,7 +98,7 @@
     "views": 0
   },
   {
-    "id": 7,
+    "id": 8,
     "title_en": "Apr 24, 2026AnnouncementsAn update on our election safeguards",
     "title_cn": "Apr 24, 2026AnnouncementsAn update on our election safeguards",
     "excerpt": "People around the world turn to Claude for information about political parties, candidates, and the issues at stake during election time—as well as to answer simpler questions like when, where, and ho",
@@ -98,7 +112,7 @@
     "views": 0
   },
   {
-    "id": 8,
+    "id": 9,
     "title_en": "Apr 24, 2026AnnouncementsAnthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
     "title_cn": "Apr 24, 2026AnnouncementsAnthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
     "excerpt": "NEC Corporationwill use Claude as it builds one of Japan’s largest AI-native engineering organizations, making it available to approximately 30,000 NEC Group employees worldwide.",
@@ -112,7 +126,7 @@
     "views": 0
   },
   {
-    "id": 9,
+    "id": 10,
     "title_en": "Apr 20, 2026AnnouncementsAnthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
     "title_cn": "Apr 20, 2026AnnouncementsAnthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
     "excerpt": "We have signed a new agreement with Amazon that will deepen our existing partnership and secure up to 5 gigawatts (GW) of capacity for training and deploying Claude, including new Trainium2 capacity c",
@@ -126,7 +140,7 @@
     "views": 0
   },
   {
-    "id": 10,
+    "id": 11,
     "title_en": "Apr 14, 2026AnnouncementsAnthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
     "title_cn": "Apr 14, 2026AnnouncementsAnthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
     "excerpt": "Vas Narasimhan has been appointed to Anthropic's Board of Directors by the Anthropic Long-Term Benefit Trust. He is a physician-scientist and the Chief Executive Officer of Novartis—one of the world's",
@@ -136,20 +150,6 @@
     "difficulty": "中級",
     "source": "Anthropic Blog",
     "date": "2026-04-15",
-    "readTime": "3 分鐘閱讀",
-    "views": 0
-  },
-  {
-    "id": 11,
-    "title_en": "Apr 6, 2026AnnouncementsAnthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute",
-    "title_cn": "Apr 6, 2026AnnouncementsAnthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute",
-    "excerpt": "We have signed a new agreement with Google and Broadcom for multiple gigawatts of next-generation TPU capacity that we expect to come online starting in 2027. This significant expansion of our compute",
-    "content": "We have signed a new agreement with Google and Broadcom for multiple gigawatts of next-generation TPU capacity that we expect to come online starting in 2027. This significant expansion of our compute infrastructure will power our frontier Claude models and help us serve extraordinary demand from customers worldwide.\n\n“This groundbreaking partnership with Google and Broadcom is a continuation of our disciplined approach to scaling infrastructure: we are building the capacity necessary to serve the exponential growth we have seen in our customer base while also enabling Claude to define the frontier of AI development,” said Krishna Rao, CFO of Anthropic. “We are making our most significant compute commitment to date to keep pace with our unprecedented growth.”\n\nDemand from Claude customers has accelerated in 2026. Our run-rate revenue has now surpassed $30 billion—up from approximately $9 billion at the end of 2025. When we announced ourSeries G fundraisingin February, we shared that over 500 business customers were each spending over $1 million on an annualized basis. Today that number exceeds 1,000, doubling in less than two months.\n\nThe vast majority of the new compute will be sited in the United States, making this partnership a major expansion of our November 2025 commitment toinvest $50 billionin strengthening American computing infrastructure.\n\nThe partnership deepens our existing work with Google Cloud—building on the increasedTPU capacitywe announced last October—as well as our relationship with Broadcom.\n\nWe train and run Claude on a range of AI hardware—AWS Trainium, Google TPUs, and NVIDIA GPUs—which means we can match workloads to the chips best suited for them. This diversity of platforms translates to better performance and greater resilience for customers who depend on Claude for critical work. Amazon remains our primary cloud provider and training partner, and we continue to work closely with AWS on Project Rainier. Claude remains the only frontier AI model available to customers on all three of the world's largest cloud platforms: Amazon Web Services (Bedrock), Google Cloud (Vertex AI), and Microsoft Azure (Foundry).\n\n## Australian government and Anthropic sign MOU for AI safety and research\n\n## Anthropic invests $100 million into the Claude Partner Network\n\nWe’re launching the Claude Partner Network, a program for partner organizations helping enterprises adopt Claude.\n\n## Introducing The Anthropic Institute\n\nWe’re launching The Anthropic Institute, a new effort to confront the most significant challenges that powerful AI will pose to our societies.",
-    "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
-    "category": "Claude",
-    "difficulty": "中級",
-    "source": "Anthropic Blog",
-    "date": "2026-04-07",
     "readTime": "3 分鐘閱讀",
     "views": 0
   }
