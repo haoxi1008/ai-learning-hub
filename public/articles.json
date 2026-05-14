@@ -43,6 +43,20 @@
   },
   {
     "id": 4,
+    "title_en": "May 13, 2026AnnouncementsIntroducing Claude for Small Business",
+    "title_cn": "May 13, 2026AnnouncementsIntroducing Claude for Small Business",
+    "excerpt": "We're launchingClaude for Small Business—a package of connectors and ready-to-run workflows that put Claude inside the tools small businesses depend on—to help small business owners take full advantag",
+    "content": "We're launchingClaude for Small Business—a package of connectors and ready-to-run workflows that put Claude inside the tools small businesses depend on—to help small business owners take full advantage of AI and cross off items on the to-do list.\n\nSmall businesses account for 44% of U.S. GDP and employ nearly half the private-sector workforce, but their adoption of AI has lagged behind larger enterprises. Tools and training are rarely tailored to the ways small businesses operate, and as a result their use often stops at the chat window. As part of our public benefit mission, we are committed to helping business owners harness AI more fully and effectively for their most important work.\n\nClaude for Small Business is a toggle install that puts Claude to work inside the tools small business owners already use: Intuit Quickbooks, PayPal, HubSpot, Canva, Docusign, Google Workspace, and Microsoft 365. From these tools, it can plan payroll, close the month, run a sales campaign, chase invoices, and more.\n\n“Small businesses make up nearly half the American economy, but they've never had the resources of bigger companies. AI is the first technology that can finally close that gap, which is why we're launching Claude for Small Business, alongside training and partnerships to make sure AI shows up for the entrepreneurs and communities who need it most. Claude for Small Business runs inside the tools owners already rely on, like QuickBooks, PayPal, and HubSpot, and takes on the work that piles up after hours, like planning payroll, chasing invoices, or kicking off a marketing project. People run the business, and Claude helps take the late-night work off their plates.”\n\n—Daniela Amodei, Co-founder and President of Anthropic\n\nToggle on Claude for Small Business inside Claude Cowork, connect the tools you already use, and pick the job. Claude does the work; you approve before anything sends, posts, or pays.\n\nIt ships with15 ready-to-runagentic workflowsacross finance, operations, sales, marketing, HR, and customer service. It also includes15 skills built on the repeatable tasksowners told us slow them down most.\n\nPlanning payroll with confidence.Settle your QuickBooks cash position against incoming PayPal settlements, build a 30-day forecast, rank what's overdue, and queue the reminders for you to approve and send.\n\nClosing the month with fewer errors.Reconcile your books against settlements, flag what doesn't match, write a plain-English P&L, and export a close packet you can forward straight to your accountant through Intuit QuickBooks.\n\nGetting a pulse on your business.Surface your most important business insights on a schedule, all on one page: view your cash position through Intuit QuickBooks, sales trend, pipeline movement, this week's commitments, and more.\n\nRunning your next campaign.Find the slow stretch in your revenue, analyze your HubSpot campaign performance, draft the promo strategy, and generate the assets in Canva to prepare your next send.\n\nT",
+    "url": "https://www.anthropic.com/news/claude-for-small-business",
+    "category": "Claude",
+    "difficulty": "中級",
+    "source": "Anthropic Blog",
+    "date": "2026-05-14",
+    "readTime": "6 分鐘閱讀",
+    "views": 0
+  },
+  {
+    "id": 5,
     "title_en": "May 6, 2026AnnouncementsHigher usage limits for Claude and a compute deal with SpaceX",
     "title_cn": "May 6, 2026AnnouncementsHigher usage limits for Claude and a compute deal with SpaceX",
     "excerpt": "We’ve agreed to a partnership with SpaceX that will substantially increase our compute capacity. This, along with our other recent compute deals, means that we’ve been able to increase our usage limit",
@@ -56,7 +70,7 @@
     "views": 0
   },
   {
-    "id": 5,
+    "id": 6,
     "title_en": "May 5, 2026AnnouncementsAgents for financial services",
     "title_cn": "May 5, 2026AnnouncementsAgents for financial services",
     "excerpt": "We’re releasing ten ready-to-run agent templates for the most time-consuming work in financial services: building pitchbooks, screening KYC files, and closing the books at month-end. Each one ships as",
@@ -70,7 +84,7 @@
     "views": 0
   },
   {
-    "id": 6,
+    "id": 7,
     "title_en": "May 4, 2026AnnouncementsBuilding a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
     "title_cn": "May 4, 2026AnnouncementsBuilding a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
     "excerpt": "Anthropic, Blackstone, Hellman & Friedman, and Goldman Sachs announced the formation of a new AI services company. The organization will work with mid-sized companies across sectors to bring Claude in",
@@ -84,7 +98,7 @@
     "views": 0
   },
   {
-    "id": 7,
+    "id": 8,
     "title_en": "Apr 28, 2026AnnouncementsClaude for Creative Work",
     "title_cn": "Apr 28, 2026AnnouncementsClaude for Creative Work",
     "excerpt": "Creative professionals look to technology to expand what's possible in their work. Claude can't replace taste or imagination, but it can open up new ways of working—faster and more ambitious ideation,",
@@ -98,7 +112,7 @@
     "views": 0
   },
   {
-    "id": 8,
+    "id": 9,
     "title_en": "Apr 27, 2026AnnouncementsAnthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office",
     "title_cn": "Apr 27, 2026AnnouncementsAnthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office",
     "excerpt": "Theo Hourmouzis is joining Anthropic as General Manager of Australia and New Zealand, marking the next step in our investment in the region. Hourmouzis will meet with customers and partners this week ",
@@ -112,7 +126,7 @@
     "views": 0
   },
   {
-    "id": 9,
+    "id": 10,
     "title_en": "Apr 24, 2026AnnouncementsAn update on our election safeguards",
     "title_cn": "Apr 24, 2026AnnouncementsAn update on our election safeguards",
     "excerpt": "People around the world turn to Claude for information about political parties, candidates, and the issues at stake during election time—as well as to answer simpler questions like when, where, and ho",
@@ -126,7 +140,7 @@
     "views": 0
   },
   {
-    "id": 10,
+    "id": 11,
     "title_en": "Apr 24, 2026AnnouncementsAnthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
     "title_cn": "Apr 24, 2026AnnouncementsAnthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
     "excerpt": "NEC Corporationwill use Claude as it builds one of Japan’s largest AI-native engineering organizations, making it available to approximately 30,000 NEC Group employees worldwide.",
@@ -140,7 +154,7 @@
     "views": 0
   },
   {
-    "id": 11,
+    "id": 12,
     "title_en": "Apr 20, 2026AnnouncementsAnthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
     "title_cn": "Apr 20, 2026AnnouncementsAnthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
     "excerpt": "We have signed a new agreement with Amazon that will deepen our existing partnership and secure up to 5 gigawatts (GW) of capacity for training and deploying Claude, including new Trainium2 capacity c",
