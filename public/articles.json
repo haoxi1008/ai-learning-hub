@@ -43,6 +43,20 @@
   },
   {
     "id": 4,
+    "title_en": "May 18, 2026AnnouncementsAnthropic acquires Stainless",
+    "title_cn": "May 18, 2026AnnouncementsAnthropic acquires Stainless",
+    "excerpt": "The frontier of AI is shifting from models that answer to agents that act—and agents are only as capable as the systems they can reach. Today, Anthropic is acquiring Stainless, a leader in SDKs and MC",
+    "content": "The frontier of AI is shifting from models that answer to agents that act—and agents are only as capable as the systems they can reach. Today, Anthropic is acquiring Stainless, a leader in SDKs and MCP server tooling, to extend that reach even further.\n\nFounded in 2022, Stainless has powered the generation of every official Anthropic SDK since the earliest days of our API. Hundreds of companies rely on Stainless to generate SDKs, CLIs, and MCP servers—the libraries, command-line tools, and connectors that let developers and agents use an API. Stainless turns an API spec into SDKs across TypeScript, Python, Go, Java, Kotlin, and more. Each one is fast, reliable, and built to feel native in its language.\n\n“Stainless has shaped how developers experience the Claude API since the start, and it’s been great to work with them on that,” said Katelyn Lesse, Head of Platform Engineering at Anthropic. “Agents are only as useful as what they can connect to. We’re excited to bring the Stainless team into Anthropic to advance Claude’s ability to connect to data and tools.”\n\n“I started Stainless because SDKs deserve as much care as the APIs they wrap. Anthropic was one of the first teams to bet on this with us,” said Alex Rattray, Founder and CEO of Stainless. “We have been watching what developers have built on Claude over the last few years, which made bringing our teams together an easy decision. The team gets to keep doing the work we love, on the platform where it matters most.”\n\nAnthropic created MCP to make agent connectivity possible. By bringing together the Stainless and Anthropic teams, the Claude Platform continues to push the frontier of developer experience and agent connectivity.\n\n## PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients\n\nPwC will roll out Claude Code and Cowork starting with U.S. teams and expanding toward a global workforce of hundreds of thousands of professionals, establish a joint Center of Excellence, and train and certify 30,000 PwC professionals on Claude.\n\n## Anthropic forms $200 million partnership with the Gates Foundation\n\n## Introducing Claude for Small Business\n\nWe're launching Claude for Small Business, a package of connectors and ready-to-run workflows that put Claude inside the tools small businesses use every day.",
+    "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+    "category": "Claude",
+    "difficulty": "中級",
+    "source": "Anthropic Blog",
+    "date": "2026-05-19",
+    "readTime": "3 分鐘閱讀",
+    "views": 0
+  },
+  {
+    "id": 5,
     "title_en": "AnnouncementsPwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients",
     "title_cn": "AnnouncementsPwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients",
     "excerpt": "Anthropic and PwC today announced an expansion of their strategic alliance, deepening how PwC uses Claude to build technology, execute deals, and reinvent enterprise functions for clients across every",
@@ -56,7 +70,7 @@
     "views": 0
   },
   {
-    "id": 5,
+    "id": 6,
     "title_en": "May 14, 2026AnnouncementsAnthropic forms $200 million partnership with the Gates Foundation",
     "title_cn": "May 14, 2026AnnouncementsAnthropic forms $200 million partnership with the Gates Foundation",
     "excerpt": "We’re partnering with theGates Foundationto commit $200 million in grant funding, Claude usage credits, and technical support for programs in global health, life sciences, education, and economic mobi",
@@ -70,7 +84,7 @@
     "views": 0
   },
   {
-    "id": 6,
+    "id": 7,
     "title_en": "May 13, 2026AnnouncementsIntroducing Claude for Small Business",
     "title_cn": "May 13, 2026AnnouncementsIntroducing Claude for Small Business",
     "excerpt": "We're launchingClaude for Small Business—a package of connectors and ready-to-run workflows that put Claude inside the tools small businesses depend on—to help small business owners take full advantag",
@@ -84,7 +98,7 @@
     "views": 0
   },
   {
-    "id": 7,
+    "id": 8,
     "title_en": "May 6, 2026AnnouncementsHigher usage limits for Claude and a compute deal with SpaceX",
     "title_cn": "May 6, 2026AnnouncementsHigher usage limits for Claude and a compute deal with SpaceX",
     "excerpt": "We’ve agreed to a partnership with SpaceX that will substantially increase our compute capacity. This, along with our other recent compute deals, means that we’ve been able to increase our usage limit",
@@ -98,7 +112,7 @@
     "views": 0
   },
   {
-    "id": 8,
+    "id": 9,
     "title_en": "May 5, 2026AnnouncementsAgents for financial services",
     "title_cn": "May 5, 2026AnnouncementsAgents for financial services",
     "excerpt": "We’re releasing ten ready-to-run agent templates for the most time-consuming work in financial services: building pitchbooks, screening KYC files, and closing the books at month-end. Each one ships as",
@@ -112,7 +126,7 @@
     "views": 0
   },
   {
-    "id": 9,
+    "id": 10,
     "title_en": "May 4, 2026AnnouncementsBuilding a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
     "title_cn": "May 4, 2026AnnouncementsBuilding a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
     "excerpt": "Anthropic, Blackstone, Hellman & Friedman, and Goldman Sachs announced the formation of a new AI services company. The organization will work with mid-sized companies across sectors to bring Claude in",
@@ -126,7 +140,7 @@
     "views": 0
   },
   {
-    "id": 10,
+    "id": 11,
     "title_en": "Apr 28, 2026AnnouncementsClaude for Creative Work",
     "title_cn": "Apr 28, 2026AnnouncementsClaude for Creative Work",
     "excerpt": "Creative professionals look to technology to expand what's possible in their work. Claude can't replace taste or imagination, but it can open up new ways of working—faster and more ambitious ideation,",
@@ -140,7 +154,7 @@
     "views": 0
   },
   {
-    "id": 11,
+    "id": 12,
     "title_en": "Apr 27, 2026AnnouncementsAnthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office",
     "title_cn": "Apr 27, 2026AnnouncementsAnthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office",
     "excerpt": "Theo Hourmouzis is joining Anthropic as General Manager of Australia and New Zealand, marking the next step in our investment in the region. Hourmouzis will meet with customers and partners this week ",
@@ -154,7 +168,7 @@
     "views": 0
   },
   {
-    "id": 12,
+    "id": 13,
     "title_en": "Apr 24, 2026AnnouncementsAn update on our election safeguards",
     "title_cn": "Apr 24, 2026AnnouncementsAn update on our election safeguards",
     "excerpt": "People around the world turn to Claude for information about political parties, candidates, and the issues at stake during election time—as well as to answer simpler questions like when, where, and ho",
@@ -165,20 +179,6 @@
     "source": "Anthropic Blog",
     "date": "2026-04-25",
     "readTime": "5 分鐘閱讀",
-    "views": 0
-  },
-  {
-    "id": 13,
-    "title_en": "Apr 24, 2026AnnouncementsAnthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
-    "title_cn": "Apr 24, 2026AnnouncementsAnthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
-    "excerpt": "NEC Corporationwill use Claude as it builds one of Japan’s largest AI-native engineering organizations, making it available to approximately 30,000 NEC Group employees worldwide.",
-    "content": "NEC Corporationwill use Claude as it builds one of Japan’s largest AI-native engineering organizations, making it available to approximately 30,000 NEC Group employees worldwide.\n\nAs part of this strategic collaboration, NEC will become Anthropic’s first Japan-based global partner. Together, we will develop secure, industry-specific AI products for the Japanese market, starting with tools for finance, manufacturing, and local government.\n\n“This long-term partnership with Anthropic enables NEC to maximize the potential of AI in the Japanese market,” said Toshifumi Yoshizaki, Executive Officer and COO of NEC Corporation. “Together, we aim to create solutions that meet the high safety, reliability, and quality standards demanded by companies and public administration in Japan.”\n\n## Claude for NEC’s customers\n\nNEC and Anthropic will jointly develop secure, domain-specific AI products for Japanese customers in sectors like finance, manufacturing, and cybersecurity.\n\nIn addition, NEC is already integrating Claude into its Security Operations Center services to help defend customers against increasingly sophisticated cybersecurity threats. Claude will also be integrated into the next-generation cybersecurity service NEC is currently providing.\n\nClaude, including Claude Opus 4.7, andClaude Codewill be incorporated intoNEC BluStellar Scenario, a program that provides consulting, AI tools, security, and digital infrastructure to businesses, starting with its offerings for data-driven management and customer experience, and gradually expanding to others.\n\n## How NEC will use Claude internally\n\nInternally, NEC will establish a Center of Excellence to develop a highly skilled, AI-enabled engineering organization, supported by technical enablement and training from Anthropic. NEC aims to build one of Japan’s largest AI-native engineering teams, who will use Claude Code in their work.\n\nAs part of its long-running Client Zero initiative, in which NEC serves as its own first customer before offering its technology to clients, NEC will also expand its use ofClaude Coworkacross its internal business operations.\n\nClaude is now being deployed to NEC Group employees around the world, and our joint development of industry-specific AI solutions is underway. Learn more about NEC’s value-creation model atNEC BluStellar.\n\nClaude, Claude Code, and Claude Cowork are Anthropic products. NEC BluStellar is an offering from NEC Corporation.\n\n## An update on our election safeguards\n\nWe explain what we’re doing to ensure Claude plays a positive role in the US midterms and other major elections around the world this year.\n\n## Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute\n\n## Introducing Claude Design by Anthropic Labs\n\nToday, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more.",
-    "url": "https://www.anthropic.com/news/anthropic-nec",
-    "category": "Claude",
-    "difficulty": "中級",
-    "source": "Anthropic Blog",
-    "date": "2026-04-25",
-    "readTime": "3 分鐘閱讀",
     "views": 0
   }
 ]
