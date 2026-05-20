@@ -43,6 +43,34 @@
   },
   {
     "id": 4,
+    "title_en": "May 19, 2026AnnouncementsWidening the conversation on frontier AI",
+    "title_cn": "May 19, 2026AnnouncementsWidening the conversation on frontier AI",
+    "excerpt": "At Anthropic, we want to build AI systems that advance humanity and act for the global good. To do so, we need to engage with those who see the world from a variety of different perspectives.",
+    "content": "At Anthropic, we want to build AI systems that advance humanity and act for the global good. To do so, we need to engage with those who see the world from a variety of different perspectives.\n\nOver the past several months, we’ve been organizing dialogues with groups whose work and traditions bear on the questions raised by AI. Our first round of discussions has been with wisdom traditions—including scholars, clergy, philosophers, and ethicists from more than 15 religious and cross-cultural groups—and we look forward to engaging with a broader range of people going forward.\n\n## Why we’re doing this\n\nBuilding safe, beneficial AI models requires deep technical work on alignment, interpretability, safeguards, evaluations, and more. But that work isn’t conducted—nor is AI deployed—in a vacuum. AI is already affecting many people and the questions it raises benefit from a range of perspectives.\n\nWe are thinking carefully about what a flourishing future could look like in a world of powerful AI, what it means for an AI system that interacts with millions of people to be good, and about the content of documents likeClaude's constitution, which provides a detailed description of the values and behaviors that shape Claude. Philosophers, clergy, lawyers, writers, psychologists, and civic leaders have done extensive work on related questions and it is important for us to learn from these individuals, their communities and their organizations. We also want to use this opportunity to share what we know about the development of frontier AI systems, the impacts we think these systems will have on society, and what we think needs to be done to mitigate against their risks.\n\nThis work is in its early phases, but we hope these conversations might inform the practical work of developing Claude, such as the content of Claude's constitution, the values we train Claude to embody, and the range of behaviors we choose to evaluate.\n\n## Starting with moral formation\n\nWhen we wrote Claude’s constitution, we sought feedback and input on the values we laid out in the document from people from different fields and traditions. Those early exchanges have since grown into a broader research workstream on themoral formationof AI systems. Our first conversations have been with people from religious, philosophical, and cultural communities that have a long tradition of thinking about virtue, character, and what it means to live a good life.\n\nAI models are trained on vast amounts of human writing. From all that text, they pick up on ways of speaking, reasoning, and making choices. Developers then shape that further through training—choosing which patterns to reinforce, which to set aside, andwhat kind of character we want them to develop. This raises questions about how the character of an AI system should be shaped: What does it mean for an AI to be good? Which traits and behaviors should it display, and under what circumstances? How does character become resilient enough to hold un",
+    "url": "https://www.anthropic.com/news/widening-conversation-ai",
+    "category": "Claude",
+    "difficulty": "中級",
+    "source": "Anthropic Blog",
+    "date": "2026-05-20",
+    "readTime": "4 分鐘閱讀",
+    "views": 0
+  },
+  {
+    "id": 5,
+    "title_en": "May 19, 2026AnnouncementsKPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance",
+    "title_cn": "May 19, 2026AnnouncementsKPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance",
+    "excerpt": "KPMG—one of the world's largest professional services firms for audit, tax, legal, and advisory services across 138 countries and territories—has announced a global alliance with Anthropic to bring Cl",
+    "content": "KPMG—one of the world's largest professional services firms for audit, tax, legal, and advisory services across 138 countries and territories—has announced a global alliance with Anthropic to bring Claude into the heart of its business.\n\nAs part of this alliance, KPMG is embedding Claude inside Digital Gateway, the software KPMG's people and clients use to do the actual work—starting with new tools for tax and legal clients. And every one of KPMG's 276,000+ employees globally will gain access to Claude.\n\nAnthropic is also naming KPMG a preferred partner for private equity, and the two companies will build new Claude-powered products together for PE portfolio companies.\n\nKPMG helps organizations in various industries work together to transform, innovate, and effectively compete in tomorrow’s fast-changing world. Integrating AI across its core business furthers this mission—and requires trust and diligence.\n\n“At KPMG, we’re innovating and redefining how work gets done,” said Bill Thomas, Global Chairman and CEO, KPMG International. “This global alliance with Anthropic reflects our shared commitment to responsible AI, prioritizing security, trust, and governance as KPMG firms scale these capabilities to our clients and people around the world.”\n\n“KPMG works in industries where accuracy, accountability, and trust aren’t optional, and they're applying the same standard to AI. They’re rolling Claude out to 276,000 people across the business, and using it for client work in tax and private equity. They're also bringing it into cybersecurity, where it helps find and fix vulnerabilities. That's what a firm-wide commitment to AI looks like, and we're proud to be the partner they chose,” said Daniela Amodei, Co-founder and President of Anthropic.\n\n## Claude for 276,000+ KPMG people\n\nBeyond the client-facing platform, every KPMG employee—all 276,000+ of them—will have access to Claude. That builds on two years of adoption inside KPMG in the US, including its AI and Data Labs, and the firm's internal teams.\n\nAs the rollout expands, KPMG and Anthropic will work with shared clients to co-develop new offerings, and modernize business functions by bringing Claude into more of KPMG’s business functions to help their team solve problems that weren't solvable before.\n\nCybersecurity is one of those areas. Across the alliance, KPMG and Anthropic teams will use Claude to find and fix vulnerabilities in critical systems, with the work guided by KPMG's Trusted AI framework.\n\n“Our clients depend on us where accuracy, judgment, and knowledge matter most,” said Tim Walsh, Chair and CEO of KPMG US. “AI is changing how we deliver—trust and innovation are the core of this new offering and we’re proud to partner with Anthropic to deliver incredible value to our clients and our people. It’s one of the most important things we'll do.”\n\n## Claude powers KPMG’s Digital Gateway platform\n\nDigital Gateway is KPMG's main platform for client work—built on Microsoft Azure, it's where KPM",
+    "url": "https://www.anthropic.com/news/anthropic-kpmg",
+    "category": "Claude",
+    "difficulty": "中級",
+    "source": "Anthropic Blog",
+    "date": "2026-05-20",
+    "readTime": "4 分鐘閱讀",
+    "views": 0
+  },
+  {
+    "id": 6,
     "title_en": "May 18, 2026AnnouncementsAnthropic acquires Stainless",
     "title_cn": "May 18, 2026AnnouncementsAnthropic acquires Stainless",
     "excerpt": "The frontier of AI is shifting from models that answer to agents that act—and agents are only as capable as the systems they can reach. Today, Anthropic is acquiring Stainless, a leader in SDKs and MC",
@@ -56,7 +84,7 @@
     "views": 0
   },
   {
-    "id": 5,
+    "id": 7,
     "title_en": "AnnouncementsPwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients",
     "title_cn": "AnnouncementsPwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients",
     "excerpt": "Anthropic and PwC today announced an expansion of their strategic alliance, deepening how PwC uses Claude to build technology, execute deals, and reinvent enterprise functions for clients across every",
@@ -70,7 +98,7 @@
     "views": 0
   },
   {
-    "id": 6,
+    "id": 8,
     "title_en": "May 14, 2026AnnouncementsAnthropic forms $200 million partnership with the Gates Foundation",
     "title_cn": "May 14, 2026AnnouncementsAnthropic forms $200 million partnership with the Gates Foundation",
     "excerpt": "We’re partnering with theGates Foundationto commit $200 million in grant funding, Claude usage credits, and technical support for programs in global health, life sciences, education, and economic mobi",
@@ -84,7 +112,7 @@
     "views": 0
   },
   {
-    "id": 7,
+    "id": 9,
     "title_en": "May 13, 2026AnnouncementsIntroducing Claude for Small Business",
     "title_cn": "May 13, 2026AnnouncementsIntroducing Claude for Small Business",
     "excerpt": "We're launchingClaude for Small Business—a package of connectors and ready-to-run workflows that put Claude inside the tools small businesses depend on—to help small business owners take full advantag",
@@ -98,7 +126,7 @@
     "views": 0
   },
   {
-    "id": 8,
+    "id": 10,
     "title_en": "May 6, 2026AnnouncementsHigher usage limits for Claude and a compute deal with SpaceX",
     "title_cn": "May 6, 2026AnnouncementsHigher usage limits for Claude and a compute deal with SpaceX",
     "excerpt": "We’ve agreed to a partnership with SpaceX that will substantially increase our compute capacity. This, along with our other recent compute deals, means that we’ve been able to increase our usage limit",
@@ -112,7 +140,7 @@
     "views": 0
   },
   {
-    "id": 9,
+    "id": 11,
     "title_en": "May 5, 2026AnnouncementsAgents for financial services",
     "title_cn": "May 5, 2026AnnouncementsAgents for financial services",
     "excerpt": "We’re releasing ten ready-to-run agent templates for the most time-consuming work in financial services: building pitchbooks, screening KYC files, and closing the books at month-end. Each one ships as",
@@ -126,7 +154,7 @@
     "views": 0
   },
   {
-    "id": 10,
+    "id": 12,
     "title_en": "May 4, 2026AnnouncementsBuilding a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
     "title_cn": "May 4, 2026AnnouncementsBuilding a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
     "excerpt": "Anthropic, Blackstone, Hellman & Friedman, and Goldman Sachs announced the formation of a new AI services company. The organization will work with mid-sized companies across sectors to bring Claude in",
@@ -140,7 +168,7 @@
     "views": 0
   },
   {
-    "id": 11,
+    "id": 13,
     "title_en": "Apr 28, 2026AnnouncementsClaude for Creative Work",
     "title_cn": "Apr 28, 2026AnnouncementsClaude for Creative Work",
     "excerpt": "Creative professionals look to technology to expand what's possible in their work. Claude can't replace taste or imagination, but it can open up new ways of working—faster and more ambitious ideation,",
@@ -151,34 +179,6 @@
     "source": "Anthropic Blog",
     "date": "2026-04-29",
     "readTime": "4 分鐘閱讀",
-    "views": 0
-  },
-  {
-    "id": 12,
-    "title_en": "Apr 27, 2026AnnouncementsAnthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office",
-    "title_cn": "Apr 27, 2026AnnouncementsAnthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office",
-    "excerpt": "Theo Hourmouzis is joining Anthropic as General Manager of Australia and New Zealand, marking the next step in our investment in the region. Hourmouzis will meet with customers and partners this week ",
-    "content": "Theo Hourmouzis is joining Anthropic as General Manager of Australia and New Zealand, marking the next step in our investment in the region. Hourmouzis will meet with customers and partners this week alongside executives from our global team, as we officially open our Sydney office.\n\nHourmouzis brings more than 20 years of leadership experience in the technology industry across Asia Pacific to the role. He joins us from Snowflake, where he most recently served as Senior Vice President for Australia, New Zealand and ASEAN, helping enterprise and public sector organisations across financial services, retail, aviation and government move AI from experimentation to business impact. At Anthropic, he'll lead our growing local team and shape a strategy built around Australian and New Zealand customers, bringing Claude into their most important work.\n\n\"Organizations across Australia and New Zealand are thinking carefully about how to adopt AI, and they want partners who take safety and rigor as seriously as they take the opportunity,” said Theo Hourmouzis, Anthropic General Manager of Australia and New Zealand.“That's what drew me to Anthropic. I've spent my career working with businesses and governments across this region, and the organizations that do best with AI will be the ones that pair ambition with discipline.”\n\nOur growing team in the region will deepen relationships with enterprises like Commonwealth Bank and Quantium and with AI for Science research partners including Australian National University, Murdoch Children’s Research Institute, Garvan Institute of Medical Research, and Curtin University—while delivering on our commitments in theMOUwe recently signed with the Australian government.\n\n“Theo's appointment reflects the conviction we share with the Australian government that AI can drive economic growth when it’s developed and deployed responsibly,” said Chris Ciauri, Anthropic Managing Director of International. “He’s spent decades helping organisations adopt new technology, and he’ll build the team and partnerships we need to support our customers across Australia and New Zealand for the long term.”\n\nNew local partnerships\n\nWe recently announced deep platform collaborations with Canva and Xero.Canvawill bring the power of Canva Design Engine and Visual Suite into the newly launched Claude Design by Anthropic Labs, and a multi-year partnership will bring Claude's AI directly intoXero—and Xero's financial data and tools into Claude.ai.\n\nWe're also working with YMCA South Australia as aClaude for NonprofitsPartner. YMCA operates across 65+ community locations with around 1,250 staff. Using Claude, YMCA SA has built custom AI skills that turn complex operational data into actionable insights, cut branded content production from hours to minutes, and brought technical work in-house that previously required external contractors.\n\n“The future for us is about Claude becoming embedded infrastructure, a core part of how we run the organisation,” s",
-    "url": "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand",
-    "category": "Claude",
-    "difficulty": "中級",
-    "source": "Anthropic Blog",
-    "date": "2026-04-28",
-    "readTime": "3 分鐘閱讀",
-    "views": 0
-  },
-  {
-    "id": 13,
-    "title_en": "Apr 24, 2026AnnouncementsAn update on our election safeguards",
-    "title_cn": "Apr 24, 2026AnnouncementsAn update on our election safeguards",
-    "excerpt": "People around the world turn to Claude for information about political parties, candidates, and the issues at stake during election time—as well as to answer simpler questions like when, where, and ho",
-    "content": "People around the world turn to Claude for information about political parties, candidates, and the issues at stake during election time—as well as to answer simpler questions like when, where, and how to vote. In our view, if AI models can answer these questions well (that is, accurately and impartially), they can be a positive force for the democratic process.\n\nHere, we explain what we’re doing to help Claude meet the mark ahead of the US midterms and other major elections around the world this year.\n\n## Measuring and preventing political bias\n\nWhen people ask Claude about political topics, they should get comprehensive, accurate, and balanced responses—responses that help them reach their own conclusions, rather than steer them toward a particular viewpoint. That’s why we train Claude to treat different political viewpoints with equal depth, engagement, and analytical rigor—a principle set out inClaude’s constitution.This is built into the model through character training (where we reward the model for producing responses that reflect a set of values and traits), and then reinforced through oursystem prompts, which carry explicit instructions on political neutrality into every conversation on Claude.ai. (You can read more about this process in ourprevious postabout political bias.)\n\nBefore each model launch, we run evaluations to measure how consistently, thoughtfully, and impartially Claude engages with prompts that express views from across the political spectrum. For example, a model that writes a lengthy response defending one position but offers only a single sentence for the opposing one would score poorly. Here,Opus 4.7 and Sonnet 4.6scored 95% and 96%, respectively. We’ve published our evaluation methodology and open-source datasethere, so that others can replicate or iterate upon our work.\n\nWe also welcome feedback and input from third parties and industry experts. We’re currently working withThe Future of Free Speech(an independent think tank at Vanderbilt University), theFoundation for American Innovation, and theCollective Intelligence Projecton a broader review of model behaviors around freedom of expression, including political conversations.\n\n## Enforcing policies and testing our defenses\n\nOurUsage Policysets clear rules on the use of Claude around elections. Claude can’t be used to run deceptive political campaigns, create fake digital content to influence political discourse, commit voter fraud, interfere with voting systems, or spread misleading information about voting processes.\n\nThese policies are backed by robust detection and enforcement. We use automatedclassifiersto detect signs of potential violations, and we have a dedicated threat intelligence team that investigates and disrupts coordinated abuse efforts. Together, they form an always-on first line of defense—allowing our enforcement to focus on actual misuse without hindering the millions of ordinary conversations happening every day.\n\nTo measure how well Claude ha",
-    "url": "https://www.anthropic.com/news/election-safeguards-update",
-    "category": "Claude",
-    "difficulty": "中級",
-    "source": "Anthropic Blog",
-    "date": "2026-04-25",
-    "readTime": "5 分鐘閱讀",
     "views": 0
   }
 ]
