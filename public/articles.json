@@ -166,19 +166,5 @@
     "date": "2026-05-05",
     "readTime": "3 分鐘閱讀",
     "views": 0
-  },
-  {
-    "id": 13,
-    "title_en": "Apr 28, 2026AnnouncementsClaude for Creative Work",
-    "title_cn": "Apr 28, 2026AnnouncementsClaude for Creative Work",
-    "excerpt": "Creative professionals look to technology to expand what's possible in their work. Claude can't replace taste or imagination, but it can open up new ways of working—faster and more ambitious ideation,",
-    "content": "Creative professionals look to technology to expand what's possible in their work. Claude can't replace taste or imagination, but it can open up new ways of working—faster and more ambitious ideation, a more expansive skill set, and the ability for creatives to take on larger-scale projects. AI can also help shoulder the parts of the creative process that eat up time by handling repetitive tasks and eliminating manual toil. Key to both these goals is integrating Claude into the tools the creative industry already knows and trusts.\n\nToday, with a coalition of partners including Blender, Autodesk, Adobe, Ableton, and Splice, we’re releasing a set of connectors—tools that let Claude work alongside the software creative professionals rely on, so creatives can extend their reach.\n\n## Connecting Claude to creative tools\n\nConnectors allow Claude to access other platforms and tools directly. We are adding several new connectors that are designed to make it easier to use Claude for creative work:\n\nAbletongrounds Claude’s answers in official product documentation for Live and Push.\n\nAdobe for creativityenables users to bring images, videos, and designs to life, drawing from 50+ tools across Creative Cloud apps including Photoshop, Premiere, Express, and more.\n\nAffinity by Canvaautomates repetitive production tasks across pro creative workflows - such as batch image adjustments, layer renaming, and file export - and generates custom features directly in the app.\n\nAutodesk Fusionallows designers and engineers with a Fusion subscription to create and modify 3D models through conversations with Claude.\n\nBlenderoffers a natural-language interface to its Python API, allowing users to explore and understand complex setups and making it easier to access Blender’s documentation.\n\nResolume ArenaandResolume Wirelet VJs and live visual artists control Arena, Avenue, and Wire in real time through natural language for live performance and AV production.\n\nSketchUpturns a conversation with Claude into a starting point for 3D modeling—describe a room, a piece of furniture, or a site concept, then open it in SketchUp to refine.\n\nSplicegives music producers the ability to search its catalog of royalty-free samples from within Claude.\n\n## Using Claude for creative work\n\nHere are a few of the ways Claude can be used for creative tasks:\n\nLearning and mastering creative tools: Claude can act as an on-demand tutor for complex software. You can ask it to explain a modifier stack, walk you through a synthesis technique, or demonstrate an unfamiliar feature, and it will show you how to use it.\n\nExtending tools with code: Claude Code can write scripts, plugins, and generative systems for the software you already use. You can ask it to build a custom shader, script a procedural animation, or generate parametric models, and it will produce documented code you can reuse and modify.\n\nBridging tools in a pipeline: Claude can translate formats, restructure data, and keep assets in sync acr",
-    "url": "https://www.anthropic.com/news/claude-for-creative-work",
-    "category": "Claude",
-    "difficulty": "中級",
-    "source": "Anthropic Blog",
-    "date": "2026-04-29",
-    "readTime": "4 分鐘閱讀",
-    "views": 0
   }
 ]
