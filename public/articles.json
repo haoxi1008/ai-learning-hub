@@ -43,6 +43,20 @@
   },
   {
     "id": 4,
+    "title_en": "May 25, 2026AnnouncementsAnthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
+    "title_cn": "May 25, 2026AnnouncementsAnthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
+    "excerpt": "On Monday May 25, 2026, Pope Leo XIV releasedan encyclicalon the topic of AI: \"Magnifica humanitas: On safeguarding the human person in the time of artificial Intelligence.\" Anthropic co-founder Chris",
+    "content": "On Monday May 25, 2026, Pope Leo XIV releasedan encyclicalon the topic of AI: \"Magnifica humanitas: On safeguarding the human person in the time of artificial Intelligence.\" Anthropic co-founder Chris Olah was invited to speak at the presentation of the encyclical in the Vatican City, doing so as part of Anthropic’s initiative towiden the conversationon the important questions raised by AI. Below are his full remarks.\n\nDistinguished Speakers,\n\nLadies and Gentlemen,\n\nGood morning to all of you. It’s an honor to be here today.\n\nI want to begin with something that may sound strange coming from the co-founder of an AI company—and someone who chose this work out of a desire to help things go well for humankind.\n\nEvery frontier AI lab—including Anthropic—operates inside a set of incentives and constraints that can sometimes conflict with doing the right thing. The pressure to stay commercially viable and to stay at the research frontier. Geopolitical pressure. And the older, plainer pressures of pride and ambition. No matter how sincerely any of us intend to do the right thing—and I believe many of us do—we will always be influenced by those incentives.\n\nThat is why, if we want this technology to go well, it is enormously important that there be people outside those incentives—people who care about things going well and insist on safety, who are paying close attention, who are willing to say hard things, who are willing to be our earnest, thoughtful, critics. It is through dialogue and mutual effort, through the push and pull, that humanity will achieve great things. That is what I see in Magnifica Humanitas, and it is why I am grateful to His Holiness and to the Church for taking up this work of discernment.\n\nWe dwell so often on what divides us, but humanity, full of dignity and conscience, has so much common ground. In conversations we at Anthropic have had with leaders across faith and cultural traditions, we found one shared and deeply held conviction: if this technology is coming, it must go well—for our common home, and for the children to come.\n\n## What these systems are\n\nSome might believe that matters of AI are best handled by computer scientists like myself. They are mistaken: the questions raised by AI are bigger than the AI research community, not just in their implications, but also in their nature.\n\nAI systems are not engineered the way a bridge or an airplane is engineered. We understand an airplane because we designed every part of it and we understand the physics that act on it. AI models are not like that. They are grown, on a structure roughly modeled after the brain, on an enormous inheritance of human thought and speech.\n\nAnd what has grown is far more subtle, odd, and beautiful than science fiction prepared us for. They are not the cold, calculating robots we were promised. They are made from us, from our words—and, as the Holy Father observes, they remain in important ways mysterious even to those of us who train them.\n\nIf it he",
+    "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
+    "category": "AI 安全",
+    "difficulty": "中級",
+    "source": "Anthropic Blog",
+    "date": "2026-05-26",
+    "readTime": "5 分鐘閱讀",
+    "views": 0
+  },
+  {
+    "id": 5,
     "title_en": "May 19, 2026AnnouncementsWidening the conversation on frontier AI",
     "title_cn": "May 19, 2026AnnouncementsWidening the conversation on frontier AI",
     "excerpt": "At Anthropic, we want to build AI systems that advance humanity and act for the global good. To do so, we need to engage with those who see the world from a variety of different perspectives.",
@@ -56,7 +70,7 @@
     "views": 0
   },
   {
-    "id": 5,
+    "id": 6,
     "title_en": "May 19, 2026AnnouncementsKPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance",
     "title_cn": "May 19, 2026AnnouncementsKPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance",
     "excerpt": "KPMG—one of the world's largest professional services firms for audit, tax, legal, and advisory services across 138 countries and territories—has announced a global alliance with Anthropic to bring Cl",
@@ -70,7 +84,7 @@
     "views": 0
   },
   {
-    "id": 6,
+    "id": 7,
     "title_en": "May 18, 2026AnnouncementsAnthropic acquires Stainless",
     "title_cn": "May 18, 2026AnnouncementsAnthropic acquires Stainless",
     "excerpt": "The frontier of AI is shifting from models that answer to agents that act—and agents are only as capable as the systems they can reach. Today, Anthropic is acquiring Stainless, a leader in SDKs and MC",
@@ -84,7 +98,7 @@
     "views": 0
   },
   {
-    "id": 7,
+    "id": 8,
     "title_en": "AnnouncementsPwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients",
     "title_cn": "AnnouncementsPwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients",
     "excerpt": "Anthropic and PwC today announced an expansion of their strategic alliance, deepening how PwC uses Claude to build technology, execute deals, and reinvent enterprise functions for clients across every",
@@ -98,7 +112,7 @@
     "views": 0
   },
   {
-    "id": 8,
+    "id": 9,
     "title_en": "May 14, 2026AnnouncementsAnthropic forms $200 million partnership with the Gates Foundation",
     "title_cn": "May 14, 2026AnnouncementsAnthropic forms $200 million partnership with the Gates Foundation",
     "excerpt": "We’re partnering with theGates Foundationto commit $200 million in grant funding, Claude usage credits, and technical support for programs in global health, life sciences, education, and economic mobi",
@@ -112,7 +126,7 @@
     "views": 0
   },
   {
-    "id": 9,
+    "id": 10,
     "title_en": "May 13, 2026AnnouncementsIntroducing Claude for Small Business",
     "title_cn": "May 13, 2026AnnouncementsIntroducing Claude for Small Business",
     "excerpt": "We're launchingClaude for Small Business—a package of connectors and ready-to-run workflows that put Claude inside the tools small businesses depend on—to help small business owners take full advantag",
@@ -126,7 +140,7 @@
     "views": 0
   },
   {
-    "id": 10,
+    "id": 11,
     "title_en": "May 6, 2026AnnouncementsHigher usage limits for Claude and a compute deal with SpaceX",
     "title_cn": "May 6, 2026AnnouncementsHigher usage limits for Claude and a compute deal with SpaceX",
     "excerpt": "We’ve agreed to a partnership with SpaceX that will substantially increase our compute capacity. This, along with our other recent compute deals, means that we’ve been able to increase our usage limit",
@@ -140,7 +154,7 @@
     "views": 0
   },
   {
-    "id": 11,
+    "id": 12,
     "title_en": "May 5, 2026AnnouncementsAgents for financial services",
     "title_cn": "May 5, 2026AnnouncementsAgents for financial services",
     "excerpt": "We’re releasing ten ready-to-run agent templates for the most time-consuming work in financial services: building pitchbooks, screening KYC files, and closing the books at month-end. Each one ships as",
@@ -151,20 +165,6 @@
     "source": "Anthropic Blog",
     "date": "2026-05-06",
     "readTime": "6 分鐘閱讀",
-    "views": 0
-  },
-  {
-    "id": 12,
-    "title_en": "May 4, 2026AnnouncementsBuilding a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
-    "title_cn": "May 4, 2026AnnouncementsBuilding a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
-    "excerpt": "Anthropic, Blackstone, Hellman & Friedman, and Goldman Sachs announced the formation of a new AI services company. The organization will work with mid-sized companies across sectors to bring Claude in",
-    "content": "Anthropic, Blackstone, Hellman & Friedman, and Goldman Sachs announced the formation of a new AI services company. The organization will work with mid-sized companies across sectors to bring Claude into their most important operations. Applied AI engineers from Anthropic will work alongside the firm’s engineering team to identify where Claude can have the most impact, build custom solutions, and support customers over the long term.\n\nAlongside the founding partners, the new company is backed by a consortium of leading alternative asset managers including General Atlantic, Leonard Green, Apollo Global Management, GIC, and Sequoia Capital.\n\nWhy we’re building this\n\nPutting Claude to work in an organization’s core operations takes hands-on engineering and deep familiarity with how each business runs. Systems integrators in theClaude Partner Networklead that work for the world’s largest enterprises today, and we are continuing to invest deeply in those partnerships as Claude reaches more customers. This new firm extends that delivery capacity further. Companies from community banks to mid-sized manufacturers and regional health systems stand to gain from AI, but lack the in-house resources to build and run frontier deployments.\n\n“Enterprise demand for Claude is significantly outpacing any single delivery model. Our partnerships with the world's leading systems integrators are central to how Claude reaches large enterprises,” said Krishna Rao, Chief Financial Officer of Anthropic. “This new firm brings additional operating capability to the ecosystem and capital from leading alternative asset managers. We are proud to build it alongside Blackstone, Hellman & Friedman, Goldman Sachs, and our other partners.”\n\nWhat the work will look like\n\nA typical engagement starts with a small team working closely with the customer to understand where Claude can have the biggest impact. From there, the company's engineers—alongside Anthropic Applied AI staff—will develop Claude-powered systems tailored to each organization’s operations.\n\nConsider a multi-site healthcare services group, like a network of physician practices. Clinicians spend hours each day on documentation, medical coding, prior authorizations, and compliance reviews. An engagement might begin with the company’s engineering team sitting down with clinicians and IT staff to build tools that fit into the workflows that staff already use. The clinicians know where time disappears in a shift and what good patient care actually requires. The company's engineers build around that knowledge, allowing clinicians to devote more time to patient care.\n\nEngagements like this will run across mid-sized companies across industries, each shaped by the people closest to the work.\n\nBuilding the Claude Partner Network\n\nThis company will also become a member of Anthropic’s growing Claude Partner Network.\n\nOur partnerships with Accenture, Deloitte, PwC, and the other consulting and systems integration firms in the Claude ",
-    "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
-    "category": "Claude",
-    "difficulty": "中級",
-    "source": "Anthropic Blog",
-    "date": "2026-05-05",
-    "readTime": "3 分鐘閱讀",
     "views": 0
   }
 ]
