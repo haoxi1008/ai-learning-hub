@@ -43,6 +43,20 @@
   },
   {
     "id": 4,
+    "title_en": "Jun 2, 2026AnnouncementsExpanding Project Glasswing",
+    "title_cn": "Jun 2, 2026AnnouncementsExpanding Project Glasswing",
+    "excerpt": "Project Glasswingis our collaborative effort to secure the world’s most important software. In early April, we announced that roughly 50 initial partners had access to Claude Mythos Preview, and since",
+    "content": "Project Glasswingis our collaborative effort to secure the world’s most important software. In early April, we announced that roughly 50 initial partners had access to Claude Mythos Preview, and since then, they’ve been deploying the model to scan their codebases for vulnerabilities. We recentlydescribedhow these partners have so far found more than 10,000 high- or critical-severity security flaws.\n\nWe’re now expanding Project Glasswing. Following several weeks of close collaboration with our Project Glasswing partners, the security industry, open-source software maintainers, and the US government, we’re extending the partnership to approximately 150 new organizations. Each one will need to meet our security requirements before they gain access.\n\nThe organizations in this new group are based in more than 15 countries, and most provide critical infrastructure to many more. (In the future, we intend to expand our geographical reach much further.) The group covers several industries that weren’t well represented in our initial cohort, such as power, water, healthcare, communications, and hardware. And many of the new partners are vendors—companies or nonprofits that maintain codebases that are relied upon by lots of other organizations around the world, including governments.\n\nWhat each partner has in common is that a successful attack on their codebase could be catastrophic. For most partners, we estimate that a major attack could affect more than 100 million people, with important ramifications for both global and national security.\n\nThis expansion is the next step toward our long-term goals: for AI to makeallsoftware more secure, and for us to help the industry adjust to how AI could change many of the core assumptions of cybersecurity.\n\n## The role of Project Glasswing\n\nProject Glasswing and the capabilities of Claude Mythos Preview have sparked broad conversations—both within the software industry and with governments—about how AI is changing cybersecurity. These conversations have informed how we’ve expanded the program. They’ve also shaped our thinking about the very purpose of Project Glasswing.\n\nCheap, fast AI models with powerful cyber capabilities are around the corner. We want Project Glasswing to spur institutions toward operating norms that reflect this reality.\n\nMythos Preview continues a long-term trend that we’ve been warning about for some time: within 6 to 12 months, we expect that many other AI companies will have Mythos-class models, and they could release them without safeguards that prevent misuse. In that world, cyberattacks could occur much more often, and in much more unpredictable forms. It’s imperative that cyberdefendersadapt to maintain pace.\n\nWe see our role as twofold. First, to help the software industry adapt by safely providing wide access to better models, tools, and common infrastructure. Second, to steadily shift the support we provide, from finding vulnerabilities to disclosing, fixing, and deploying patched so",
+    "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+    "category": "Claude",
+    "difficulty": "中級",
+    "source": "Anthropic Blog",
+    "date": "2026-06-03",
+    "readTime": "5 分鐘閱讀",
+    "views": 0
+  },
+  {
+    "id": 5,
     "title_en": "Jun 1, 2026AnnouncementsAnthropic confidentially submits draft S-1 to the SEC",
     "title_cn": "Jun 1, 2026AnnouncementsAnthropic confidentially submits draft S-1 to the SEC",
     "excerpt": "Today, Anthropic, PBC confidentially submitted a draft registration statement on Form S-1 to the U.S. Securities and Exchange Commission for a proposed initial public offering of our common stock. Thi",
@@ -56,7 +70,7 @@
     "views": 0
   },
   {
-    "id": 5,
+    "id": 6,
     "title_en": "May 28, 2026AnnouncementsAnthropic raises $65B in Series H funding at $965B post-money valuation",
     "title_cn": "May 28, 2026AnnouncementsAnthropic raises $65B in Series H funding at $965B post-money valuation",
     "excerpt": "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital, valuing the company at $965 billion post-money.",
@@ -70,7 +84,7 @@
     "views": 0
   },
   {
-    "id": 6,
+    "id": 7,
     "title_en": "May 27, 2026AnnouncementsAnthropic opens Milan office to support Italian enterprise, research, and developers",
     "title_cn": "May 27, 2026AnnouncementsAnthropic opens Milan office to support Italian enterprise, research, and developers",
     "excerpt": "Anthropic will open a new office in Milan, our sixth in Europe alongside London, Dublin, Paris, Zurich, and Munich. The Milan team will work with Italian companies and the country's developer communit",
@@ -84,7 +98,7 @@
     "views": 0
   },
   {
-    "id": 7,
+    "id": 8,
     "title_en": "May 26, 2026AnnouncementsAnthropic appoints KiYoung Choi as Representative Director of Korea ahead of Seoul office opening",
     "title_cn": "May 26, 2026AnnouncementsAnthropic appoints KiYoung Choi as Representative Director of Korea ahead of Seoul office opening",
     "excerpt": "Korea is one of the most active markets in the world for Claude.ai. According to our latestEconomic Index, Koreans use Claude at more than 3.5 times the rate expected for the population size, with usa",
@@ -98,7 +112,7 @@
     "views": 0
   },
   {
-    "id": 8,
+    "id": 9,
     "title_en": "May 25, 2026AnnouncementsAnthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
     "title_cn": "May 25, 2026AnnouncementsAnthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
     "excerpt": "On Monday May 25, 2026, Pope Leo XIV releasedan encyclicalon the topic of AI: \"Magnifica humanitas: On safeguarding the human person in the time of artificial Intelligence.\" Anthropic co-founder Chris",
@@ -112,7 +126,7 @@
     "views": 0
   },
   {
-    "id": 9,
+    "id": 10,
     "title_en": "May 19, 2026AnnouncementsWidening the conversation on frontier AI",
     "title_cn": "May 19, 2026AnnouncementsWidening the conversation on frontier AI",
     "excerpt": "At Anthropic, we want to build AI systems that advance humanity and act for the global good. To do so, we need to engage with those who see the world from a variety of different perspectives.",
@@ -126,7 +140,7 @@
     "views": 0
   },
   {
-    "id": 10,
+    "id": 11,
     "title_en": "May 19, 2026AnnouncementsKPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance",
     "title_cn": "May 19, 2026AnnouncementsKPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance",
     "excerpt": "KPMG—one of the world's largest professional services firms for audit, tax, legal, and advisory services across 138 countries and territories—has announced a global alliance with Anthropic to bring Cl",
@@ -137,20 +151,6 @@
     "source": "Anthropic Blog",
     "date": "2026-05-20",
     "readTime": "4 分鐘閱讀",
-    "views": 0
-  },
-  {
-    "id": 11,
-    "title_en": "May 18, 2026AnnouncementsAnthropic acquires Stainless",
-    "title_cn": "May 18, 2026AnnouncementsAnthropic acquires Stainless",
-    "excerpt": "The frontier of AI is shifting from models that answer to agents that act—and agents are only as capable as the systems they can reach. Today, Anthropic is acquiring Stainless, a leader in SDKs and MC",
-    "content": "The frontier of AI is shifting from models that answer to agents that act—and agents are only as capable as the systems they can reach. Today, Anthropic is acquiring Stainless, a leader in SDKs and MCP server tooling, to extend that reach even further.\n\nFounded in 2022, Stainless has powered the generation of every official Anthropic SDK since the earliest days of our API. Hundreds of companies rely on Stainless to generate SDKs, CLIs, and MCP servers—the libraries, command-line tools, and connectors that let developers and agents use an API. Stainless turns an API spec into SDKs across TypeScript, Python, Go, Java, Kotlin, and more. Each one is fast, reliable, and built to feel native in its language.\n\n“Stainless has shaped how developers experience the Claude API since the start, and it’s been great to work with them on that,” said Katelyn Lesse, Head of Platform Engineering at Anthropic. “Agents are only as useful as what they can connect to. We’re excited to bring the Stainless team into Anthropic to advance Claude’s ability to connect to data and tools.”\n\n“I started Stainless because SDKs deserve as much care as the APIs they wrap. Anthropic was one of the first teams to bet on this with us,” said Alex Rattray, Founder and CEO of Stainless. “We have been watching what developers have built on Claude over the last few years, which made bringing our teams together an easy decision. The team gets to keep doing the work we love, on the platform where it matters most.”\n\nAnthropic created MCP to make agent connectivity possible. By bringing together the Stainless and Anthropic teams, the Claude Platform continues to push the frontier of developer experience and agent connectivity.\n\n## PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients\n\nPwC will roll out Claude Code and Cowork starting with U.S. teams and expanding toward a global workforce of hundreds of thousands of professionals, establish a joint Center of Excellence, and train and certify 30,000 PwC professionals on Claude.\n\n## Anthropic forms $200 million partnership with the Gates Foundation\n\n## Introducing Claude for Small Business\n\nWe're launching Claude for Small Business, a package of connectors and ready-to-run workflows that put Claude inside the tools small businesses use every day.",
-    "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
-    "category": "Claude",
-    "difficulty": "中級",
-    "source": "Anthropic Blog",
-    "date": "2026-05-19",
-    "readTime": "3 分鐘閱讀",
     "views": 0
   }
 ]
