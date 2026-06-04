@@ -43,6 +43,34 @@
   },
   {
     "id": 4,
+    "title_en": "Jun 3, 2026AnnouncementsIntroducing the Services Track and Partner Hub of the Claude Partner Network",
+    "title_cn": "Jun 3, 2026AnnouncementsIntroducing the Services Track and Partner Hub of the Claude Partner Network",
+    "excerpt": "Almost every large enterprise is moving AI into production, and many have discovered something important: a successful pilot is not the same as a system a business can run on. The real work—and the re",
+    "content": "Almost every large enterprise is moving AI into production, and many have discovered something important: a successful pilot is not the same as a system a business can run on. The real work—and the real opportunity—is in the integration, the evaluation, and the way people's work evolves. That's why the companies getting AI integration right are doing it with partners who have done it before.\n\nIn March, we launched the Claude Partner Network—a program, backed by a$100 million investmentin partner training, technical support, and shared marketing, for the firms that help enterprises put Claude into production. Since then, more than 40,000 firms have applied to join and more than 10,000 consultants have earned a Claude certification—a credential, held by an individual, that signals they've been trained to build and deploy Claude in production.\n\nThe largest professional-services firms in the world are building their own practices around Claude — putting it into production for clients while getting it into the hands of their own people.Accentureis training 30,000 professionals on the model.Cognizanthas rolled Claude out to roughly 350,000 associates.Deloitteis making it available to 470,000 people across its global network.KPMGis integrating Claude across a workforce of more than 276,000.Infosysis building Claude-powered agents for specific industries, andPwCis rolling out Claude Code and Cowork starting with its US teams and expanding towards a global workforce in the hundreds of thousands.\n\nToday we’re announcing two things that make this ecosystem easier for customers to navigate. TheServices Trackis a tiered structure that reflects what a firm has actually built and delivered with Claude. TheClaude Partner Hubis a portal where partners see exactly where they stand against the program's requirements, and customers find the firms most qualified for the scope of their project.\n\nThe best partners have firsthand experience with Claude. They use the newest models for their own work before they put it in front of a client. This way, when they tell a customer what it takes, they’re speaking from experience. The Services Track is built to give customers confidence in a firm’s ability to help them bring Claude into their businesses.\n\n## About the Services Track\n\nThe Services Track has three tiers, each reflecting how deep a firm's Claude practice runs.\n\nSelect:where partnership begins. At least 10 active certified individuals, at least 2 joint customers deployed in production in the trailing 12 months, and at least 1 public customer story.\n\nPreferred:for firms with deeper Claude practices. At least 100 active certified individuals, at least 15 deployed joint customers, and at least 3 public stories.\n\nGlobal Premier:the top tier for firms running the deepest Claude practices. At least 1,000 active certified individuals, at least 100 deployed joint customers across three or more regions, at least 15 public customer stories, and a joint business plan with name",
+    "url": "https://www.anthropic.com/news/services-track-partner-hub",
+    "category": "Claude",
+    "difficulty": "中級",
+    "source": "Anthropic Blog",
+    "date": "2026-06-04",
+    "readTime": "5 分鐘閱讀",
+    "views": 0
+  },
+  {
+    "id": 5,
+    "title_en": "Jun 3, 2026PolicyWhat we learned mapping a year’s worth of AI-enabled cyber threats",
+    "title_cn": "Jun 3, 2026PolicyWhat we learned mapping a year’s worth of AI-enabled cyber threats",
+    "excerpt": "As AI transforms the nature of and methods behind cyberattacks, how well do the techniques and frameworks used by the security community hold up?",
+    "content": "As AI transforms the nature of and methods behind cyberattacks, how well do the techniques and frameworks used by the security community hold up?\n\nIn a new report, we seek to answer that question. We examine 832 accounts that were banned for malicious cyber activity between March 2025 and March 2026 and map them ontoMITRE ATT&CK, a longstanding database of the tactics and techniques used by cyberattackers. We published some of these results in Verizon’s2026 Data Breach Investigations Report(DBIR), and are sharing a more detailed analysis here. These 832 cases are just a subset of the total number of accounts banned during this period, but they represent those where we had enough detail to conduct a thorough assessment of the attackers’ techniques.\n\nThere were three main conclusions from our analysis:\n\nMalicious actors are using AI in ways that make them more dangerous. More specifically, threat actors are using AI in the later, more complex stages of their cyber operations.\n\nCyberattacks are becoming more autonomous, and the fact that AI can be used to chain together many parts of the attack means that the old ways of differentiating high- from low-risk actors are no longer as effective.\n\nThe MITRE ATT&CK framework does not fully capture the tools and activities that make AI-enabled attackers so dangerous.\n\nBelow we provide a summary of each of these conclusions. You can read a longer analysis on ourFrontier Red Team blog.\n\n## How AI makes attackers more dangerous\n\nThe most common AI-enabled activities in our database related to preparing for a cyberattack, such as writing malware (560 of the 832 accounts we studied, or 67.3%, used AI for this purpose). A smaller number of actors use AI for more complex activities—for example, 54 of the 832 actors (6.5%) used AI to assist with “lateral movement,” which involves navigating deep inside a compromised network.\n\nWe found evidence consistent with AI being used to help increase the threat level of attackers. In the first six-month period of our analysis, 33% of actors were classified by our risk-scoring system as medium risk or higher. But by the second six-month period, that share had jumped to 56%—a roughly 1.7-fold increase.\n\nAcross the period we studied, attackers’ use of AI shifted from techniques to gain initial access to a system towards activity carried out once they wereinsidethe system. For example, the use of AI for account discovery—identifying valid accounts inside a compromised environment—rose 8.9%, while AI-assisted phishing—a common technique to gain access to a system—fell 8.6%. This suggests that attackers are increasingly applying AI deeper in the attack life cycle.\n\nThese sorts of “post-compromise” techniques used to be restricted to actors with the technical knowledge to carry them out. Our investigation shows that AI can now be made to perform these activities on behalf of less sophisticated actors.\n\n## Why it’s harder to assess an actor’s threat level\n\nHow do security teams asses",
+    "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
+    "category": "AI 安全",
+    "difficulty": "中級",
+    "source": "Anthropic Blog",
+    "date": "2026-06-04",
+    "readTime": "5 分鐘閱讀",
+    "views": 0
+  },
+  {
+    "id": 6,
     "title_en": "Jun 2, 2026AnnouncementsExpanding Project Glasswing",
     "title_cn": "Jun 2, 2026AnnouncementsExpanding Project Glasswing",
     "excerpt": "Project Glasswingis our collaborative effort to secure the world’s most important software. In early April, we announced that roughly 50 initial partners had access to Claude Mythos Preview, and since",
@@ -56,7 +84,7 @@
     "views": 0
   },
   {
-    "id": 5,
+    "id": 7,
     "title_en": "Jun 1, 2026AnnouncementsAnthropic confidentially submits draft S-1 to the SEC",
     "title_cn": "Jun 1, 2026AnnouncementsAnthropic confidentially submits draft S-1 to the SEC",
     "excerpt": "Today, Anthropic, PBC confidentially submitted a draft registration statement on Form S-1 to the U.S. Securities and Exchange Commission for a proposed initial public offering of our common stock. Thi",
@@ -70,7 +98,7 @@
     "views": 0
   },
   {
-    "id": 6,
+    "id": 8,
     "title_en": "May 28, 2026AnnouncementsAnthropic raises $65B in Series H funding at $965B post-money valuation",
     "title_cn": "May 28, 2026AnnouncementsAnthropic raises $65B in Series H funding at $965B post-money valuation",
     "excerpt": "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital, valuing the company at $965 billion post-money.",
@@ -84,7 +112,7 @@
     "views": 0
   },
   {
-    "id": 7,
+    "id": 9,
     "title_en": "May 27, 2026AnnouncementsAnthropic opens Milan office to support Italian enterprise, research, and developers",
     "title_cn": "May 27, 2026AnnouncementsAnthropic opens Milan office to support Italian enterprise, research, and developers",
     "excerpt": "Anthropic will open a new office in Milan, our sixth in Europe alongside London, Dublin, Paris, Zurich, and Munich. The Milan team will work with Italian companies and the country's developer communit",
@@ -98,7 +126,7 @@
     "views": 0
   },
   {
-    "id": 8,
+    "id": 10,
     "title_en": "May 26, 2026AnnouncementsAnthropic appoints KiYoung Choi as Representative Director of Korea ahead of Seoul office opening",
     "title_cn": "May 26, 2026AnnouncementsAnthropic appoints KiYoung Choi as Representative Director of Korea ahead of Seoul office opening",
     "excerpt": "Korea is one of the most active markets in the world for Claude.ai. According to our latestEconomic Index, Koreans use Claude at more than 3.5 times the rate expected for the population size, with usa",
@@ -112,7 +140,7 @@
     "views": 0
   },
   {
-    "id": 9,
+    "id": 11,
     "title_en": "May 25, 2026AnnouncementsAnthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
     "title_cn": "May 25, 2026AnnouncementsAnthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
     "excerpt": "On Monday May 25, 2026, Pope Leo XIV releasedan encyclicalon the topic of AI: \"Magnifica humanitas: On safeguarding the human person in the time of artificial Intelligence.\" Anthropic co-founder Chris",
@@ -123,34 +151,6 @@
     "source": "Anthropic Blog",
     "date": "2026-05-26",
     "readTime": "5 分鐘閱讀",
-    "views": 0
-  },
-  {
-    "id": 10,
-    "title_en": "May 19, 2026AnnouncementsWidening the conversation on frontier AI",
-    "title_cn": "May 19, 2026AnnouncementsWidening the conversation on frontier AI",
-    "excerpt": "At Anthropic, we want to build AI systems that advance humanity and act for the global good. To do so, we need to engage with those who see the world from a variety of different perspectives.",
-    "content": "At Anthropic, we want to build AI systems that advance humanity and act for the global good. To do so, we need to engage with those who see the world from a variety of different perspectives.\n\nOver the past several months, we’ve been organizing dialogues with groups whose work and traditions bear on the questions raised by AI. Our first round of discussions has been with wisdom traditions—including scholars, clergy, philosophers, and ethicists from more than 15 religious and cross-cultural groups—and we look forward to engaging with a broader range of people going forward.\n\n## Why we’re doing this\n\nBuilding safe, beneficial AI models requires deep technical work on alignment, interpretability, safeguards, evaluations, and more. But that work isn’t conducted—nor is AI deployed—in a vacuum. AI is already affecting many people and the questions it raises benefit from a range of perspectives.\n\nWe are thinking carefully about what a flourishing future could look like in a world of powerful AI, what it means for an AI system that interacts with millions of people to be good, and about the content of documents likeClaude's constitution, which provides a detailed description of the values and behaviors that shape Claude. Philosophers, clergy, lawyers, writers, psychologists, and civic leaders have done extensive work on related questions and it is important for us to learn from these individuals, their communities and their organizations. We also want to use this opportunity to share what we know about the development of frontier AI systems, the impacts we think these systems will have on society, and what we think needs to be done to mitigate against their risks.\n\nThis work is in its early phases, but we hope these conversations might inform the practical work of developing Claude, such as the content of Claude's constitution, the values we train Claude to embody, and the range of behaviors we choose to evaluate.\n\n## Starting with moral formation\n\nWhen we wrote Claude’s constitution, we sought feedback and input on the values we laid out in the document from people from different fields and traditions. Those early exchanges have since grown into a broader research workstream on themoral formationof AI systems. Our first conversations have been with people from religious, philosophical, and cultural communities that have a long tradition of thinking about virtue, character, and what it means to live a good life.\n\nAI models are trained on vast amounts of human writing. From all that text, they pick up on ways of speaking, reasoning, and making choices. Developers then shape that further through training—choosing which patterns to reinforce, which to set aside, andwhat kind of character we want them to develop. This raises questions about how the character of an AI system should be shaped: What does it mean for an AI to be good? Which traits and behaviors should it display, and under what circumstances? How does character become resilient enough to hold un",
-    "url": "https://www.anthropic.com/news/widening-conversation-ai",
-    "category": "Claude",
-    "difficulty": "中級",
-    "source": "Anthropic Blog",
-    "date": "2026-05-20",
-    "readTime": "4 分鐘閱讀",
-    "views": 0
-  },
-  {
-    "id": 11,
-    "title_en": "May 19, 2026AnnouncementsKPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance",
-    "title_cn": "May 19, 2026AnnouncementsKPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance",
-    "excerpt": "KPMG—one of the world's largest professional services firms for audit, tax, legal, and advisory services across 138 countries and territories—has announced a global alliance with Anthropic to bring Cl",
-    "content": "KPMG—one of the world's largest professional services firms for audit, tax, legal, and advisory services across 138 countries and territories—has announced a global alliance with Anthropic to bring Claude into the heart of its business.\n\nAs part of this alliance, KPMG is embedding Claude inside Digital Gateway, the software KPMG's people and clients use to do the actual work—starting with new tools for tax and legal clients. And every one of KPMG's 276,000+ employees globally will gain access to Claude.\n\nAnthropic is also naming KPMG a preferred partner for private equity, and the two companies will build new Claude-powered products together for PE portfolio companies.\n\nKPMG helps organizations in various industries work together to transform, innovate, and effectively compete in tomorrow’s fast-changing world. Integrating AI across its core business furthers this mission—and requires trust and diligence.\n\n“At KPMG, we’re innovating and redefining how work gets done,” said Bill Thomas, Global Chairman and CEO, KPMG International. “This global alliance with Anthropic reflects our shared commitment to responsible AI, prioritizing security, trust, and governance as KPMG firms scale these capabilities to our clients and people around the world.”\n\n“KPMG works in industries where accuracy, accountability, and trust aren’t optional, and they're applying the same standard to AI. They’re rolling Claude out to 276,000 people across the business, and using it for client work in tax and private equity. They're also bringing it into cybersecurity, where it helps find and fix vulnerabilities. That's what a firm-wide commitment to AI looks like, and we're proud to be the partner they chose,” said Daniela Amodei, Co-founder and President of Anthropic.\n\n## Claude for 276,000+ KPMG people\n\nBeyond the client-facing platform, every KPMG employee—all 276,000+ of them—will have access to Claude. That builds on two years of adoption inside KPMG in the US, including its AI and Data Labs, and the firm's internal teams.\n\nAs the rollout expands, KPMG and Anthropic will work with shared clients to co-develop new offerings, and modernize business functions by bringing Claude into more of KPMG’s business functions to help their team solve problems that weren't solvable before.\n\nCybersecurity is one of those areas. Across the alliance, KPMG and Anthropic teams will use Claude to find and fix vulnerabilities in critical systems, with the work guided by KPMG's Trusted AI framework.\n\n“Our clients depend on us where accuracy, judgment, and knowledge matter most,” said Tim Walsh, Chair and CEO of KPMG US. “AI is changing how we deliver—trust and innovation are the core of this new offering and we’re proud to partner with Anthropic to deliver incredible value to our clients and our people. It’s one of the most important things we'll do.”\n\n## Claude powers KPMG’s Digital Gateway platform\n\nDigital Gateway is KPMG's main platform for client work—built on Microsoft Azure, it's where KPM",
-    "url": "https://www.anthropic.com/news/anthropic-kpmg",
-    "category": "Claude",
-    "difficulty": "中級",
-    "source": "Anthropic Blog",
-    "date": "2026-05-20",
-    "readTime": "4 分鐘閱讀",
     "views": 0
   }
 ]
