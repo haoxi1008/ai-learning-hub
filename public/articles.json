@@ -57,20 +57,6 @@
   },
   {
     "id": 5,
-    "title_en": "AnnouncementsMay 19, 2026Widening the conversation on frontier AIOver the past several months, we’ve been organizing dialogues with groups whose work and traditions bear on the questions raised by AI.",
-    "title_cn": "AnnouncementsMay 19, 2026Widening the conversation on frontier AIOver the past several months, we’ve been organizing dialogues with groups whose work and traditions bear on the questions raised by AI.",
-    "excerpt": "At Anthropic, we want to build AI systems that advance humanity and act for the global good. To do so, we need to engage with those who see the world from a variety of different perspectives.",
-    "content": "At Anthropic, we want to build AI systems that advance humanity and act for the global good. To do so, we need to engage with those who see the world from a variety of different perspectives.\n\nOver the past several months, we’ve been organizing dialogues with groups whose work and traditions bear on the questions raised by AI. Our first round of discussions has been with wisdom traditions—including scholars, clergy, philosophers, and ethicists from more than 15 religious and cross-cultural groups—and we look forward to engaging with a broader range of people going forward.\n\n## Why we’re doing this\n\nBuilding safe, beneficial AI models requires deep technical work on alignment, interpretability, safeguards, evaluations, and more. But that work isn’t conducted—nor is AI deployed—in a vacuum. AI is already affecting many people and the questions it raises benefit from a range of perspectives.\n\nWe are thinking carefully about what a flourishing future could look like in a world of powerful AI, what it means for an AI system that interacts with millions of people to be good, and about the content of documents likeClaude's constitution, which provides a detailed description of the values and behaviors that shape Claude. Philosophers, clergy, lawyers, writers, psychologists, and civic leaders have done extensive work on related questions and it is important for us to learn from these individuals, their communities and their organizations. We also want to use this opportunity to share what we know about the development of frontier AI systems, the impacts we think these systems will have on society, and what we think needs to be done to mitigate against their risks.\n\nThis work is in its early phases, but we hope these conversations might inform the practical work of developing Claude, such as the content of Claude's constitution, the values we train Claude to embody, and the range of behaviors we choose to evaluate.\n\n## Starting with moral formation\n\nWhen we wrote Claude’s constitution, we sought feedback and input on the values we laid out in the document from people from different fields and traditions. Those early exchanges have since grown into a broader research workstream on themoral formationof AI systems. Our first conversations have been with people from religious, philosophical, and cultural communities that have a long tradition of thinking about virtue, character, and what it means to live a good life.\n\nAI models are trained on vast amounts of human writing. From all that text, they pick up on ways of speaking, reasoning, and making choices. Developers then shape that further through training—choosing which patterns to reinforce, which to set aside, andwhat kind of character we want them to develop. This raises questions about how the character of an AI system should be shaped: What does it mean for an AI to be good? Which traits and behaviors should it display, and under what circumstances? How does character become resilient enough to hold un",
-    "url": "https://www.anthropic.com/news/widening-conversation-ai",
-    "category": "Claude",
-    "difficulty": "中級",
-    "source": "Anthropic Blog",
-    "date": "2026-06-06",
-    "readTime": "4 分鐘閱讀",
-    "views": 0
-  },
-  {
-    "id": 6,
     "title_en": "Jun 3, 2026AnnouncementsIntroducing the Services Track and Partner Hub of the Claude Partner Network",
     "title_cn": "Jun 3, 2026AnnouncementsIntroducing the Services Track and Partner Hub of the Claude Partner Network",
     "excerpt": "Almost every large enterprise is moving AI into production, and many have discovered something important: a successful pilot is not the same as a system a business can run on. The real work—and the re",
@@ -84,7 +70,7 @@
     "views": 0
   },
   {
-    "id": 7,
+    "id": 6,
     "title_en": "Jun 3, 2026PolicyWhat we learned mapping a year’s worth of AI-enabled cyber threats",
     "title_cn": "Jun 3, 2026PolicyWhat we learned mapping a year’s worth of AI-enabled cyber threats",
     "excerpt": "As AI transforms the nature of and methods behind cyberattacks, how well do the techniques and frameworks used by the security community hold up?",
@@ -98,7 +84,7 @@
     "views": 0
   },
   {
-    "id": 8,
+    "id": 7,
     "title_en": "Jun 1, 2026AnnouncementsAnthropic confidentially submits draft S-1 to the SEC",
     "title_cn": "Jun 1, 2026AnnouncementsAnthropic confidentially submits draft S-1 to the SEC",
     "excerpt": "Today, Anthropic, PBC confidentially submitted a draft registration statement on Form S-1 to the U.S. Securities and Exchange Commission for a proposed initial public offering of our common stock. Thi",
@@ -112,7 +98,7 @@
     "views": 0
   },
   {
-    "id": 9,
+    "id": 8,
     "title_en": "May 28, 2026AnnouncementsAnthropic raises $65B in Series H funding at $965B post-money valuation",
     "title_cn": "May 28, 2026AnnouncementsAnthropic raises $65B in Series H funding at $965B post-money valuation",
     "excerpt": "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital, valuing the company at $965 billion post-money.",
@@ -126,7 +112,7 @@
     "views": 0
   },
   {
-    "id": 10,
+    "id": 9,
     "title_en": "May 27, 2026AnnouncementsAnthropic opens Milan office to support Italian enterprise, research, and developers",
     "title_cn": "May 27, 2026AnnouncementsAnthropic opens Milan office to support Italian enterprise, research, and developers",
     "excerpt": "Anthropic will open a new office in Milan, our sixth in Europe alongside London, Dublin, Paris, Zurich, and Munich. The Milan team will work with Italian companies and the country's developer communit",
@@ -140,7 +126,7 @@
     "views": 0
   },
   {
-    "id": 11,
+    "id": 10,
     "title_en": "May 26, 2026AnnouncementsAnthropic appoints KiYoung Choi as Representative Director of Korea ahead of Seoul office opening",
     "title_cn": "May 26, 2026AnnouncementsAnthropic appoints KiYoung Choi as Representative Director of Korea ahead of Seoul office opening",
     "excerpt": "Korea is one of the most active markets in the world for Claude.ai. According to our latestEconomic Index, Koreans use Claude at more than 3.5 times the rate expected for the population size, with usa",
