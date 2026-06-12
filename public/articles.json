@@ -15,6 +15,20 @@
   },
   {
     "id": 2,
+    "title_en": "AnnouncementsJun 11, 2026Introducing Claude CorpsWe’re launching Claude Corps, a national fellowship program for people early in their careers who are passionate about extending the benefits of AI to communities across America.",
+    "title_cn": "AnnouncementsJun 11, 2026Introducing Claude CorpsWe’re launching Claude Corps, a national fellowship program for people early in their careers who are passionate about extending the benefits of AI to communities across America.",
+    "excerpt": "We’re launchingClaude Corps, a national fellowship program for people early in their careers who are passionate about extending the benefits of AI to communities across America.",
+    "content": "We’re launchingClaude Corps, a national fellowship program for people early in their careers who are passionate about extending the benefits of AI to communities across America.\n\nWe’ll teach 1,000 fellows how to use Claude well, match them with nonprofits across America, and pay them to spend a year—full-time, in-person—helping host organizations to advance their missions. Our goals are twofold: that host organizations are equipped with valuable tools and systems, and fellows build AI skills that will serve them in their careers.\n\nThe benefits of transformative AI systems could come at the cost of significant disruption. The companies building this technology have a responsibility to make sure the benefits are fully realized and widely shared, and to invest directly in the workers absorbing the change. As such, we’re committing an initial $150m to this program.\n\nIf Claude Corps works, we'll have a foundation for something much larger: a model for widening AI's benefits during a period of vast economic change. We’re announcing Claude Corps alongside ourpolicy frameworkfor addressing AI's impact on work.\n\n## How Claude Corps works\n\nClaude Corps is set up as a partnership between three organizations. Anthropic will fund the program, lead its overall strategy, and provide Claude expertise.CodePath, an Anthropic nonprofitpartnerand America’s largest provider of collegiate computer science education, will act as the fellows’ official employer of record and lead programming during the fellowship.Social Finance, a nonprofit and registered investment advisor, will lead measurement and evaluation, and will build a longer-term financial vehicle to enable the program to scale.\n\n## The fellow experience\n\nEach fellowship lasts for 12 months. At the beginning of the program, Anthropic and CodePath will provide intensive training on using Claude in nonprofit settings. After being placed, fellows will receive five hours of ongoing training each week, with the remainder of their time dedicated to their host organization.\n\nFellows will receive a full-time salary of $85,000 and benefits, support from a CodePath mentor, office hours from Anthropic for their technical questions, an expansive Claude token budget, and professional guidance from their manager at the host organization.\n\nOver the next 12 months, at least 400 nonprofits will host Claude Corps Fellows. Host organizations include:\n\nBraven (Chicago, Illinois).A nonprofit teaching first-generation and lower-income students how to land a strong first job.\n\nCode the Dream (Durham, North Carolina).A nonprofit that provides free coding education and paid software apprenticeships to people seeking the skills they need to build a better life.\n\nHeartland Forward (Bentonville, Arkansas).A nonpartisan think-and-do tank focused on accelerating economic growth in the American heartland.\n\nMontgomery County Food Bank (Conroe, Texas).A food bank that feeds children, seniors, and families north of Houston through more than 10",
+    "url": "https://www.anthropic.com/news/claude-corps",
+    "category": "Claude",
+    "difficulty": "中級",
+    "source": "Anthropic Blog",
+    "date": "2026-06-12",
+    "readTime": "4 分鐘閱讀",
+    "views": 0
+  },
+  {
+    "id": 3,
     "title_en": "Jun 2, 2026AnnouncementsExpanding Project Glasswing",
     "title_cn": "Jun 2, 2026AnnouncementsExpanding Project Glasswing",
     "excerpt": "Project Glasswingis our collaborative effort to secure the world’s most important software. In early April, we announced that roughly 50 initial partners had access to Claude Mythos Preview, and since",
@@ -24,20 +38,6 @@
     "difficulty": "中級",
     "source": "Anthropic Blog",
     "date": "2026-06-03",
-    "readTime": "5 分鐘閱讀",
-    "views": 0
-  },
-  {
-    "id": 3,
-    "title_en": "Introducing Claude Opus 4.8ProductMay 28, 2026An upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.",
-    "title_cn": "Introducing Claude Opus 4.8ProductMay 28, 2026An upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.",
-    "excerpt": "We’re upgrading Claude Opus to a new version: Claude Opus 4.8. It builds on Opus 4.7 with improvements across benchmarks, and is a more effective collaborator. It’s available today for the same price.",
-    "content": "We’re upgrading Claude Opus to a new version: Claude Opus 4.8. It builds on Opus 4.7 with improvements across benchmarks, and is a more effective collaborator. It’s available today for the same price.\n\nOpus 4.8 launches alongside several new features. Users on claude.ai now have control over the amount of effort Claude puts into a task. Claude Code has a new “dynamic workflows” feature that allows it to tackle very large-scale problems. And fast mode for Opus 4.8—where the model can work at 2.5× the speed—is now three times cheaper than it was for previous models.\n\n## Opus 4.8’s capabilities\n\nThe table below shows how Opus 4.8 compares to its predecessor and to other models on tests of coding, agentic skills, reasoning, and practical knowledge work tasks. More details and a much wider range of capability evaluations are provided in theClaude Opus 4.8 System Card.\n\n## Collaborating with Opus 4.8\n\nEarly testers have found Claude Opus 4.8 to be more reliable and sharper in its judgement when it’s performing agentic tasks. Below are quotes from many of these testers about their experience collaborating with Opus 4.8:\n\nOne of the most prominent improvements in Opus 4.8 is itshonesty. We train all our models to be honest—for instance, to avoid making claims that they can’t support. But a general problem with AI models is that they sometimes jump to conclusions, confidently claiming to have made progress in their work despite the evidence being thin. Early testers report that Opus 4.8 is more likely to flag uncertainties about its work and less likely to make unsupported claims. This is borne out inour evaluations, which show that Opus 4.8 is around four times less likely than its predecessor to allow flaws in code it has written to pass unremarked.\n\nAs always, we ran a detailed alignment assessment on the model before release. In terms of positive traits, our Alignment team concluded that Opus 4.8 “reaches new highs on our measures of prosocial traits like supporting user autonomy and acting in the user’s best interest.” The assessment also showed Opus 4.8 to have rates of misaligned behavior (such as deception or cooperation with misuse) that are substantially lower than Opus 4.7, and similar to our best-aligned model, Claude Mythos Preview. The full alignment assessment, accompanied by a suite of pre-deployment safety tests, is reported in the Claude Opus 4.8 System Card.\n\n## Also launching today\n\nIn addition to Claude Opus 4.8, we’re making the following updates:\n\nDynamic workflows. This new feature, available in research preview, allows Claude to take on even bigger tasks in Claude Code. Claude can plan the work and then run hundreds of parallel subagents in a single session (and with Opus 4.8, the agents can run for even longer). It then verifies its outputs before reporting back to the user. For example, Claude Code with Opus 4.8 can now carry out codebase-scale migrations across hundreds of thousands of lines of code from kickoff to merge, with ",
-    "url": "https://www.anthropic.com/news/claude-opus-4-8",
-    "category": "Claude",
-    "difficulty": "中級",
-    "source": "Anthropic Blog",
-    "date": "2026-05-29",
     "readTime": "5 分鐘閱讀",
     "views": 0
   },
@@ -57,6 +57,20 @@
   },
   {
     "id": 5,
+    "title_en": "Jun 11, 2026AnnouncementsDXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
+    "title_cn": "Jun 11, 2026AnnouncementsDXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
+    "excerpt": "We’re announcing a multi-year global alliance with DXC Technology, one of the world’s largest IT services companies. DXC will train tens of thousands of Claude-certified forward-deployed engineers (FD",
+    "content": "We’re announcing a multi-year global alliance with DXC Technology, one of the world’s largest IT services companies. DXC will train tens of thousands of Claude-certified forward-deployed engineers (FDEs)—engineers embedded directly inside customer organizations—to bring Claude into the systems DXC operates for the world’s largest banks, airlines, insurers, manufacturers, and government agencies.\n\nThese systems, which DXC has run for decades, handle the transactions, claims, and operations businesses depend on, under strict security and compliance requirements. Before bringing Claude to these businesses, DXC worked with Claude inside its own operations, comprising some 115,000 employees across 70 countries, with similarly stringent requirements—including collaborating with Claude to write more than 95% of the code for DXC OASIS, its new AI-native orchestration platform for managed services.\n\nDXC is also now part of theClaude Partner Network, our network of consulting and services firms that bring Claude to enterprise clients.\n\n## Bringing Claude to DXC's own operations\n\nDXC worked with Claude in its own systems before rolling it out to clients. For example, in April 2026, DXC launched DXC OASIS, its tool for running customers' IT systems, where AI agents handle much of the routine work. Claude is now the default foundation model powering the platform’s agentic workflows.\n\nClaude was also the primary tool DXC used tobuildthe platform. The firm estimates that Claude sped up software development by a factor of 10. More than 95% of the code was generated by Claude, then reviewed by software engineers. OASIS now serves over 50 DXC customers, and the firm plans to roll it out to customers around the world.\n\n“DXC helps the world’s largest banks, airlines, insurers, and government agencies put new technology to work,” said Paul Smith, Chief Commercial Officer, Anthropic. “They proved Claude inside their own operations first, under the same security and compliance requirements their customers face. Now we’re bringing Claude inside those environments together, industry by industry, with engineers who have already done it themselves.”\n\n## Building a team of Claude-certified engineers\n\nFor its FDE program, DXC will recruit engineers from its existing development teams and certify them throughAnthropic Academy, our training and certification program for partner engineers. DXC has added its own curriculum on top of Anthropic Academy, with training specific to the mission-critical systems its customers operate.\n\nThe alliance will begin in four areas where DXC already runs large operations for customers, and where Claude can do useful work today:\n\nInsurance:DXC will use Claude to provide agentic solutions and modernize core systems, taking into account each customer’s business context, operating model, and strategic needs.\n\nModernization as a Service (MaaS):DXC is using Claude to help enterprise customers analyze, refactor, and modernize legacy codebases. Working",
+    "url": "https://www.anthropic.com/news/dxc-anthropic-alliance",
+    "category": "Claude",
+    "difficulty": "中級",
+    "source": "Anthropic Blog",
+    "date": "2026-06-12",
+    "readTime": "3 分鐘閱讀",
+    "views": 0
+  },
+  {
+    "id": 6,
     "title_en": "Jun 3, 2026AnnouncementsIntroducing the Services Track and Partner Hub of the Claude Partner Network",
     "title_cn": "Jun 3, 2026AnnouncementsIntroducing the Services Track and Partner Hub of the Claude Partner Network",
     "excerpt": "Almost every large enterprise is moving AI into production, and many have discovered something important: a successful pilot is not the same as a system a business can run on. The real work—and the re",
@@ -70,7 +84,7 @@
     "views": 0
   },
   {
-    "id": 6,
+    "id": 7,
     "title_en": "Jun 3, 2026PolicyWhat we learned mapping a year’s worth of AI-enabled cyber threats",
     "title_cn": "Jun 3, 2026PolicyWhat we learned mapping a year’s worth of AI-enabled cyber threats",
     "excerpt": "As AI transforms the nature of and methods behind cyberattacks, how well do the techniques and frameworks used by the security community hold up?",
@@ -84,7 +98,7 @@
     "views": 0
   },
   {
-    "id": 7,
+    "id": 8,
     "title_en": "Jun 1, 2026AnnouncementsAnthropic confidentially submits draft S-1 to the SEC",
     "title_cn": "Jun 1, 2026AnnouncementsAnthropic confidentially submits draft S-1 to the SEC",
     "excerpt": "Today, Anthropic, PBC confidentially submitted a draft registration statement on Form S-1 to the U.S. Securities and Exchange Commission for a proposed initial public offering of our common stock. Thi",
@@ -98,7 +112,7 @@
     "views": 0
   },
   {
-    "id": 8,
+    "id": 9,
     "title_en": "May 28, 2026AnnouncementsAnthropic raises $65B in Series H funding at $965B post-money valuation",
     "title_cn": "May 28, 2026AnnouncementsAnthropic raises $65B in Series H funding at $965B post-money valuation",
     "excerpt": "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital, valuing the company at $965 billion post-money.",
@@ -112,7 +126,21 @@
     "views": 0
   },
   {
-    "id": 9,
+    "id": 10,
+    "title_en": "Introducing Claude Opus 4.8ProductMay 28, 2026An upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.",
+    "title_cn": "Introducing Claude Opus 4.8ProductMay 28, 2026An upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.",
+    "excerpt": "We’re upgrading Claude Opus to a new version: Claude Opus 4.8. It builds on Opus 4.7 with improvements across benchmarks, and is a more effective collaborator. It’s available today for the same price.",
+    "content": "We’re upgrading Claude Opus to a new version: Claude Opus 4.8. It builds on Opus 4.7 with improvements across benchmarks, and is a more effective collaborator. It’s available today for the same price.\n\nOpus 4.8 launches alongside several new features. Users on claude.ai now have control over the amount of effort Claude puts into a task. Claude Code has a new “dynamic workflows” feature that allows it to tackle very large-scale problems. And fast mode for Opus 4.8—where the model can work at 2.5× the speed—is now three times cheaper than it was for previous models.\n\n## Opus 4.8’s capabilities\n\nThe table below shows how Opus 4.8 compares to its predecessor and to other models on tests of coding, agentic skills, reasoning, and practical knowledge work tasks. More details and a much wider range of capability evaluations are provided in theClaude Opus 4.8 System Card.\n\n## Collaborating with Opus 4.8\n\nEarly testers have found Claude Opus 4.8 to be more reliable and sharper in its judgement when it’s performing agentic tasks. Below are quotes from many of these testers about their experience collaborating with Opus 4.8:\n\nOne of the most prominent improvements in Opus 4.8 is itshonesty. We train all our models to be honest—for instance, to avoid making claims that they can’t support. But a general problem with AI models is that they sometimes jump to conclusions, confidently claiming to have made progress in their work despite the evidence being thin. Early testers report that Opus 4.8 is more likely to flag uncertainties about its work and less likely to make unsupported claims. This is borne out inour evaluations, which show that Opus 4.8 is around four times less likely than its predecessor to allow flaws in code it has written to pass unremarked.\n\nAs always, we ran a detailed alignment assessment on the model before release. In terms of positive traits, our Alignment team concluded that Opus 4.8 “reaches new highs on our measures of prosocial traits like supporting user autonomy and acting in the user’s best interest.” The assessment also showed Opus 4.8 to have rates of misaligned behavior (such as deception or cooperation with misuse) that are substantially lower than Opus 4.7, and similar to our best-aligned model, Claude Mythos Preview. The full alignment assessment, accompanied by a suite of pre-deployment safety tests, is reported in the Claude Opus 4.8 System Card.\n\n## Also launching today\n\nIn addition to Claude Opus 4.8, we’re making the following updates:\n\nDynamic workflows. This new feature, available in research preview, allows Claude to take on even bigger tasks in Claude Code. Claude can plan the work and then run hundreds of parallel subagents in a single session (and with Opus 4.8, the agents can run for even longer). It then verifies its outputs before reporting back to the user. For example, Claude Code with Opus 4.8 can now carry out codebase-scale migrations across hundreds of thousands of lines of code from kickoff to merge, with ",
+    "url": "https://www.anthropic.com/news/claude-opus-4-8",
+    "category": "Claude",
+    "difficulty": "中級",
+    "source": "Anthropic Blog",
+    "date": "2026-05-29",
+    "readTime": "5 分鐘閱讀",
+    "views": 0
+  },
+  {
+    "id": 11,
     "title_en": "May 27, 2026AnnouncementsAnthropic opens Milan office to support Italian enterprise, research, and developers",
     "title_cn": "May 27, 2026AnnouncementsAnthropic opens Milan office to support Italian enterprise, research, and developers",
     "excerpt": "Anthropic will open a new office in Milan, our sixth in Europe alongside London, Dublin, Paris, Zurich, and Munich. The Milan team will work with Italian companies and the country's developer communit",
@@ -122,20 +150,6 @@
     "difficulty": "中級",
     "source": "Anthropic Blog",
     "date": "2026-05-29",
-    "readTime": "3 分鐘閱讀",
-    "views": 0
-  },
-  {
-    "id": 10,
-    "title_en": "May 26, 2026AnnouncementsAnthropic appoints KiYoung Choi as Representative Director of Korea ahead of Seoul office opening",
-    "title_cn": "May 26, 2026AnnouncementsAnthropic appoints KiYoung Choi as Representative Director of Korea ahead of Seoul office opening",
-    "excerpt": "Korea is one of the most active markets in the world for Claude.ai. According to our latestEconomic Index, Koreans use Claude at more than 3.5 times the rate expected for the population size, with usa",
-    "content": "Korea is one of the most active markets in the world for Claude.ai. According to our latestEconomic Index, Koreans use Claude at more than 3.5 times the rate expected for the population size, with usage skewing heavily toward technical and creative work. To support that momentum, KiYoung Choi is joining Anthropic as Representative Director of Korea, ahead of the opening of ourSeoul office. In the coming weeks, senior leadership from Anthropic will travel to Seoul to officially open the office and meet with customers.\n\nKiYoung joins from Snowflake, where he served as General Manager for Korea. He brings over three decades of experience leading technology businesses across Korea and Asia-Pacific. Throughout his career, he has helped some of the largest Korean enterprises navigate transformative shifts in technology, ranging from cloud computing to AI adoption. Previously, he held country leadership roles at Google Cloud, Adobe, Autodesk, and Microsoft.\n\n“Korea is one of the most sophisticated AI markets in the world, leading in hardware innovation, developer activity, and enterprise adoption,” KiYoung said. “Korean organizations combine technical depth with a commitment to responsible deployment, which is exactly where Anthropic operates. That alignment is what brought me to Anthropic—and why we are focused on building in Korea for the long term.”\n\nAt Anthropic, KiYoung will lead a go-to-market strategy that supports the unique uses of Claude in Korea. Innovative startups and leading enterprises in Korea are already building with Claude.Law&Companyuses Claude to power its AI legal assistant, helping lawyers reduce time spent on legal research and document preparation while maintaining high accuracy for sensitive legal work.SK Telecom, the largest telecommunications company in Korea, chose Claude to build a custom AI customer service model, helping improve service quality and support customer service teams at SKT.\n\n“Korea is one of the markets where we’ve seen the most enthusiasm for Claude, and few people understand its technology landscape the way KiYoung does,” said Chris Ciauri, Managing Director of International, Anthropic. “He’ll build the team and the local partnerships to support how Korean organizations are putting Claude to work.”\n\nOur Korea team will focus on building partnerships with enterprises and startups, engaging with government and research institutions, and supporting the vibrant developer community building with Claude.\n\nFor more information about career opportunities in our Seoul office, visitanthropic.com/careers.\n\n## Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"\n\n## Widening the conversation on frontier AI\n\n## KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance\n\nKPMG and Anthropic announce a global alliance, with Claude integrated into KPMG's Digital Gateway platform and available to all 276,000+ employees.",
-    "url": "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
-    "category": "Claude",
-    "difficulty": "中級",
-    "source": "Anthropic Blog",
-    "date": "2026-05-27",
     "readTime": "3 分鐘閱讀",
     "views": 0
   }
