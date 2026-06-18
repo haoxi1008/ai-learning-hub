@@ -71,6 +71,20 @@
   },
   {
     "id": 6,
+    "title_en": "Jun 17, 2026AnnouncementsAnthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
+    "title_cn": "Jun 17, 2026AnnouncementsAnthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
+    "excerpt": "OurSeoul officeis now open. Alongside it, we are announcing new partnerships across the Korean AI ecosystem—with the enterprises, startups, and researchers behind some of the most ambitious deployment",
+    "content": "OurSeoul officeis now open. Alongside it, we are announcing new partnerships across the Korean AI ecosystem—with the enterprises, startups, and researchers behind some of the most ambitious deployments of Claude.\n\n“What I see in Korea are teams who understand that innovation and safety are two sides of the same coin,” said KiYoung Choi, Representative Director of Korea at Anthropic. “Korean organizations are building with Claude to bring the benefits of AI to millions around the world. Opening an office in Seoul gives a long-term home to our work alongside the people shaping Korean leadership in AI.”\n\nThis week, senior leaders from Anthropic traveled to Seoul to open the office and meet with partners, customers, and developers building with Claude.\n\n## Supporting Korea’s AI ambitions\n\nAnthropic has signed an MOU with Korea’s Ministry of Science and ICT to support the safe and responsible adoption of AI across the public sector. Together, we’ll collaborate on AI safety and cybersecurity, including evaluating model safety in the Korean language with the Korea AI Safety Institute, and exchanging information on AI-enabled cyber threats.\n\n## Expanding our work with enterprises and startups\n\nFromWRTNtoLaw&Company, Korean organizations have been working with Claude for years. Today, we are sharing new examples of how Claude is running across the Korean economy.\n\nSome of the deepest adoption is happening among developers. NAVER, a leader in cloud and AI innovation in Asia, has recently deployed Claude Code across its entire engineering organization. Thousands of NAVER engineers are now using Claude Code to diversify their coding tools and maximize coding productivity. At global online game company Nexon, engineering teams use Claude Code to write, review, and ship code for live-service games played by millions around the world.\n\nKorea’s largest business groups are also deploying Claude. LG CNS, the IT services arm of LG Group, is rolling out Claude to thousands of employees, who are using it to develop software and deliver technology solutions for clients. It will also deploy Claude across LG Group. Hanwha Solutions—the energy, chemicals, and advanced materials arm of Hanwha—is bringing Claude to global employees through AWS Bedrock, meeting strict in-region data-residency and security requirements. Samsung SDS, the IT services arm of Samsung Group, is deploying Claude to employees across Samsung Electronics. Teams are using Claude—including Claude Cowork and Claude Code—to advance day-to-day knowledge work, agentic workflows, and software development at scale.\n\nAnd startups are building Claude directly into their products. Channel Corp uses Claude to power Channel Talk, its customer AI platform that resolves customer inquiries and analyzes service and sales data to deliver business insights—used by over 230,000 companies across Korea, Japan, and the United States.\n\n## Supporting research and beneficial deployments\n\nOur work in Korea also reaches beyond ",
+    "url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
+    "category": "Claude",
+    "difficulty": "中級",
+    "source": "Anthropic Blog",
+    "date": "2026-06-18",
+    "readTime": "4 分鐘閱讀",
+    "views": 0
+  },
+  {
+    "id": 7,
     "title_en": "Jun 12, 2026AnnouncementsResults from the first Anthropic Public Record",
     "title_cn": "Jun 12, 2026AnnouncementsResults from the first Anthropic Public Record",
     "excerpt": "We’re conducting a new survey series, Anthropic Public Record, to understand how the public thinks and feels about AI, and presenting a snapshot of the results from the first wave, fielded in November",
@@ -84,7 +98,7 @@
     "views": 0
   },
   {
-    "id": 7,
+    "id": 8,
     "title_en": "Jun 12, 2026AnnouncementsTCS and Anthropic partner to bring Claude to regulated industries",
     "title_cn": "Jun 12, 2026AnnouncementsTCS and Anthropic partner to bring Claude to regulated industries",
     "excerpt": "We’re announcing a partnership withTata Consultancy Services(TCS), one of the world’s largest technology services companies. TCS will provide Claude to 50,000 of its own employees across 56 countries;",
@@ -98,7 +112,7 @@
     "views": 0
   },
   {
-    "id": 8,
+    "id": 9,
     "title_en": "Jun 11, 2026AnnouncementsDXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
     "title_cn": "Jun 11, 2026AnnouncementsDXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
     "excerpt": "We’re announcing a multi-year global alliance with DXC Technology, one of the world’s largest IT services companies. DXC will train tens of thousands of Claude-certified forward-deployed engineers (FD",
@@ -112,7 +126,7 @@
     "views": 0
   },
   {
-    "id": 9,
+    "id": 10,
     "title_en": "Claude Fable 5 and Claude Mythos 5AnnouncementsJun 9, 2026Our next generation of intelligence for the hardest knowledge work and coding problems.",
     "title_cn": "Claude Fable 5 and Claude Mythos 5AnnouncementsJun 9, 2026Our next generation of intelligence for the hardest knowledge work and coding problems.",
     "excerpt": "Today we’re launchingClaude Fable 5: a Mythos-class1model that we’ve made safe for general use.",
@@ -126,7 +140,7 @@
     "views": 0
   },
   {
-    "id": 10,
+    "id": 11,
     "title_en": "Jun 3, 2026AnnouncementsIntroducing the Services Track and Partner Hub of the Claude Partner Network",
     "title_cn": "Jun 3, 2026AnnouncementsIntroducing the Services Track and Partner Hub of the Claude Partner Network",
     "excerpt": "Almost every large enterprise is moving AI into production, and many have discovered something important: a successful pilot is not the same as a system a business can run on. The real work—and the re",
@@ -140,7 +154,7 @@
     "views": 0
   },
   {
-    "id": 11,
+    "id": 12,
     "title_en": "Jun 3, 2026PolicyWhat we learned mapping a year’s worth of AI-enabled cyber threats",
     "title_cn": "Jun 3, 2026PolicyWhat we learned mapping a year’s worth of AI-enabled cyber threats",
     "excerpt": "As AI transforms the nature of and methods behind cyberattacks, how well do the techniques and frameworks used by the security community hold up?",
@@ -151,20 +165,6 @@
     "source": "Anthropic Blog",
     "date": "2026-06-04",
     "readTime": "5 分鐘閱讀",
-    "views": 0
-  },
-  {
-    "id": 12,
-    "title_en": "Jun 1, 2026AnnouncementsAnthropic confidentially submits draft S-1 to the SEC",
-    "title_cn": "Jun 1, 2026AnnouncementsAnthropic confidentially submits draft S-1 to the SEC",
-    "excerpt": "Today, Anthropic, PBC confidentially submitted a draft registration statement on Form S-1 to the U.S. Securities and Exchange Commission for a proposed initial public offering of our common stock. Thi",
-    "content": "Today, Anthropic, PBC confidentially submitted a draft registration statement on Form S-1 to the U.S. Securities and Exchange Commission for a proposed initial public offering of our common stock. This gives us the option to go public after the SEC completes its review. The proposed initial public offering will depend on market conditions and other factors.\n\nThe number of shares to be offered and the price have not yet been set. This announcement is being published under Rule 135 of the Securities Act of 1933, as amended. It is not an offer to sell securities; nor is it a solicitation of an offer to buy them. Any offers, solicitations of offers to buy, or any sales of securities will be made only in accordance with the registration requirements of the Securities Act.\n\n## Anthropic raises $65B in Series H funding at $965B post-money valuation\n\nAnthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital.\n\n## Introducing Claude Opus 4.8\n\nAn upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.\n\n## Anthropic opens Milan office to support Italian enterprise, research, and developers\n\nWe're opening a new office in Milan, our sixth in Europe.",
-    "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
-    "category": "Claude",
-    "difficulty": "中級",
-    "source": "Anthropic Blog",
-    "date": "2026-06-02",
-    "readTime": "3 分鐘閱讀",
     "views": 0
   }
 ]
