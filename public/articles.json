@@ -57,6 +57,20 @@
   },
   {
     "id": 5,
+    "title_en": "Jul 6, 2026Case StudyGovernment of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems",
+    "title_cn": "Jul 6, 2026Case StudyGovernment of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems",
+    "excerpt": "Since 2025, the Government of Alberta has been using Claude Code with both Opus and Sonnet models to review its systems, find vulnerabilities, and fix them. A team inside Alberta’s Ministry of Technol",
+    "content": "Since 2025, the Government of Alberta has been using Claude Code with both Opus and Sonnet models to review its systems, find vulnerabilities, and fix them. A team inside Alberta’s Ministry of Technology and Innovation scanned 466 million lines of code in 20 hours, remediated security gaps across its systems, and built new tools to make those systems safer.\n\nWe’re sharing details of their experience as an example of how government agencies can use Claude and Claude Code to secure their systems at a large scale. This is a critical challenge, as governments rely on these systems to deliver benefits and keep services running—yet the code is often old, insecure, and incompletely documented. Alberta has also published a collection of technical white papers documenting its efforts for other governments to learn from;you can read them here.\n\n“Albertans trust their government with some of the most sensitive information in their lives, and it is our responsibility to protect it,” said Nate Glubish, Alberta’s Minister of Technology and Innovation. “By using AI to find and fix vulnerabilities across our systems, we accomplished in hours what would have taken a traditional approach years to complete. This is what responsible government looks like in the AI era, and the best is still ahead of us.”\n\nAlberta’s Ministry of Technology and Innovation maintains the systems of all 27 provincial ministries, from social services to public safety to wildfire response. That includes roughly 1,280 applications and 3,400 code repositories. Most of it has never undergone a systematic security review, and the accumulated technical debt—insecure code, unaddressed bugs, outdated software—runs into the billions of dollars.\n\nThe Ministry’s systems hold highly sensitive information, including tax records, government procurement data, and social services case files. So in 2025, the Ministry set up an internal team with a mandate to make these systems more secure and easier to maintain over time, working with Claude to do so.\n\nAlready, the Ministry has used Claude to:\n\nAssess 466 million lines of government code in 20 hours.The team put Claude to work on the codebases it maintains, using Claude Code with Claude Opus and Sonnet models. Around 50 agents worked autonomously and in parallel to scan the systems for security vulnerabilities, weaknesses in underlying infrastructure and deployment processes, and gaps in technical documentation. Claude Code ran a two-stage routine, first scanning each repository with a rules engine to flag known patterns, then reviewing those flags and citing the exact file and line for each finding so developers could verify them. The scan covered every repository Alberta owns and identified issues that traditional automated scanning tools had missed. It took about 20 hours for Alberta’s implementation; the team estimates that that kind of review could otherwise have taken around 6.5 years.\n\nFix the vulnerabilities the scan found.Where the scan identified",
+    "url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
+    "category": "Claude",
+    "difficulty": "中級",
+    "source": "Anthropic Blog",
+    "date": "2026-07-07",
+    "readTime": "5 分鐘閱讀",
+    "views": 0
+  },
+  {
+    "id": 6,
     "title_en": "Jul 2, 2026AnnouncementsMore details on Fable 5’s cyber safeguards and our jailbreak framework",
     "title_cn": "Jul 2, 2026AnnouncementsMore details on Fable 5’s cyber safeguards and our jailbreak framework",
     "excerpt": "Claude Fable 5 has beenre-deployedand is now available globally for all users. We’re taking this opportunity to share further information in two areas.",
@@ -70,7 +84,7 @@
     "views": 0
   },
   {
-    "id": 6,
+    "id": 7,
     "title_en": "Jun 17, 2026AnnouncementsAnthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
     "title_cn": "Jun 17, 2026AnnouncementsAnthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
     "excerpt": "OurSeoul officeis now open. Alongside it, we are announcing new partnerships across the Korean AI ecosystem—with the enterprises, startups, and researchers behind some of the most ambitious deployment",
@@ -84,7 +98,7 @@
     "views": 0
   },
   {
-    "id": 7,
+    "id": 8,
     "title_en": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5AnnouncementsJun 12, 2026The US government has issued an export control directive to suspend all access to Fable 5 and Mythos 5.",
     "title_cn": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5AnnouncementsJun 12, 2026The US government has issued an export control directive to suspend all access to Fable 5 and Mythos 5.",
     "excerpt": "The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the Uni",
@@ -98,7 +112,7 @@
     "views": 0
   },
   {
-    "id": 8,
+    "id": 9,
     "title_en": "Jun 12, 2026AnnouncementsResults from the first Anthropic Public Record",
     "title_cn": "Jun 12, 2026AnnouncementsResults from the first Anthropic Public Record",
     "excerpt": "We’re conducting a new survey series, Anthropic Public Record, to understand how the public thinks and feels about AI, and presenting a snapshot of the results from the first wave, fielded in November",
@@ -112,7 +126,7 @@
     "views": 0
   },
   {
-    "id": 9,
+    "id": 10,
     "title_en": "Jun 12, 2026AnnouncementsTCS and Anthropic partner to bring Claude to regulated industries",
     "title_cn": "Jun 12, 2026AnnouncementsTCS and Anthropic partner to bring Claude to regulated industries",
     "excerpt": "We’re announcing a partnership withTata Consultancy Services(TCS), one of the world’s largest technology services companies. TCS will provide Claude to 50,000 of its own employees across 56 countries;",
@@ -122,20 +136,6 @@
     "difficulty": "中級",
     "source": "Anthropic Blog",
     "date": "2026-06-13",
-    "readTime": "3 分鐘閱讀",
-    "views": 0
-  },
-  {
-    "id": 10,
-    "title_en": "Jun 11, 2026AnnouncementsDXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
-    "title_cn": "Jun 11, 2026AnnouncementsDXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
-    "excerpt": "We’re announcing a multi-year global alliance with DXC Technology, one of the world’s largest IT services companies. DXC will train tens of thousands of Claude-certified forward-deployed engineers (FD",
-    "content": "We’re announcing a multi-year global alliance with DXC Technology, one of the world’s largest IT services companies. DXC will train tens of thousands of Claude-certified forward-deployed engineers (FDEs)—engineers embedded directly inside customer organizations—to bring Claude into the systems DXC operates for the world’s largest banks, airlines, insurers, manufacturers, and government agencies.\n\nThese systems, which DXC has run for decades, handle the transactions, claims, and operations businesses depend on, under strict security and compliance requirements. Before bringing Claude to these businesses, DXC worked with Claude inside its own operations, comprising some 115,000 employees across 70 countries, with similarly stringent requirements—including collaborating with Claude to write more than 95% of the code for DXC OASIS, its new AI-native orchestration platform for managed services.\n\nDXC is also now part of theClaude Partner Network, our network of consulting and services firms that bring Claude to enterprise clients.\n\n## Bringing Claude to DXC's own operations\n\nDXC worked with Claude in its own systems before rolling it out to clients. For example, in April 2026, DXC launched DXC OASIS, its tool for running customers' IT systems, where AI agents handle much of the routine work. Claude is now the default foundation model powering the platform’s agentic workflows.\n\nClaude was also the primary tool DXC used tobuildthe platform. The firm estimates that Claude sped up software development by a factor of 10. More than 95% of the code was generated by Claude, then reviewed by software engineers. OASIS now serves over 50 DXC customers, and the firm plans to roll it out to customers around the world.\n\n“DXC helps the world’s largest banks, airlines, insurers, and government agencies put new technology to work,” said Paul Smith, Chief Commercial Officer, Anthropic. “They proved Claude inside their own operations first, under the same security and compliance requirements their customers face. Now we’re bringing Claude inside those environments together, industry by industry, with engineers who have already done it themselves.”\n\n## Building a team of Claude-certified engineers\n\nFor its FDE program, DXC will recruit engineers from its existing development teams and certify them throughAnthropic Academy, our training and certification program for partner engineers. DXC has added its own curriculum on top of Anthropic Academy, with training specific to the mission-critical systems its customers operate.\n\nThe alliance will begin in four areas where DXC already runs large operations for customers, and where Claude can do useful work today:\n\nInsurance:DXC will use Claude to provide agentic solutions and modernize core systems, taking into account each customer’s business context, operating model, and strategic needs.\n\nModernization as a Service (MaaS):DXC is using Claude to help enterprise customers analyze, refactor, and modernize legacy codebases. Working",
-    "url": "https://www.anthropic.com/news/dxc-anthropic-alliance",
-    "category": "Claude",
-    "difficulty": "中級",
-    "source": "Anthropic Blog",
-    "date": "2026-06-12",
     "readTime": "3 分鐘閱讀",
     "views": 0
   }
