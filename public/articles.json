@@ -57,6 +57,34 @@
   },
   {
     "id": 5,
+    "title_en": "Jul 14, 2026ProductIntroducing Claude for Teachers",
+    "title_cn": "Jul 14, 2026ProductIntroducing Claude for Teachers",
+    "excerpt": "We're introducingClaude for Teachers, providing verified K-12 educators in the US free access to premium Claude capabilities, a library of teaching skills, and a direct connection to evidence-based cu",
+    "content": "We're introducingClaude for Teachers, providing verified K-12 educators in the US free access to premium Claude capabilities, a library of teaching skills, and a direct connection to evidence-based curricula, mapped to academic standards in all 50 states.\n\n## Why we’re building for teachers\n\nDecades of research show that practices like differentiation, mastery-based learning, and small group instruction reliably improve student achievement, but teachers are often short on time and resources to implement them. Budgets are stretched, classes may be too large to meet every student's individual needs, and planning often spills into evenings. This strain is heaviest in under-resourced schools. Claude for Teachers is designed to close the gap between educational best practices and what a teacher's week allows.\n\nEarly evidencesuggests that while the impact of AI tools for students is mixed and depends on the implementation, AI tools for teachers can strengthen instructional practice and improve student outcomes. This is the aim of Claude for Teachers: support the craft behind great teaching and protect what teachers value most—time with their students.\n\n## Connected to evidence-based curricula and the K-12 ecosystem\n\nClaude for Teachers connects toLearning Commons, giving Claude access to academic standards across all 50 states—and beneath each standard, the smaller learning competencies it's built from and the order students typically learn them. So when Claude drafts a lesson plan, it’s scaffolded and aligned to teaching standards. Claude for Teachers also brings in trusted curricular resources likeOpenSciEdand IM v.360 fromIllustrative Mathematics.\n\nAs of today, educators can now connect Claude across an entire ecosystem of K-12 tools.\n\nASSISTments: Generate auto-scored, standards-aligned math problems for practice and assessment.\n\nBrisk Teaching: Create interactive student activities and standards-aligned lessons, turning your ideas into classroom-ready materials in seconds.\n\nCanva Education: Turn lesson materials into classroom-ready designs and interactive learning experiences.\n\nCoteach: Create high-quality math diagrams grounded in K-12 curriculum.\n\nDiffit: Create and adapt instructional materials for every student.\n\nEedi: Generate diagnostic questions that go beyond right and wrong to reveal student thinking and deepen insights, in both English and Spanish.\n\nMagicSchool: Make instructional content classroom-ready.\n\nSnorkl: Get insights about your classes, assignments, and student progress to inform your instruction.\n\nTeachFX: Get personalized instructional feedback grounded in real classroom talk.\n\nOnce verified, K-12 educators in the US get access to Claude for Teachers with the Learning Commons connector and a set of tailored teaching skills grounded in learning science. The skills, co-developed with Learning Commons, were designed around the tasks teachers told us mattered most. These were evaluated to ensure rigor, pedagogical alignment, and",
+    "url": "https://www.anthropic.com/news/claude-for-teachers",
+    "category": "Claude",
+    "difficulty": "中級",
+    "source": "Anthropic Blog",
+    "date": "2026-07-15",
+    "readTime": "5 分鐘閱讀",
+    "views": 0
+  },
+  {
+    "id": 6,
+    "title_en": "Jul 14, 2026AnnouncementsAnthropic commits $10 million to Canadian AI research",
+    "title_cn": "Jul 14, 2026AnnouncementsAnthropic commits $10 million to Canadian AI research",
+    "excerpt": "Canadian institutions and researchers have played a critical role in the modern AI era. During a period of broad skepticism about research into neural networks, the University of Toronto and the Unive",
+    "content": "Canadian institutions and researchers have played a critical role in the modern AI era. During a period of broad skepticism about research into neural networks, the University of Toronto and the Université de Montréal were two of only a handful of institutions that incubated this crucial line of work, while researchers at the University of Alberta did pioneering work on reinforcement learning. And in the early 2010s, Canadian research institutions led the way in demonstrating that with the arrival of powerful new computing resources—in particular, general-purpose GPUs—deep neural networks could succeed at scale, kicking off the modern era.\n\nToday, Canadians both at home and abroad continue to play leading roles in AI research, safety, and policy—including at Anthropic. That’s why we’re committing $10 million CAD to Canadian research institutions to fund the next generation of this work. We’re also publishing our first Canadian country brief based on the Anthropic Economic Index, which provides a snapshot of how Canadians are putting Claude to work.\n\n## Investing in Canadian research\n\nThe $10 million we’re committing will fund research into beneficial and responsible applications of AI. As part of this, we’re announcing partnerships with Canada’s three leading regional AI institutes—Alberta Machine Intelligence Institute(Amii) in Edmonton,Milain Montréal, and theVector Institutein Toronto—along withCHEO,The Centre for Addiction and Mental Health(CAMH),Université Laval,University of Toronto, and theUniversity of Saskatchewan, with more partnerships to follow in the months ahead:\n\nAmii,based in Edmonton, will provide Claude credits to its research and engineering teams to further their work in areas like reinforcement learning and AI trust and safety, as well as to increase AI adoption across Canada’s key econoxmic sectors.\n\nMila, the Quebec AI institute home to the world’s largest concentration of academic deep learning researchers, will make Claude available to its community to support their research in areas including responsible AI, health, sustainability, multi-agent systems, and robotics. Mila will also use Claude to develop AI assistants that help researchers discover and assess scientific breakthroughs.\n\nThe Vector Institutein Toronto will use Claude credits to advance AI research in trust and safety, health and science, and the broader challenges that AI is uniquely positioned to help solve for Canadians.\n\nCHEO and the CHEO Research Institutewill use Claude credits to develop and evaluate AI-enabled approaches aimed at improving health outcomes and the care experience for children, youth, and families, and to study how AI can be most responsibly applied in children's health.\n\nCAMHwill make use of Claude credits across its research, education initiatives, and clinical projects. For example, CAMH’s Krembil Centre for Neuroinformatics will use Claude to conduct computational mental health research, including developing and evaluating predictiv",
+    "url": "https://www.anthropic.com/news/canadian-ai-research",
+    "category": "Claude",
+    "difficulty": "中級",
+    "source": "Anthropic Blog",
+    "date": "2026-07-15",
+    "readTime": "12 分鐘閱讀",
+    "views": 0
+  },
+  {
+    "id": 7,
     "title_en": "Jul 9, 2026Case StudyUST is bringing Claude to physical AI",
     "title_cn": "Jul 9, 2026Case StudyUST is bringing Claude to physical AI",
     "excerpt": "Before a factory commits to manufacturing millions of chips, engineers stress-test the design in the fab. Before a product ships, a fault on the assembly line has to be caught before it becomes a reca",
@@ -70,7 +98,7 @@
     "views": 0
   },
   {
-    "id": 6,
+    "id": 8,
     "title_en": "Jul 9, 2026AnnouncementsBen Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
     "title_cn": "Jul 9, 2026AnnouncementsBen Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
     "excerpt": "Anthropic's Long-Term Benefit Trust (LTBT) has appointed Dr. Ben Bernanke, a Distinguished Fellow at the Brookings Institution and former Chair of the Federal Reserve, as its newest member. He joins a",
@@ -84,7 +112,7 @@
     "views": 0
   },
   {
-    "id": 7,
+    "id": 9,
     "title_en": "Jul 9, 2026AnnouncementsIntroducing a way to reflect on how you use Claude",
     "title_cn": "Jul 9, 2026AnnouncementsIntroducing a way to reflect on how you use Claude",
     "excerpt": "Today we're introducing, in beta, a new way to reflect on and refine how you use Claude. In ourinterviewswith users, a common theme that’s emerged is a desire to better understand how, exactly, AI can",
@@ -98,7 +126,7 @@
     "views": 0
   },
   {
-    "id": 8,
+    "id": 10,
     "title_en": "Jul 6, 2026Case StudyGovernment of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems",
     "title_cn": "Jul 6, 2026Case StudyGovernment of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems",
     "excerpt": "Since 2025, the Government of Alberta has been using Claude Code with both Opus and Sonnet models to review its systems, find vulnerabilities, and fix them. A team inside Alberta’s Ministry of Technol",
@@ -112,7 +140,7 @@
     "views": 0
   },
   {
-    "id": 9,
+    "id": 11,
     "title_en": "Jul 2, 2026AnnouncementsMore details on Fable 5’s cyber safeguards and our jailbreak framework",
     "title_cn": "Jul 2, 2026AnnouncementsMore details on Fable 5’s cyber safeguards and our jailbreak framework",
     "excerpt": "Claude Fable 5 has beenre-deployedand is now available globally for all users. We’re taking this opportunity to share further information in two areas.",
@@ -123,20 +151,6 @@
     "source": "Anthropic Blog",
     "date": "2026-07-03",
     "readTime": "15 分鐘閱讀",
-    "views": 0
-  },
-  {
-    "id": 10,
-    "title_en": "ProductJun 23, 2026Introducing Claude TagClaude Tag is a new way for teams to work with Claude.",
-    "title_cn": "ProductJun 23, 2026Introducing Claude TagClaude Tag is a new way for teams to work with Claude.",
-    "excerpt": "Claude Tag is a new way for teams to work with Claude.",
-    "content": "Claude Tag is a new way for teams to work with Claude.\n\nWe’re starting on Slack, which Claude can join as a team member. Grant Claude access to selected channels, and connect it to whichever tools, data—and even codebases—you choose. Then, anyone in the channel can tag@Claudein, and delegate tasks to it while they focus on other work. Claude builds context by remembering relevant information from the channels it’s in, and can plan out tasks to complete in the future.\n\nWe see Claude Tag as the beginning of an evolution of Claude Code: it makes the model even more proactive, and it works better with a full team. Tagging@Claudeis now one of the main ways we get things done at Anthropic. Today, 65% of our product team’s code is created by our internal version of Claude Tag. The same pattern is now spreading well beyond engineering—we’re tagging Claude to chase down product metrics and data, work through support tickets, or even help find the root cause of tricky bugs.\n\nWe’re launching Claude Tag on Slack, since it’s a natural home for collaborative work between teams and AI, and where much of Anthropic’s day-to-day work already happens. It’s available today in beta for Claude Enterprise and Team customers. Our goal is to expand where it’s available more widely, so that teams can tag @Claude in the many other places they work.\n\n## Working with @Claude\n\nIf you’ve worked with Claude Code or Cowork before, Claude Tag will feel familiar. Tag @Claude with a request in simple terms and it’ll break its task down into stages and then work through them in turn, using the tools it has access to. Once it’s done, it’ll respond in a Slack thread with what it’s created.\n\nBut tagging Claude comes with a few new advantages:\n\n@Claude is multiplayer.Within a given Slack channel, there’s one Claude that interacts with everyone. This means that anyone can see what it’s working on, and can pick up the conversation from where the last person left off. This makes tagging Claude very different from working within a single chat or for a single task—it’s much more like interacting collaboratively with a teammate.\n\n@Claude learns over time.As Claude follows along with its channel, it builds more context about the work. This means that users don’t need to explain things to it from scratch over and over again. And Claude can even automatically learn fromotherSlack channels and data sources, if it’s granted permission. (It doesn’t report from private channels.) This gives it the tacit knowledge necessary for it to provide the best possible work.\n\n@Claude takes initiative.If “ambient” behavior is enabled, Claude will proactively keep you updated about whatever it thinks you might need to know. It’ll flag relevant information from across the channels it’s in and the tools it’s connected to, and follow up on threads or tasks that have gone quiet without being resolved.\n\n@Claude works asynchronously.Set Claude a task, and you can focus on your other priorities while it works. It can a",
-    "url": "https://www.anthropic.com/news/introducing-claude-tag",
-    "category": "Claude",
-    "difficulty": "中級",
-    "source": "Anthropic Blog",
-    "date": "2026-06-24",
-    "readTime": "4 分鐘閱讀",
     "views": 0
   }
 ]
