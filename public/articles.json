@@ -57,6 +57,20 @@
   },
   {
     "id": 5,
+    "title_en": "Jul 20, 2026AnnouncementsApply for Anthropic’s AI for Science rare disease research grants",
+    "title_cn": "Jul 20, 2026AnnouncementsApply for Anthropic’s AI for Science rare disease research grants",
+    "excerpt": "Last spring, we announcedAnthropic’s AI for Science program, an initiative designed to accelerate scientific research and discovery through access to our API. Since launching, we have supported resear",
+    "content": "Last spring, we announcedAnthropic’s AI for Science program, an initiative designed to accelerate scientific research and discovery through access to our API. Since launching, we have supported researchers working on a variety of high-impact projects, ranging from drug repurposing to quantum simulation. Throughout this initiative, we have found that projects are more generative when multiple AI for Science grantees are working on related questions and exchanging tips. So we now plan to launch thematic calls for projects within the broader AI for Science program.\n\nToday, we are sharing a focused call for applications centered specifically on rare genetic diseases. Accepted applicants will receive up to $50,000 in Claude credits over six months, with the goal of building a community of researchers looking into how AI can reshape our understanding of rare disease. This program has two tracks: one for scientists doing basic research, and another for early-stage biotechs working on speeding up clinical development for rare diseases.\n\nRare disease research is an area where knowledge of fundamental science is limited. In aggregate, rare diseases are among the most prevalent conditions on the planet (an estimated 400 million people live with one ofmore than 7,000 rare diseases).1But these conditions are scattered across small populations, making it challenging for clinicians to build patient registries, identify promising therapeutic targets, and design clinical trials. Moreover, rare diseases are typically characterized by their unique features (such as a specific genetic variation or combination of symptoms) that are often studied in isolation, making it nearly impossible to spot mechanisms shared across diseases. Finally, rare diseases face a challenge endemic to all drug development: the time it takes to move promising drug candidates into patient trials.\n\nWe think AI can help with these and related challenges. AI makes it possible to accurately model rare genetic diseases and detect patterns across them. It also helps researchers synthesize findings across a large corpus of literature, quickly extract information from limited datasets, and create shared terminology, all of which informs how researchers can better use the information theydohave, even as more work is done to generate more data and address challenges pertaining to access and geography. To explore where AI can be most helpful, we’ve made rare diseases the focus of our current call for AI for Science projects.\n\n## Track one: Scaling our basic science partnerships\n\nThe first track of our rare disease research grants program aims to foster collaboration between clinical researchers, patient organizations, and data scientists to increase the pace of progress in basic science and the discovery of the mechanisms underlying rare diseases.\n\nAn early partner in this effort is the Monarch Initiative, an international consortium working to improve diagnosis and mechanism discovery for patients wit",
+    "url": "https://www.anthropic.com/news/rare-disease-research-grants",
+    "category": "Claude",
+    "difficulty": "中級",
+    "source": "Anthropic Blog",
+    "date": "2026-07-21",
+    "readTime": "8 分鐘閱讀",
+    "views": 0
+  },
+  {
+    "id": 6,
     "title_en": "Jul 14, 2026ProductIntroducing Claude for Teachers",
     "title_cn": "Jul 14, 2026ProductIntroducing Claude for Teachers",
     "excerpt": "We're introducingClaude for Teachers, providing verified K-12 educators in the US free access to premium Claude capabilities, a library of teaching skills, and a direct connection to evidence-based cu",
@@ -70,7 +84,7 @@
     "views": 0
   },
   {
-    "id": 6,
+    "id": 7,
     "title_en": "Jul 14, 2026AnnouncementsAnthropic commits $10 million to Canadian AI research",
     "title_cn": "Jul 14, 2026AnnouncementsAnthropic commits $10 million to Canadian AI research",
     "excerpt": "Canadian institutions and researchers have played a critical role in the modern AI era. During a period of broad skepticism about research into neural networks, the University of Toronto and the Unive",
@@ -84,7 +98,7 @@
     "views": 0
   },
   {
-    "id": 7,
+    "id": 8,
     "title_en": "Jul 9, 2026Case StudyUST is bringing Claude to physical AI",
     "title_cn": "Jul 9, 2026Case StudyUST is bringing Claude to physical AI",
     "excerpt": "Before a factory commits to manufacturing millions of chips, engineers stress-test the design in the fab. Before a product ships, a fault on the assembly line has to be caught before it becomes a reca",
@@ -98,7 +112,7 @@
     "views": 0
   },
   {
-    "id": 8,
+    "id": 9,
     "title_en": "Jul 9, 2026AnnouncementsBen Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
     "title_cn": "Jul 9, 2026AnnouncementsBen Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
     "excerpt": "Anthropic's Long-Term Benefit Trust (LTBT) has appointed Dr. Ben Bernanke, a Distinguished Fellow at the Brookings Institution and former Chair of the Federal Reserve, as its newest member. He joins a",
@@ -112,7 +126,7 @@
     "views": 0
   },
   {
-    "id": 9,
+    "id": 10,
     "title_en": "Jul 9, 2026AnnouncementsIntroducing a way to reflect on how you use Claude",
     "title_cn": "Jul 9, 2026AnnouncementsIntroducing a way to reflect on how you use Claude",
     "excerpt": "Today we're introducing, in beta, a new way to reflect on and refine how you use Claude. In ourinterviewswith users, a common theme that’s emerged is a desire to better understand how, exactly, AI can",
@@ -126,7 +140,7 @@
     "views": 0
   },
   {
-    "id": 10,
+    "id": 11,
     "title_en": "Jul 6, 2026Case StudyGovernment of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems",
     "title_cn": "Jul 6, 2026Case StudyGovernment of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems",
     "excerpt": "Since 2025, the Government of Alberta has been using Claude Code with both Opus and Sonnet models to review its systems, find vulnerabilities, and fix them. A team inside Alberta’s Ministry of Technol",
@@ -140,7 +154,7 @@
     "views": 0
   },
   {
-    "id": 11,
+    "id": 12,
     "title_en": "Jul 2, 2026AnnouncementsMore details on Fable 5’s cyber safeguards and our jailbreak framework",
     "title_cn": "Jul 2, 2026AnnouncementsMore details on Fable 5’s cyber safeguards and our jailbreak framework",
     "excerpt": "Claude Fable 5 has beenre-deployedand is now available globally for all users. We’re taking this opportunity to share further information in two areas.",
