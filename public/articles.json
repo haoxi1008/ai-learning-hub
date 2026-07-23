@@ -57,6 +57,48 @@
   },
   {
     "id": 5,
+    "title_en": "Jul 22, 2026Economic ResearchA research agenda for the Economic Futures Research Fund",
+    "title_cn": "Jul 22, 2026Economic ResearchA research agenda for the Economic Futures Research Fund",
+    "excerpt": "We’re sharing the research agenda for the Anthropic Economic Futures Research Fund. We’re committing $200 million to the fund to support ambitious external research on interventions to prepare society",
+    "content": "We’re sharing the research agenda for the Anthropic Economic Futures Research Fund. We’re committing $200 million to the fund to support ambitious external research on interventions to prepare society for the economic impacts of AI.\n\nWith the research the Fund supports, we want to study what programs could make the economy more flexible and resilient, ensure the benefits of AI are shared, and minimize the harm that AI-driven disruption could cause.\n\nIn the fund, we’ll prioritize five research areas:\n\nShaping AI’s impact on workers at the firm and workplace level\n\nEquipping people to navigate AI-driven transitions\n\nModernizing income support for AI-driven displacement\n\nBuilding worker stakes in AI-driven growth before disruption arrives\n\nGenerating new evidence on public investments.\n\nAI capabilities continue to improve. But we don’t yet know how quickly AI will diffuse throughout the economy while also becoming more capable, and what the economic effects will be. In ourEconomic Policy Framework(EPF), published in June, we proposed programs and policies for a range of scenarios. But we need more empirical evidence on which interventions might actually work in an AI-transformed economy—which ones make the economy more flexible and resilient, and spread the gains broadly. In the face of this uncertainty, our aim is to build this evidence base so that workers, firms, and governments have room to adapt. This $200 million fund will support external research on interventions proposed in the EPF and on other open questions. We may be entering a moment without historical precedent, where the most promising solutions are ones nobody has tried yet. We’re willing to fund creative and ambitious pilots that can provide guidance on questions where randomized control trials alone might only provide incremental evidence.\n\nThis is a significant evolution of our Economic Futures program, launched a year ago. We’re updating our focus to ambitious projects and large grants, because we think it’s where we can have the highest impact. We’ve always thought that it’s important to fund big external research bets; this shift will let us do so. We also learned through the Economic Futures program that it’s hard for us to scale capacity to manage many small grants at once. In addition to large-scale RCTs and pilots, we’re also interested in working with partners that could scale up a program of effective small-scale pilots.\n\n## The kinds of research we’re funding\n\nFundamentally, we want to fund the most ambitious proposals possible. We aim to fund large-scale RCTs or ambitious, creative pilots or program evaluations that expand our shared understanding of what shows promise and in which contexts, fill gaps where evidence is thin, and inspire new solutions. The fundable directions below lay out a set of possibilities, but we know that we have not come up with all the good ideas in this space. We welcome proposals that may not be captured below.\n\nAI could transform society fas",
+    "url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
+    "category": "Claude",
+    "difficulty": "中級",
+    "source": "Anthropic Blog",
+    "date": "2026-07-23",
+    "readTime": "8 分鐘閱讀",
+    "views": 0
+  },
+  {
+    "id": 6,
+    "title_en": "Jul 22, 2026ProductAsk Claude about the Anthropic Economic Index",
+    "title_cn": "Jul 22, 2026ProductAsk Claude about the Anthropic Economic Index",
+    "excerpt": "People have hard questions about AI and work: which jobs will change, which tasks are being automated, and what it means for their own field. TheAnthropic Economic Indexexists to help answer them with",
+    "content": "People have hard questions about AI and work: which jobs will change, which tasks are being automated, and what it means for their own field. TheAnthropic Economic Indexexists to help answer them with real data. Today we're launching the Anthropic Economic Index connector for Claude, which lets anyone explore that data directly.\n\nThe Anthropic Economic Index measures how AI is actually being used in the economy. The Index’s data has been useful to researchers, journalists, and policymakers, but we want it to be just as accessible to anyone curious about how AI fits into their field or day-to-day life. Now you can ask Claude questions like:\n\n“Which occupations use AI the most?”\n\n“What are the most common ways people in Colorado use Claude?”\n\n“What sorts of tasks do teachers use Claude for?”\n\n“What kinds of tasks are people automating with AI? How has that changed over the past year?”\n\nYou’ll get answers grounded directly in the Index data.\n\nGetting started takes about a minute. In claude.ai, open the connectors menu, find the Anthropic Economic Index in the directory, and enable it—it works in any conversation with any Claude model, and there's nothing to install. From there, just ask questions the way you'd ask a colleague: start broad (“What does the Index say about my industry?”), then drill into specifics, and ask Claude to show you the underlying data behind any answer.\n\nAs always, the Index reflects patterns in Claude usage rather than the labor market as a whole, and Claude will point you back to the source data and its limitations as you explore. You can find the connector in claude.ai today, and the full datasets remain freely available on our website.\n\n## A research agenda for the Economic Futures Research Fund\n\nWe’re sharing the research agenda for the Anthropic Economic Futures Research Fund.\n\n## Anthropic is donating another $20 million to Public First Action\n\nAnthropic is contributing an additional $20 million to Public First Action, bringing our total support to $40 million.\n\n## Apply for Anthropic’s AI for Science rare disease research grants\n\nAnthropic is sharing a focused call for AI for Science applications centered specifically on rare genetic diseases. Accepted applicants will receive up to $50,000 in Claude credits over six months, with the goal of building a community of researchers looking into how AI can reshape our understanding of rare disease.",
+    "url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
+    "category": "Claude",
+    "difficulty": "中級",
+    "source": "Anthropic Blog",
+    "date": "2026-07-23",
+    "readTime": "3 分鐘閱讀",
+    "views": 0
+  },
+  {
+    "id": 7,
+    "title_en": "Jul 21, 2026AnnouncementsAnthropic is donating another $20 million to Public First Action",
+    "title_cn": "Jul 21, 2026AnnouncementsAnthropic is donating another $20 million to Public First Action",
+    "excerpt": "We're contributing an additional $20 million toPublic First Action, bringing our total support to $40 million. Public First Action is a nonpartisan organization that educates the public about AI and w",
+    "content": "We're contributing an additional $20 million toPublic First Action, bringing our total support to $40 million. Public First Action is a nonpartisan organization that educates the public about AI and works with Republicans, Democrats, and Independents who are serious about putting sensible AI safeguards in place. Both of our donations were made exclusively to support Public First Action’s public education and policy mission, and cannot be used to influence the election of any candidate for federal, state, or local office.\n\nOur first donation in February 2026 was made to help promote policies that will maintain meaningful safeguards, sustain America’s AI leadership, and demand transparency from the companies building the most powerful AI models. In the months since, the case for these policies has onlygotten stronger.\n\nAI models continue to improve at a rapid pace. Earlier this year, Claude Mythos Previewdiscoveredthousands of high-severity software vulnerabilities, including some in every major operating system and browser. We chose to release it to a limited set of cyber defenders throughProject Glasswingto enable trusted actors to find and fix those weaknesses before anyone could exploit them. In the wrong hands, models like this could threaten the critical systems the country relies on, from hospitals to the energy grid.\n\nMore capable models will bring benefits—like compressing drug discovery, developing treatments for diseases we’ve never been able to treat, accelerating science to deliver a century of progress in a decade, extending human lifespans, and driving the kind of economic growth that lets everyone share in the prosperity—but we need to make sure we are protected against the risks first in order to realize those benefits.\n\nGovernments need time to build the capacity to capture benefits while containing risks, which is why they need to start now.\n\n## Policy that meets the moment\n\nWe’ve long argued that frontier AI companies should be transparent about what their models can do and how they’re managing the risks. We’vesupportednewly passed laws in several states that require greater transparency for AI developers. But given how fast the capabilities of the most powerful models are advancing, transparency alone is insufficient.\n\nWe need policymakers and candidates to put forward measures that mitigate risks. This is the core of what we’ve laid out inAnthropic's Advanced AI Framework, which is the strongest policy proposal from any frontier lab or policymaker to date. Governments should be able to verify companies’ safety claims, enforce safe practices through civil penalties, and ultimately have a way to slow or block the deployment of AI models that pose a serious risk of catastrophic harm. Frontier AI developers should have to test models that pose catastrophic risk, be transparent to the public about their findings, submit them to independent evaluation, and maintain a robust security program.\n\nAs the pace of AI advances accelerates, ",
+    "url": "https://www.anthropic.com/news/donation-public-first-action",
+    "category": "AI 安全",
+    "difficulty": "中級",
+    "source": "Anthropic Blog",
+    "date": "2026-07-23",
+    "readTime": "3 分鐘閱讀",
+    "views": 0
+  },
+  {
+    "id": 8,
     "title_en": "Jul 20, 2026AnnouncementsApply for Anthropic’s AI for Science rare disease research grants",
     "title_cn": "Jul 20, 2026AnnouncementsApply for Anthropic’s AI for Science rare disease research grants",
     "excerpt": "Last spring, we announcedAnthropic’s AI for Science program, an initiative designed to accelerate scientific research and discovery through access to our API. Since launching, we have supported resear",
@@ -70,7 +112,7 @@
     "views": 0
   },
   {
-    "id": 6,
+    "id": 9,
     "title_en": "Jul 14, 2026ProductIntroducing Claude for Teachers",
     "title_cn": "Jul 14, 2026ProductIntroducing Claude for Teachers",
     "excerpt": "We're introducingClaude for Teachers, providing verified K-12 educators in the US free access to premium Claude capabilities, a library of teaching skills, and a direct connection to evidence-based cu",
@@ -84,7 +126,7 @@
     "views": 0
   },
   {
-    "id": 7,
+    "id": 10,
     "title_en": "Jul 14, 2026AnnouncementsAnthropic commits $10 million to Canadian AI research",
     "title_cn": "Jul 14, 2026AnnouncementsAnthropic commits $10 million to Canadian AI research",
     "excerpt": "Canadian institutions and researchers have played a critical role in the modern AI era. During a period of broad skepticism about research into neural networks, the University of Toronto and the Unive",
@@ -98,7 +140,7 @@
     "views": 0
   },
   {
-    "id": 8,
+    "id": 11,
     "title_en": "Jul 9, 2026Case StudyUST is bringing Claude to physical AI",
     "title_cn": "Jul 9, 2026Case StudyUST is bringing Claude to physical AI",
     "excerpt": "Before a factory commits to manufacturing millions of chips, engineers stress-test the design in the fab. Before a product ships, a fault on the assembly line has to be caught before it becomes a reca",
@@ -112,7 +154,7 @@
     "views": 0
   },
   {
-    "id": 9,
+    "id": 12,
     "title_en": "Jul 9, 2026AnnouncementsBen Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
     "title_cn": "Jul 9, 2026AnnouncementsBen Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
     "excerpt": "Anthropic's Long-Term Benefit Trust (LTBT) has appointed Dr. Ben Bernanke, a Distinguished Fellow at the Brookings Institution and former Chair of the Federal Reserve, as its newest member. He joins a",
@@ -126,7 +168,7 @@
     "views": 0
   },
   {
-    "id": 10,
+    "id": 13,
     "title_en": "Jul 9, 2026AnnouncementsIntroducing a way to reflect on how you use Claude",
     "title_cn": "Jul 9, 2026AnnouncementsIntroducing a way to reflect on how you use Claude",
     "excerpt": "Today we're introducing, in beta, a new way to reflect on and refine how you use Claude. In ourinterviewswith users, a common theme that’s emerged is a desire to better understand how, exactly, AI can",
@@ -137,34 +179,6 @@
     "source": "Anthropic Blog",
     "date": "2026-07-10",
     "readTime": "3 分鐘閱讀",
-    "views": 0
-  },
-  {
-    "id": 11,
-    "title_en": "Jul 6, 2026Case StudyGovernment of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems",
-    "title_cn": "Jul 6, 2026Case StudyGovernment of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems",
-    "excerpt": "Since 2025, the Government of Alberta has been using Claude Code with both Opus and Sonnet models to review its systems, find vulnerabilities, and fix them. A team inside Alberta’s Ministry of Technol",
-    "content": "Since 2025, the Government of Alberta has been using Claude Code with both Opus and Sonnet models to review its systems, find vulnerabilities, and fix them. A team inside Alberta’s Ministry of Technology and Innovation scanned 466 million lines of code in 20 hours, remediated security gaps across its systems, and built new tools to make those systems safer.\n\nWe’re sharing details of their experience as an example of how government agencies can use Claude and Claude Code to secure their systems at a large scale. This is a critical challenge, as governments rely on these systems to deliver benefits and keep services running—yet the code is often old, insecure, and incompletely documented. Alberta has also published a collection of technical white papers documenting its efforts for other governments to learn from;you can read them here.\n\n“Albertans trust their government with some of the most sensitive information in their lives, and it is our responsibility to protect it,” said Nate Glubish, Alberta’s Minister of Technology and Innovation. “By using AI to find and fix vulnerabilities across our systems, we accomplished in hours what would have taken a traditional approach years to complete. This is what responsible government looks like in the AI era, and the best is still ahead of us.”\n\nAlberta’s Ministry of Technology and Innovation maintains the systems of all 27 provincial ministries, from social services to public safety to wildfire response. That includes roughly 1,280 applications and 3,400 code repositories. Most of it has never undergone a systematic security review, and the accumulated technical debt—insecure code, unaddressed bugs, outdated software—runs into the billions of dollars.\n\nThe Ministry’s systems hold highly sensitive information, including tax records, government procurement data, and social services case files. So in 2025, the Ministry set up an internal team with a mandate to make these systems more secure and easier to maintain over time, working with Claude to do so.\n\nAlready, the Ministry has used Claude to:\n\nAssess 466 million lines of government code in 20 hours.The team put Claude to work on the codebases it maintains, using Claude Code with Claude Opus and Sonnet models. Around 50 agents worked autonomously and in parallel to scan the systems for security vulnerabilities, weaknesses in underlying infrastructure and deployment processes, and gaps in technical documentation. Claude Code ran a two-stage routine, first scanning each repository with a rules engine to flag known patterns, then reviewing those flags and citing the exact file and line for each finding so developers could verify them. The scan covered every repository Alberta owns and identified issues that traditional automated scanning tools had missed. It took about 20 hours for Alberta’s implementation; the team estimates that that kind of review could otherwise have taken around 6.5 years.\n\nFix the vulnerabilities the scan found.Where the scan identified",
-    "url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
-    "category": "Claude",
-    "difficulty": "中級",
-    "source": "Anthropic Blog",
-    "date": "2026-07-07",
-    "readTime": "5 分鐘閱讀",
-    "views": 0
-  },
-  {
-    "id": 12,
-    "title_en": "Jul 2, 2026AnnouncementsMore details on Fable 5’s cyber safeguards and our jailbreak framework",
-    "title_cn": "Jul 2, 2026AnnouncementsMore details on Fable 5’s cyber safeguards and our jailbreak framework",
-    "excerpt": "Claude Fable 5 has beenre-deployedand is now available globally for all users. We’re taking this opportunity to share further information in two areas.",
-    "content": "Claude Fable 5 has beenre-deployedand is now available globally for all users. We’re taking this opportunity to share further information in two areas.\n\nFirst, we provide more information on thecybersecurity safeguards—specifically, thesafety classifiers—that we launched with the model. These are the AI systems that accompany the model that detect and block dangerous (or potentially dangerous) cybersecurity uses. Here, we provide a detailed list of the types of harms Fable 5’s classifiers are, and are not, designed to prevent.\n\nSecond, we lay out an early draft version ofour proposed AI jailbreak severity framework, on which we’ve been working with our Glasswing partners. AI jailbreaks are unusual ways of prompting an AI model to bypass its safeguards, thus unblocking the behaviors (like dangerous or potentially dangerous cybersecurity tasks) we seek to prevent.\n\nJailbreaks vary in severity: sometimes they only unblock minor undesirable behaviors, and sometimes they unblock a wide range of harmful outputs, making a model much more dangerous. Yet there is no agreed-upon framework for describing a given jailbreak’s severity. Such a framework would allow AI developers to speak to governments (and vice versa) in consistent terms about the risks posed by each jailbreak.\n\nWhat we’re sharing today reflects our current thinking. Our hope is to spark a helpful discussion across academia, industry, civil society, and government about how and where these lines should be drawn. We welcome feedback and critique on this framework atcyber-safeguards@anthropic.com. We’ve also launched aHackerOne programwhere security researchers can submit potential cyber jailbreaks they discover in Fable 5 for our review.\n\nWe believe that by working together, we can establish a standard that enables the defensive uses of this technology while preventing its misuse.\n\n## Fable 5’s cyber safeguards\n\nAreas such as cybersecurity are particularly challenging for AI safeguards because they are oftendual use. That is, many cybersecurity capabilities can be used for benignorharmful purposes. For example, we want to allow cyber defenders to use our models to scan their codebases to find software vulnerabilities—but this same capability could, in the wrong hands, be the precursor to a cyberattack.\n\nFor that reason, we do not intend to blockallcybersecurity-related activities for Fable 5. Instead, we train our safety classifiers to discern between four categories of cybersecurity use, from the most clearly potentially dangerous to the most clearly potentially benign. These are summarized in the table below:\n\nNote that the low-risk dual use category overlaps considerably with what falls into the “safety margin” we described in our post onredeploying Fable(we reproduce one of the diagrams from that post below). The safety margin includes many benign uses which we would prefer to allow, but which we block out of an abundance of caution. The safety margin means that a request has to look very ",
-    "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
-    "category": "Claude",
-    "difficulty": "中級",
-    "source": "Anthropic Blog",
-    "date": "2026-07-03",
-    "readTime": "15 分鐘閱讀",
     "views": 0
   }
 ]
